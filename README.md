@@ -7,7 +7,7 @@ An interactive PSAT/SAT study path with 120 sessions, five original practice exa
 ## Features
 
 - 8 learning cycles and 24 sessions: math, reading, and a 10-word vocabulary set with a review test in each cycle.
-- 48 workbook math/reading questions with four options, checking, elimination tools, and worked explanations; 80 vocabulary review questions across the eight cycle sets.
+- 80 workbook math/reading questions with four options, checking, elimination tools, and worked explanations; 80 vocabulary review questions across the eight cycle sets.
 - Step-by-step equations with formatted fractions, powers, square roots, and final answers in every math solution.
 - Longer original reading texts within the digital SAT passage-length range, with visible word counts.
 - Separate Questions, Answers & solutions, Learn more, and Multiple-choice tips tabs.
@@ -59,7 +59,7 @@ The multiple-choice options and answer keys are newly authored adaptations of th
 
 ## Reading length update
 
-The eight reading samples have been expanded into original practice passages, used in the eight reading sessions. Word counts are displayed in the workbook. Every passage falls within the current digital SAT range of 25–150 ordinary words, and also within the framework’s technical six-character word range. These are adaptations, not copied official passages. The workbook retains three questions per shared text; the digital SAT uses one question per passage or passage pair. Length alignment does not establish equivalent exam difficulty. Questions, options, and evidence references were reviewed for consistency; previously saved progress remains available.
+The eight reading samples have been expanded into original practice passages, used in the eight reading sessions. Word counts are displayed in the workbook. Every passage falls within the current digital SAT range of 25–150 ordinary words, and also within the framework’s technical six-character word range. These are adaptations, not copied official passages. The workbook has five questions per shared text; the digital SAT uses one question per passage or passage pair. Length alignment does not establish equivalent exam difficulty. Questions, options, and evidence references were reviewed for consistency; previously saved progress remains available.
 
 Source: [College Board SAT Reading and Writing](https://satsuite.collegeboard.org/sat/whats-on-the-test/reading-writing).
 
@@ -70,7 +70,7 @@ The existing 24 sessions form round 1. Finishing all 24 unlocks the first origin
 
 Grading reports exact raw correct totals and percentages overall and for both sections, plus 29 skill-level results. Blanks count as incorrect. There is no fabricated scaled SAT score. Optional official Bluebook section scores are user-entered, validated 200–800 in increments of 10, and summed separately.
 
-After each of exams 1–4, the next 24 sessions are generated deterministically from the missed and unanswered skill profile. Priority combines error rate and missed count with diminishing allocation, while reserving practice in both subjects. Each session has two focus items, one secondary item, and one maintenance item; four questions total. A perfect result produces rotating review. Rounds 2–5 include worked MathML equations, explanations, resource links, multiple-choice tips, completion tracking, and calendar scheduling. Exam 5 ends the sequence.
+After each of exams 1–4, the next 24 sessions are generated deterministically from the missed and unanswered skill profile. Priority combines error rate and missed count with diminishing allocation, while reserving practice in both subjects. Each session has three focus items, one secondary item, and one maintenance item; five questions total. A perfect result produces rotating review. Rounds 2–5 include worked MathML equations, explanations, resource links, multiple-choice tips, completion tracking, and calendar scheduling. Exam 5 ends the sequence.
 
 These original forms are fixed, nonadaptive, and uncalibrated. Repeated question families use different parameters and fictional scenarios. Matching counts, broad domains, and 25–150-word passage lengths does not establish official SAT difficulty, blueprint equivalence, or a valid scaled score. All Math items use multiple choice, whereas the official SAT also includes student-produced responses. Official practice: https://satsuite.collegeboard.org/practice/practice-tests/bluebook
 
@@ -83,7 +83,7 @@ Primary references: [SAT structure](https://satsuite.collegeboard.org/sat/whats-
 
 A dedicated Reading quick tips page and session tab provide a question-first routine, seven skill-specific guides, flexible 1.5x pacing, an unscored example with a revealable explanation, a checklist, and official practice links. The same content is available in the original workbook and targeted follow-up sessions.
 
-The comparison with College Board’s current format and official digital SAT samples confirms similar skills and some format features, not equivalent exam difficulty. Workbook passages remain 106–115 words with three questions per reading text; practice-form texts remain 60–103 words with one question per text or pair. The existing exam generator uses a narrower range of fictional scenarios and repeated templates; it does not reproduce the full literary/subject variety, skill grouping, difficulty order, or adaptive routing of the SAT. These limits are disclosed in the new tab. No existing question, answer key, item order, or stored-progress format was changed.
+The comparison with College Board’s current format and official digital SAT samples confirms similar skills and some format features, not equivalent exam difficulty. Workbook passages remain 106–115 words with five questions per reading text; practice-form texts remain 60–103 words with one question per text or pair. The existing exam generator uses a narrower range of fictional scenarios and repeated templates; it does not reproduce the full literary/subject variety, skill grouping, difficulty order, or adaptive routing of the SAT. These limits are disclosed in the new tab. No existing question, answer key, item order, or stored-progress format was changed.
 
 `reading-tips.js` is required alongside the existing website files. Sources: [Reading & Writing format](https://satsuite.collegeboard.org/sat/whats-on-the-test/reading-writing), [official sample questions](https://satsuite.collegeboard.org/media/pdf/digital-sat-sample-questions.pdf), and [College Board pacing and test-taking tips](https://blog.collegeboard.org/top-10-test-taking-tips-digital-sat).
 
@@ -119,3 +119,9 @@ Verified in the browser on November 15, 2026: Recommended selects Samantha, and 
 The voice picker updates when the browser finishes loading voices and when the page regains focus. Missing saved voices fall back to Automatic; empty or temporarily unavailable voice lists use the browser's default with an English language request. Regional English language tags are accepted. Voice preferences stay on each device. Network-only voices may need a connection; the picker labels local voices “on device.” Blocked playback and network errors give specific recovery instructions. A dictionary link remains available if the browser cannot synthesize speech.
 
 Use an up-to-date browser with Web Speech synthesis support. The implementation is intended for Mac, Windows, iPhone/iPad, and Android browsers, but voices and rate behavior are controlled by the device. Automated tests simulate their voice profiles; this is not a claim of physical-device testing on every platform. See [available voices](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/getVoices) and [asynchronous voice loading](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/voiceschanged_event).
+
+### Five-question sessions
+
+Each of the eight original cycles now has five Math questions and five Reading questions (80 subject questions total), plus its existing ten-word vocabulary review. Questions 1–3, choices, keys, and passage text are unchanged. Questions 4–5 are original supplemental practice with four choices and explanations; every added Math question has worked MathML equations. The eight reading passages remain unchanged and are shared skill exercises, not one-question SAT passage simulations.
+
+Each of the 96 later targeted sessions also now has five questions. Its first four deterministic questions remain identical; the fifth adds focus-skill practice. Existing answers, grades, scratch work, notes, plans, vocabulary quizzes, and exam results are retained. An earlier completion date is saved as `previousCompletedAt` when an expanded session has unanswered items; the session reopens until all five are answered and reviewed. Started or submitted exams remain accessible. Backups retain both completion dates.
