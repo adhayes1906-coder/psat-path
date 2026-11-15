@@ -13,7 +13,7 @@
 3. Enter **psat-path** as the repository name. Paste the description above.
 4. Choose **Public** for the simplest free GitHub Pages setup. The workbook code will be public; your typed answers stay in your own browser. Click **Create repository**.
 5. Click **uploading an existing file**. If the repository already has files, click **Add file → Upload files** instead.
-6. Open the unzipped folder. Drag **the files inside it**, not the ZIP or outer folder, into GitHub. You should see `index.html`, `style.css`, `app.js`, `content.js`, `sat-bank.js`, `sat-path.js`, `sat-path.css`, `icon.svg`, `README.md`, and this guide. If `.nojekyll` is hidden on your computer, it is fine to leave that empty file out for this plain static site.
+6. Open the unzipped folder. Drag **the files inside it**, not the ZIP or outer folder, into GitHub. You should see `index.html`, `style.css`, `app.js`, `content.js`, `sat-bank.js`, `sat-path.js`, `sat-path.css`, `reading-tips.js`, `icon.svg`, `README.md`, and this guide. If `.nojekyll` is hidden on your computer, it is fine to leave that empty file out for this plain static site.
 7. Click **Commit changes**.
 8. Click **Settings → Pages** in your repository.
 9. Under **Build and deployment**, select **Deploy from a branch**. Choose **main** and **/ (root)**, then click **Save**.
@@ -71,3 +71,8 @@ Workbook and five-round progress save automatically in the same browser on the s
 ## Update the website later
 
 Open the repository, choose **Add file → Upload files**, and upload replacement website files with the same names. Commit the changes. GitHub Pages will publish the update. Existing browser progress is preserved unless you clear browser data or change the storage format in code.
+
+
+## Reading quick tips
+
+Select **Reading quick tips** in the navigation menu, or open the tab with the same name inside a workbook or targeted practice session. Expand a question type for its strategy, reveal the example solution, and use the short checklist. The comparison panel explains what matches SAT format and what remains skill practice. Official sample questions, the Student Question Bank, and Bluebook links are included.

@@ -77,3 +77,12 @@ These original forms are fixed, nonadaptive, and uncalibrated. Repeated question
 New source files: `sat-bank.js` (content, grading, targeting), `sat-path.js` (journey and exam UI), `sat-path.css` (responsive layouts). Journey data uses a separate localStorage key, `psat-path-journey-v1`; the original workbook remains compatible. Demo storage is isolated and clearly labeled hypothetical. JSON export/import includes both stores. Import pauses timers; ordinary reloads preserve running exam countdowns. No server, API key, account, or backend generation is required.
 
 Primary references: [SAT structure](https://satsuite.collegeboard.org/sat/whats-on-the-test/structure), [Reading & Writing format](https://satsuite.collegeboard.org/sat/whats-on-the-test/reading-writing), [Official scoring](https://satsuite.collegeboard.org/scores/what-scores-mean/how-scores-calculated).
+
+
+## Reading review and quick tips (November 15, 2026)
+
+A dedicated Reading quick tips page and session tab provide a question-first routine, seven skill-specific guides, flexible 1.5x pacing, an unscored example with a revealable explanation, a checklist, and official practice links. The same content is available in the original workbook and targeted follow-up sessions.
+
+The comparison with College Board’s current format and official digital SAT samples confirms similar skills and some format features, not equivalent exam difficulty. Workbook passages remain 106–115 words with three questions per reading text; practice-form texts remain 60–103 words with one question per text or pair. The existing exam generator uses a narrower range of fictional scenarios and repeated templates; it does not reproduce the full literary/subject variety, skill grouping, difficulty order, or adaptive routing of the SAT. These limits are disclosed in the new tab. No existing question, answer key, item order, or stored-progress format was changed.
+
+`reading-tips.js` is required alongside the existing website files. Sources: [Reading & Writing format](https://satsuite.collegeboard.org/sat/whats-on-the-test/reading-writing), [official sample questions](https://satsuite.collegeboard.org/media/pdf/digital-sat-sample-questions.pdf), and [College Board pacing and test-taking tips](https://blog.collegeboard.org/top-10-test-taking-tips-digital-sat).
