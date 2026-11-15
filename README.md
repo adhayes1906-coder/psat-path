@@ -2,7 +2,7 @@
 
 Small steps. Stronger skills.
 
-A calm, interactive PSAT skills workbook with worked solutions, optional 1.5x module timers, progress tracking, and a study calendar.
+An interactive PSAT/SAT study path with 120 sessions, five original practice exams, automatic grading, targeted practice plans, worked equations, optional 1.5x timers, and a study calendar.
 
 ## Features
 
@@ -62,3 +62,18 @@ The multiple-choice options and answer keys are newly authored adaptations of th
 The eight reading samples have been expanded into original practice passages, also used in the matching mixed reviews. Word counts are displayed in the workbook. Every passage falls within the current digital SAT range of 25–150 ordinary words, and also within the framework’s technical six-character word range. These are adaptations, not copied official passages. The workbook retains three questions per shared text; the digital SAT uses one question per passage or passage pair. Length alignment does not establish equivalent exam difficulty. Questions, options, and evidence references were reviewed for consistency; previously saved progress remains available.
 
 Source: [College Board SAT Reading and Writing](https://satsuite.collegeboard.org/sat/whats-on-the-test/reading-writing).
+
+
+## Five-round SAT path
+
+The existing 24 sessions form round 1. Finishing all 24 unlocks the first original full-length practice exam. Each exam has 54 Reading & Writing questions and 44 Math questions in four modules (27/27/22/22). Optional module timers are 48/48/52.5/52.5 minutes, with a 10-minute between-section break. Answers save locally, previous modules lock, and solutions are available after submitting the whole exam.
+
+Grading reports exact raw correct totals and percentages overall and for both sections, plus 29 skill-level results. Blanks count as incorrect. There is no fabricated scaled SAT score. Optional official Bluebook section scores are user-entered, validated 200–800 in increments of 10, and summed separately.
+
+After each of exams 1–4, the next 24 sessions are generated deterministically from the missed and unanswered skill profile. Priority combines error rate and missed count with diminishing allocation, while reserving practice in both subjects. Each session has two focus items, one secondary item, and one maintenance item; four questions total. A perfect result produces rotating review. Rounds 2–5 include worked MathML equations, explanations, resource links, multiple-choice tips, completion tracking, and calendar scheduling. Exam 5 ends the sequence.
+
+These original forms are fixed, nonadaptive, and uncalibrated. Repeated question families use different parameters and fictional scenarios. Matching counts, broad domains, and 25–150-word passage lengths does not establish official SAT difficulty, blueprint equivalence, or a valid scaled score. All Math items use multiple choice, whereas the official SAT also includes student-produced responses. Official practice: https://satsuite.collegeboard.org/practice/practice-tests/bluebook
+
+New source files: `sat-bank.js` (content, grading, targeting), `sat-path.js` (journey and exam UI), `sat-path.css` (responsive layouts). Journey data uses a separate localStorage key, `psat-path-journey-v1`; the original workbook remains compatible. Demo storage is isolated and clearly labeled hypothetical. JSON export/import includes both stores. Import pauses timers; ordinary reloads preserve running exam countdowns. No server, API key, account, or backend generation is required.
+
+Primary references: [SAT structure](https://satsuite.collegeboard.org/sat/whats-on-the-test/structure), [Reading & Writing format](https://satsuite.collegeboard.org/sat/whats-on-the-test/reading-writing), [Official scoring](https://satsuite.collegeboard.org/scores/what-scores-mean/how-scores-calculated).

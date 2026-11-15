@@ -4,7 +4,7 @@
 
 **Repository name:** `psat-path`
 
-**Description to copy:** A calm, interactive PSAT skills workbook with worked solutions, optional 1.5x module timers, progress tracking, and a study calendar.
+**Description to copy:** An interactive PSAT/SAT study path with 120 sessions, five original practice exams, automatic grading, targeted practice plans, worked equations, optional 1.5x timers, and a study calendar.
 
 ## Simple steps — no coding needed
 
@@ -13,7 +13,7 @@
 3. Enter **psat-path** as the repository name. Paste the description above.
 4. Choose **Public** for the simplest free GitHub Pages setup. The workbook code will be public; your typed answers stay in your own browser. Click **Create repository**.
 5. Click **uploading an existing file**. If the repository already has files, click **Add file → Upload files** instead.
-6. Open the unzipped folder. Drag **the files inside it**, not the ZIP or outer folder, into GitHub. You should see `index.html`, `style.css`, `app.js`, `content.js`, `icon.svg`, `README.md`, and this guide. If `.nojekyll` is hidden on your computer, it is fine to leave that empty file out for this plain static site.
+6. Open the unzipped folder. Drag **the files inside it**, not the ZIP or outer folder, into GitHub. You should see `index.html`, `style.css`, `app.js`, `content.js`, `sat-bank.js`, `sat-path.js`, `sat-path.css`, `icon.svg`, `README.md`, and this guide. If `.nojekyll` is hidden on your computer, it is fine to leave that empty file out for this plain static site.
 7. Click **Commit changes**.
 8. Click **Settings → Pages** in your repository.
 9. Under **Build and deployment**, select **Deploy from a branch**. Choose **main** and **/ (root)**, then click **Save**.
@@ -46,13 +46,27 @@ Timers start **off**. In the workbook, select a module, turn its timer **on**, a
 | Math 1 | 35:00 | 52:30 |
 | Math 2 | 35:00 | 52:30 |
 
-These are full module limits. The workbook's skill sessions are shorter than full test modules. The timer never submits answers. Practice settings do not establish official testing accommodations.
+These are full module limits. The workbook's skill sessions are shorter than full test modules. The workbook timer never submits answers. In a full practice exam, a module locks when its running timer reaches zero; you choose when to continue or submit. Practice settings do not establish official testing accommodations.
 
 Timing source: [College Board PSAT/NMSQT structure](https://satsuite.collegeboard.org/in-school-assessments/whats-on-the-test/psat-nmsqt/structure).
 
+## Follow the five-round SAT path
+
+1. Choose **Five-round SAT path** in the menu.
+2. Complete the original 24 workbook sessions, including the mixed review sessions, to unlock **Exam 1**.
+3. Answer the 98 questions across four modules. Finish each module to continue; earlier modules lock. Take the 10-minute break before Math. Timers start off.
+4. Submit the exam. See overall, Reading & Writing, and Math correct totals and percentages, plus solutions and a skill breakdown.
+5. Optionally enter section scores from a separate official Bluebook exam. These fields accept official scores; the website does not estimate an SAT scaled score.
+6. Open the next 24 sessions, created automatically from the missed and unanswered skills. Schedule them from that round’s page.
+7. Repeat through round 5. The path ends at **120 sessions and five exams**.
+
+Each follow-up session has four multiple-choice questions, explanations with math equations, learning links, and multiple-choice tips. Exam forms are original, fixed, nonadaptive practice with repeated question families and different values/scenarios. They match SAT question counts and passage-length limits but are not official or calibrated SAT tests. All Math items here use multiple choice; the actual SAT also includes student-produced answers. Use official Bluebook practice for an official practice score.
+
+**Demo:** add `?demo=1#sat-path` to the website address. It shows a hypothetical first exam result and the next targeted plan. Choose **Preview a full exam** to explore testing without changing real progress.
+
 ## Save or move progress
 
-Progress saves automatically in the same browser on the same device. In **My progress** or **How it works**, select **Export backup**. On another device, open the site and select **Import backup**. Importing replaces that browser's existing workbook data after confirmation. Different website addresses, including the demo hosting address and GitHub Pages, keep separate progress; use a backup to transfer it.
+Workbook and five-round progress save automatically in the same browser on the same device. In **My progress** or **How it works**, select **Export backup**. On another device, open the site and select **Import backup**. Importing replaces that browser's existing workbook data after confirmation. Different website addresses, including the demo hosting address and GitHub Pages, keep separate progress; use a backup to transfer it.
 
 ## Update the website later
 
