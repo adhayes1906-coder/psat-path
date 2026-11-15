@@ -1,2601 +1,4014 @@
-window.VOCABULARY_SETS = [
+window.VOCABULARY_META = {
+  "id": "released-sat-words-v2",
+  "reviewedTests": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "reviewedOn": "2026-11-15",
+  "selection": "200 selected words from single-word answer choices and target words in Words in Context questions in released SAT Practice Tests 4–11. Includes correct and incorrect options. Recurrence counts are limited to these eight files; they do not measure live-test frequency. Inflected forms are grouped under their dictionary headword. Definitions and examples are original, showing one meaning per word; source links document word appearance, not the wording of the card."
+};
+window.VOCABULARY_LEGACY = [
   {
     "title": "Reading and reasoning",
     "words": [
-      {
-        "word": "analyze",
-        "pos": "verb",
-        "definition": "examine something closely to understand its parts or meaning",
-        "sentence": "The class will analyze the poem before discussing its central idea."
-      },
-      {
-        "word": "ambiguous",
-        "pos": "adjective",
-        "definition": "open to more than one reasonable interpretation",
-        "sentence": "The ambiguous ending allows readers to imagine several outcomes."
-      },
-      {
-        "word": "coherent",
-        "pos": "adjective",
-        "definition": "logically connected and easy to follow",
-        "sentence": "Her coherent explanation links each claim to supporting evidence."
-      },
-      {
-        "word": "derive",
-        "pos": "verb",
-        "definition": "obtain something from a source or through reasoning",
-        "sentence": "We can derive a conclusion from the observations in the passage."
-      },
-      {
-        "word": "empirical",
-        "pos": "adjective",
-        "definition": "based on observation or experiment",
-        "sentence": "The team requested empirical evidence rather than another prediction."
-      },
-      {
-        "word": "inevitable",
-        "pos": "adjective",
-        "definition": "certain to happen and impossible to avoid",
-        "sentence": "In the story, the narrator treats the approaching conflict as inevitable."
-      },
-      {
-        "word": "novel",
-        "pos": "adjective",
-        "definition": "new or original in a particular context",
-        "sentence": "The designer proposed a novel way to organize the small workspace."
-      },
-      {
-        "word": "refute",
-        "pos": "verb",
-        "definition": "show that a claim is false or mistaken",
-        "sentence": "The records refute the claim that the building was always empty."
-      },
-      {
-        "word": "subtle",
-        "pos": "adjective",
-        "definition": "delicate or not immediately obvious",
-        "sentence": "A subtle change in tone reveals the speaker’s uncertainty."
-      },
-      {
-        "word": "valid",
-        "pos": "adjective",
-        "definition": "logically sound or supported by acceptable reasons",
-        "sentence": "The conclusion is valid only if its assumptions are true."
-      }
+      "analyze",
+      "ambiguous",
+      "coherent",
+      "derive",
+      "empirical",
+      "inevitable",
+      "novel",
+      "refute",
+      "subtle",
+      "valid"
     ]
   },
   {
     "title": "Evidence and change",
     "words": [
-      {
-        "word": "adapt",
-        "pos": "verb",
-        "definition": "adjust to new conditions or a new purpose",
-        "sentence": "The team must adapt its schedule when the rehearsal room closes."
-      },
-      {
-        "word": "abundant",
-        "pos": "adjective",
-        "definition": "present in large quantities",
-        "sentence": "The fictional valley has abundant fresh water throughout the story."
-      },
-      {
-        "word": "concede",
-        "pos": "verb",
-        "definition": "acknowledge a point as true, often reluctantly",
-        "sentence": "The critic will concede that the revised ending is clearer."
-      },
-      {
-        "word": "discrepancy",
-        "pos": "noun",
-        "definition": "a difference between things that should agree",
-        "sentence": "The discrepancy between the two totals led us to check the records."
-      },
-      {
-        "word": "feasible",
-        "pos": "adjective",
-        "definition": "possible to carry out successfully",
-        "sentence": "The group chose a feasible plan that fit its budget."
-      },
-      {
-        "word": "impartial",
-        "pos": "adjective",
-        "definition": "fair and not favoring one side",
-        "sentence": "An impartial reviewer considers evidence from both teams."
-      },
-      {
-        "word": "mitigate",
-        "pos": "verb",
-        "definition": "make something less severe or harmful",
-        "sentence": "Extra shade could mitigate the discomfort described in the report."
-      },
-      {
-        "word": "persistent",
-        "pos": "adjective",
-        "definition": "continuing despite difficulty or over time",
-        "sentence": "The persistent leak required several attempts at repair."
-      },
-      {
-        "word": "tentative",
-        "pos": "adjective",
-        "definition": "provisional and subject to revision",
-        "sentence": "Our tentative conclusion may change when more evidence arrives."
-      },
-      {
-        "word": "vindicate",
-        "pos": "verb",
-        "definition": "clear from blame or show to be justified",
-        "sentence": "The newly found receipt could vindicate the accused clerk."
-      }
+      "adapt",
+      "abundant",
+      "concede",
+      "discrepancy",
+      "feasible",
+      "impartial",
+      "mitigate",
+      "persistent",
+      "tentative",
+      "vindicate"
     ]
   },
   {
     "title": "Claims and perspectives",
     "words": [
-      {
-        "word": "assert",
-        "pos": "verb",
-        "definition": "state something confidently as true",
-        "sentence": "The speaker will assert that the rule applies to every applicant."
-      },
-      {
-        "word": "benign",
-        "pos": "adjective",
-        "definition": "not harmful or threatening",
-        "sentence": "The story’s apparently alarming visitor proves to have a benign purpose."
-      },
-      {
-        "word": "corroborate",
-        "pos": "verb",
-        "definition": "support a statement with additional evidence",
-        "sentence": "The photographs corroborate the witness’s description of the room."
-      },
-      {
-        "word": "diverse",
-        "pos": "adjective",
-        "definition": "containing a variety of different kinds",
-        "sentence": "The exhibit presents a diverse collection of artistic styles."
-      },
-      {
-        "word": "elusive",
-        "pos": "adjective",
-        "definition": "difficult to find, catch, or fully understand",
-        "sentence": "A clear explanation remained elusive after the first discussion."
-      },
-      {
-        "word": "fluctuate",
-        "pos": "verb",
-        "definition": "rise and fall or change irregularly",
-        "sentence": "Attendance may fluctuate from one practice session to another."
-      },
-      {
-        "word": "integral",
-        "pos": "adjective",
-        "definition": "necessary to the completeness or functioning of something",
-        "sentence": "The map is an integral part of the instructions."
-      },
-      {
-        "word": "pragmatic",
-        "pos": "adjective",
-        "definition": "focused on practical results and workable solutions",
-        "sentence": "The committee took a pragmatic approach and repaired the existing shelves."
-      },
-      {
-        "word": "restrict",
-        "pos": "verb",
-        "definition": "limit the range, amount, or freedom of something",
-        "sentence": "The rules restrict visitors to the marked paths."
-      },
-      {
-        "word": "skeptical",
-        "pos": "adjective",
-        "definition": "doubtful and requiring convincing evidence",
-        "sentence": "A skeptical reader asks how the author supports the claim."
-      }
+      "assert",
+      "benign",
+      "corroborate",
+      "diverse",
+      "elusive",
+      "fluctuate",
+      "integral",
+      "pragmatic",
+      "restrict",
+      "skeptical"
     ]
   },
   {
     "title": "Interpretation",
     "words": [
-      {
-        "word": "abstract",
-        "pos": "adjective",
-        "definition": "concerned with ideas rather than concrete objects",
-        "sentence": "The discussion moved from specific examples to an abstract principle."
-      },
-      {
-        "word": "bias",
-        "pos": "noun",
-        "definition": "a tendency to favor a view in a way that can distort judgment",
-        "sentence": "The reviewer checked whether personal bias affected the evaluation."
-      },
-      {
-        "word": "comprehensive",
-        "pos": "adjective",
-        "definition": "covering all or nearly all relevant aspects",
-        "sentence": "The report offers a comprehensive account of the project’s stages."
-      },
-      {
-        "word": "distinct",
-        "pos": "adjective",
-        "definition": "clearly different or separate",
-        "sentence": "The two narrators have distinct attitudes toward the same event."
-      },
-      {
-        "word": "elaborate",
-        "pos": "verb",
-        "definition": "explain something in greater detail",
-        "sentence": "Please elaborate on how the final example supports your argument."
-      },
-      {
-        "word": "fundamental",
-        "pos": "adjective",
-        "definition": "forming a basic or essential foundation",
-        "sentence": "The disagreement concerns a fundamental assumption in the model."
-      },
-      {
-        "word": "implicit",
-        "pos": "adjective",
-        "definition": "suggested without being directly stated",
-        "sentence": "An implicit criticism appears in the narrator’s comparison."
-      },
-      {
-        "word": "preclude",
-        "pos": "verb",
-        "definition": "prevent something from happening or being possible",
-        "sentence": "A missing signature may preclude the application’s acceptance."
-      },
-      {
-        "word": "sustain",
-        "pos": "verb",
-        "definition": "maintain something over time",
-        "sentence": "The evidence must sustain the interpretation throughout the essay."
-      },
-      {
-        "word": "viable",
-        "pos": "adjective",
-        "definition": "capable of working or continuing successfully",
-        "sentence": "The team needs a viable alternative if the first design fails."
-      }
+      "abstract",
+      "bias",
+      "comprehensive",
+      "distinct",
+      "elaborate",
+      "fundamental",
+      "implicit",
+      "preclude",
+      "sustain",
+      "viable"
     ]
   },
   {
     "title": "Precision",
     "words": [
-      {
-        "word": "accurate",
-        "pos": "adjective",
-        "definition": "correct and free from significant error",
-        "sentence": "An accurate summary preserves the author’s main point."
-      },
-      {
-        "word": "bolster",
-        "pos": "verb",
-        "definition": "strengthen or support",
-        "sentence": "The second example helps bolster the essay’s central claim."
-      },
-      {
-        "word": "contradict",
-        "pos": "verb",
-        "definition": "state or show the opposite of something",
-        "sentence": "The final paragraph appears to contradict the opening claim."
-      },
-      {
-        "word": "diminish",
-        "pos": "verb",
-        "definition": "make or become smaller in amount or importance",
-        "sentence": "Repeated interruptions can diminish the time available for discussion."
-      },
-      {
-        "word": "equitable",
-        "pos": "adjective",
-        "definition": "fair and just in how people are treated",
-        "sentence": "The group sought an equitable way to divide the available resources."
-      },
-      {
-        "word": "fragmentary",
-        "pos": "adjective",
-        "definition": "incomplete and consisting of disconnected pieces",
-        "sentence": "Only fragmentary notes remained from the unfinished play."
-      },
-      {
-        "word": "infer",
-        "pos": "verb",
-        "definition": "reach a conclusion from evidence and reasoning",
-        "sentence": "Readers can infer the character’s anxiety from her repeated questions."
-      },
-      {
-        "word": "prevalent",
-        "pos": "adjective",
-        "definition": "common or widespread in a particular setting",
-        "sentence": "In the fictional town, this architectural style is prevalent."
-      },
-      {
-        "word": "transient",
-        "pos": "adjective",
-        "definition": "lasting for only a short time",
-        "sentence": "The narrator describes a transient feeling of relief."
-      },
-      {
-        "word": "warrant",
-        "pos": "verb",
-        "definition": "justify or provide sufficient reason for something",
-        "sentence": "The small sample does not warrant a claim about every student."
-      }
+      "accurate",
+      "bolster",
+      "contradict",
+      "diminish",
+      "equitable",
+      "fragmentary",
+      "infer",
+      "prevalent",
+      "transient",
+      "warrant"
     ]
   },
   {
     "title": "Relationships",
     "words": [
-      {
-        "word": "analogous",
-        "pos": "adjective",
-        "definition": "similar in a way that makes a comparison useful",
-        "sentence": "The author presents an analogous situation to clarify the problem."
-      },
-      {
-        "word": "clarify",
-        "pos": "verb",
-        "definition": "make easier to understand",
-        "sentence": "A labeled diagram can clarify the written instructions."
-      },
-      {
-        "word": "detrimental",
-        "pos": "adjective",
-        "definition": "causing harm or damage",
-        "sentence": "The report describes the repeated delays as detrimental to the project."
-      },
-      {
-        "word": "emulate",
-        "pos": "verb",
-        "definition": "try to match or equal a model through imitation",
-        "sentence": "The young painter hoped to emulate her mentor’s careful technique."
-      },
-      {
-        "word": "conventional",
-        "pos": "adjective",
-        "definition": "following usual or widely accepted practices",
-        "sentence": "The writer contrasts a conventional design with an unusual alternative."
-      },
-      {
-        "word": "hypothesis",
-        "pos": "noun",
-        "definition": "a proposed explanation that can be tested",
-        "sentence": "The team developed a hypothesis before collecting observations."
-      },
-      {
-        "word": "inherent",
-        "pos": "adjective",
-        "definition": "existing as a basic part of something",
-        "sentence": "The argument identifies a tension inherent in the proposed rule."
-      },
-      {
-        "word": "reconcile",
-        "pos": "verb",
-        "definition": "make conflicting ideas or accounts consistent with each other",
-        "sentence": "The historian tries to reconcile the two descriptions of the meeting."
-      },
-      {
-        "word": "profound",
-        "pos": "adjective",
-        "definition": "very deep or significant",
-        "sentence": "The narrator describes a profound change in the character’s outlook."
-      },
-      {
-        "word": "variable",
-        "pos": "noun",
-        "definition": "a factor that can take different values or change",
-        "sentence": "The experiment changes one variable while keeping the others constant."
-      }
+      "analogous",
+      "clarify",
+      "detrimental",
+      "emulate",
+      "conventional",
+      "hypothesis",
+      "inherent",
+      "reconcile",
+      "profound",
+      "variable"
     ]
   },
   {
     "title": "Qualifications",
     "words": [
-      {
-        "word": "acknowledge",
-        "pos": "verb",
-        "definition": "recognize or admit the existence or truth of something",
-        "sentence": "The author will acknowledge a weakness before defending the main claim."
-      },
-      {
-        "word": "conspicuous",
-        "pos": "adjective",
-        "definition": "easily noticed or attracting attention",
-        "sentence": "The empty frame is conspicuous among the finished paintings."
-      },
-      {
-        "word": "discrete",
-        "pos": "adjective",
-        "definition": "separate and individually identifiable",
-        "sentence": "The instructions divide the work into three discrete tasks."
-      },
-      {
-        "word": "enhance",
-        "pos": "verb",
-        "definition": "improve the quality or value of something",
-        "sentence": "Clear captions can enhance the usefulness of the diagram."
-      },
-      {
-        "word": "plausible",
-        "pos": "adjective",
-        "definition": "seeming reasonable or believable",
-        "sentence": "The passage offers a plausible explanation without treating it as proven."
-      },
-      {
-        "word": "meticulous",
-        "pos": "adjective",
-        "definition": "showing great care and attention to detail",
-        "sentence": "The editor’s meticulous notes identify even small inconsistencies."
-      },
-      {
-        "word": "qualify",
-        "pos": "verb",
-        "definition": "limit or modify a statement to make it more precise",
-        "sentence": "The phrase “in most cases” helps qualify the author’s broad claim."
-      },
-      {
-        "word": "redundant",
-        "pos": "adjective",
-        "definition": "unnecessarily repetitive or no longer needed",
-        "sentence": "The second sentence is redundant because it repeats the first."
-      },
-      {
-        "word": "substantiate",
-        "pos": "verb",
-        "definition": "support a claim with sufficient evidence",
-        "sentence": "The writer needs records to substantiate the assertion."
-      },
-      {
-        "word": "volatile",
-        "pos": "adjective",
-        "definition": "likely to change rapidly and unpredictably",
-        "sentence": "The novel depicts a volatile political situation in an invented country."
-      }
+      "acknowledge",
+      "conspicuous",
+      "discrete",
+      "enhance",
+      "plausible",
+      "meticulous",
+      "qualify",
+      "redundant",
+      "substantiate",
+      "volatile"
     ]
   },
   {
     "title": "Research language",
     "words": [
-      {
-        "word": "attribute",
-        "pos": "verb",
-        "definition": "regard something as caused by a particular factor",
-        "sentence": "The report does not attribute the improvement to a single change."
-      },
-      {
-        "word": "compelling",
-        "pos": "adjective",
-        "definition": "powerfully convincing or persuasive",
-        "sentence": "The witness offers a compelling reason to reconsider the decision."
-      },
-      {
-        "word": "deduce",
-        "pos": "verb",
-        "definition": "reach a conclusion by applying reasoning to known information",
-        "sentence": "We can deduce the missing value from the relationship given."
-      },
-      {
-        "word": "efficacy",
-        "pos": "noun",
-        "definition": "the ability to produce an intended result",
-        "sentence": "The trial was designed to assess the efficacy of the new procedure."
-      },
-      {
-        "word": "incidental",
-        "pos": "adjective",
-        "definition": "secondary or occurring without being the main purpose",
-        "sentence": "The author treats the character’s occupation as an incidental detail."
-      },
-      {
-        "word": "lucid",
-        "pos": "adjective",
-        "definition": "clear and easy to understand",
-        "sentence": "The guide gives a lucid explanation of a complicated process."
-      },
-      {
-        "word": "paradox",
-        "pos": "noun",
-        "definition": "an apparent contradiction that may reveal a truth",
-        "sentence": "The essay explores the paradox of gaining freedom by accepting limits."
-      },
-      {
-        "word": "robust",
-        "pos": "adjective",
-        "definition": "strong and able to remain effective under varied conditions",
-        "sentence": "The team sought a robust design that could tolerate repeated use."
-      },
-      {
-        "word": "speculate",
-        "pos": "verb",
-        "definition": "form ideas or explanations without sufficient confirming evidence",
-        "sentence": "The narrator can only speculate about why the letter was destroyed."
-      },
-      {
-        "word": "uniform",
-        "pos": "adjective",
-        "definition": "consistent or the same throughout",
-        "sentence": "The instructions require a uniform method of recording each observation."
-      }
+      "attribute",
+      "compelling",
+      "deduce",
+      "efficacy",
+      "incidental",
+      "lucid",
+      "paradox",
+      "robust",
+      "speculate",
+      "uniform"
     ]
   },
   {
     "title": "Tone and judgment",
     "words": [
-      {
-        "word": "ambivalent",
-        "pos": "adjective",
-        "definition": "having mixed or conflicting feelings",
-        "sentence": "The narrator is ambivalent about leaving a familiar place."
-      },
-      {
-        "word": "candid",
-        "pos": "adjective",
-        "definition": "honest and direct in expression",
-        "sentence": "The interview includes a candid account of the project’s failures."
-      },
-      {
-        "word": "disinterested",
-        "pos": "adjective",
-        "definition": "not influenced by personal advantage in a matter",
-        "sentence": "The dispute calls for a disinterested observer with no stake in the outcome."
-      },
-      {
-        "word": "equivocal",
-        "pos": "adjective",
-        "definition": "unclear or allowing more than one interpretation",
-        "sentence": "The official’s equivocal reply did not resolve the uncertainty."
-      },
-      {
-        "word": "indifferent",
-        "pos": "adjective",
-        "definition": "showing little interest or concern",
-        "sentence": "The protagonist seems indifferent to the praise that excites the others."
-      },
-      {
-        "word": "laud",
-        "pos": "verb",
-        "definition": "praise highly",
-        "sentence": "The review will laud the actor’s restrained performance."
-      },
-      {
-        "word": "resilient",
-        "pos": "adjective",
-        "definition": "able to recover after difficulty or disruption",
-        "sentence": "The story presents a resilient community that rebuilds after setbacks."
-      },
-      {
-        "word": "stringent",
-        "pos": "adjective",
-        "definition": "strict and demanding",
-        "sentence": "The archive applies stringent rules for handling fragile documents."
-      },
-      {
-        "word": "undermine",
-        "pos": "verb",
-        "definition": "weaken a claim, position, or structure",
-        "sentence": "The contradictory record could undermine the witness’s account."
-      },
-      {
-        "word": "zeal",
-        "pos": "noun",
-        "definition": "great enthusiasm for a cause or activity",
-        "sentence": "The apprentice’s zeal is evident in her long hours of practice."
-      }
+      "ambivalent",
+      "candid",
+      "disinterested",
+      "equivocal",
+      "indifferent",
+      "laud",
+      "resilient",
+      "stringent",
+      "undermine",
+      "zeal"
     ]
   },
   {
     "title": "Arguments",
     "words": [
-      {
-        "word": "advocate",
-        "pos": "verb",
-        "definition": "publicly support a position or course of action",
-        "sentence": "The essay will advocate a different approach to preserving the collection."
-      },
-      {
-        "word": "circumvent",
-        "pos": "verb",
-        "definition": "find a way around an obstacle or restriction",
-        "sentence": "The characters try to circumvent the locked entrance by using another route."
-      },
-      {
-        "word": "debunk",
-        "pos": "verb",
-        "definition": "expose a claim or belief as false",
-        "sentence": "The article uses original records to debunk the popular story."
-      },
-      {
-        "word": "exhaustive",
-        "pos": "adjective",
-        "definition": "including every relevant part or possibility",
-        "sentence": "An exhaustive search examined every labeled box in the room."
-      },
-      {
-        "word": "fallacy",
-        "pos": "noun",
-        "definition": "an error in reasoning",
-        "sentence": "The argument contains a fallacy because its conclusion does not follow."
-      },
-      {
-        "word": "incisive",
-        "pos": "adjective",
-        "definition": "showing sharp and clear understanding",
-        "sentence": "Her incisive question identifies the assumption everyone else overlooked."
-      },
-      {
-        "word": "objective",
-        "pos": "adjective",
-        "definition": "based on evidence rather than personal preference",
-        "sentence": "The reviewer used an objective scoring rule for each submission."
-      },
-      {
-        "word": "premise",
-        "pos": "noun",
-        "definition": "a statement or assumption on which reasoning is based",
-        "sentence": "The conclusion depends on the premise that the records are complete."
-      },
-      {
-        "word": "rhetorical",
-        "pos": "adjective",
-        "definition": "relating to how language is used to influence an audience",
-        "sentence": "The repeated phrase is a rhetorical device that emphasizes the contrast."
-      },
-      {
-        "word": "sporadic",
-        "pos": "adjective",
-        "definition": "occurring occasionally and irregularly",
-        "sentence": "The journal contains only sporadic references to the unfinished painting."
-      }
+      "advocate",
+      "circumvent",
+      "debunk",
+      "exhaustive",
+      "fallacy",
+      "incisive",
+      "objective",
+      "premise",
+      "rhetorical",
+      "sporadic"
     ]
   },
   {
     "title": "Development",
     "words": [
-      {
-        "word": "allocate",
-        "pos": "verb",
-        "definition": "assign resources or time for a particular purpose",
-        "sentence": "The club must allocate enough time for questions."
-      },
-      {
-        "word": "concurrent",
-        "pos": "adjective",
-        "definition": "happening during the same period",
-        "sentence": "The schedule lists two concurrent workshops in different rooms."
-      },
-      {
-        "word": "delineate",
-        "pos": "verb",
-        "definition": "describe or mark the boundaries of something precisely",
-        "sentence": "The opening paragraph will delineate the scope of the investigation."
-      },
-      {
-        "word": "emerge",
-        "pos": "verb",
-        "definition": "come into view or become apparent",
-        "sentence": "A pattern begins to emerge after the examples are compared."
-      },
-      {
-        "word": "formidable",
-        "pos": "adjective",
-        "definition": "inspiring respect or concern because of great difficulty or strength",
-        "sentence": "The unfinished archive presents a formidable challenge to the small team."
-      },
-      {
-        "word": "incremental",
-        "pos": "adjective",
-        "definition": "occurring through small successive changes",
-        "sentence": "The journal records incremental improvements in the design."
-      },
-      {
-        "word": "proponent",
-        "pos": "noun",
-        "definition": "a person who actively supports a proposal or belief",
-        "sentence": "The speaker is a proponent of restoring the old theater."
-      },
-      {
-        "word": "retain",
-        "pos": "verb",
-        "definition": "keep or continue to possess",
-        "sentence": "The revised story will retain the original opening scene."
-      },
-      {
-        "word": "static",
-        "pos": "adjective",
-        "definition": "remaining unchanged",
-        "sentence": "The diagram presents a static image rather than an animation."
-      },
-      {
-        "word": "unprecedented",
-        "pos": "adjective",
-        "definition": "not known to have happened before in the relevant context",
-        "sentence": "In the novel, the council faces an unprecedented request."
-      }
+      "allocate",
+      "concurrent",
+      "delineate",
+      "emerge",
+      "formidable",
+      "incremental",
+      "proponent",
+      "retain",
+      "static",
+      "unprecedented"
     ]
   },
   {
     "title": "Evaluation",
     "words": [
-      {
-        "word": "assess",
-        "pos": "verb",
-        "definition": "evaluate the nature, quality, or importance of something",
-        "sentence": "The committee will assess each proposal using the same criteria."
-      },
-      {
-        "word": "conducive",
-        "pos": "adjective",
-        "definition": "helpful in bringing about a particular result",
-        "sentence": "The quiet room is conducive to careful reading."
-      },
-      {
-        "word": "deficient",
-        "pos": "adjective",
-        "definition": "lacking something necessary or adequate",
-        "sentence": "The argument is deficient in supporting evidence."
-      },
-      {
-        "word": "exacerbate",
-        "pos": "verb",
-        "definition": "make an existing problem worse",
-        "sentence": "Conflicting instructions could exacerbate the confusion."
-      },
-      {
-        "word": "frugal",
-        "pos": "adjective",
-        "definition": "careful in using money or other resources",
-        "sentence": "The frugal director reuses scenery from earlier productions."
-      },
-      {
-        "word": "impede",
-        "pos": "verb",
-        "definition": "slow or obstruct progress",
-        "sentence": "The blocked doorway could impede access to the storage room."
-      },
-      {
-        "word": "nuance",
-        "pos": "noun",
-        "definition": "a small but meaningful difference in expression or meaning",
-        "sentence": "The translation preserves a nuance that the earlier version missed."
-      },
-      {
-        "word": "prolific",
-        "pos": "adjective",
-        "definition": "producing a large amount of work or output",
-        "sentence": "The fictional novelist is prolific, completing several manuscripts each year."
-      },
-      {
-        "word": "superficial",
-        "pos": "adjective",
-        "definition": "concerned only with the surface rather than deeper features",
-        "sentence": "The reviewer criticizes the superficial comparison for ignoring important differences."
-      },
-      {
-        "word": "unwarranted",
-        "pos": "adjective",
-        "definition": "not supported by sufficient reason or evidence",
-        "sentence": "The author rejects the unwarranted assumption that silence means agreement."
-      }
+      "assess",
+      "conducive",
+      "deficient",
+      "exacerbate",
+      "frugal",
+      "impede",
+      "nuance",
+      "prolific",
+      "superficial",
+      "unwarranted"
     ]
   },
   {
     "title": "Connections",
     "words": [
-      {
-        "word": "aggregate",
-        "pos": "noun",
-        "definition": "a total formed by combining separate parts",
-        "sentence": "The chart reports an aggregate rather than the result for each group."
-      },
-      {
-        "word": "causal",
-        "pos": "adjective",
-        "definition": "relating to one thing producing an effect on another",
-        "sentence": "The study describes an association without establishing a causal relationship."
-      },
-      {
-        "word": "discern",
-        "pos": "verb",
-        "definition": "notice or recognize something that is not immediately obvious",
-        "sentence": "Readers can discern a change in attitude from the final sentence."
-      },
-      {
-        "word": "exemplify",
-        "pos": "verb",
-        "definition": "serve as a clear example of something",
-        "sentence": "The two scenes exemplify the contrast described in the introduction."
-      },
-      {
-        "word": "incompatible",
-        "pos": "adjective",
-        "definition": "unable to exist or work together consistently",
-        "sentence": "The witness’s two accounts contain incompatible details."
-      },
-      {
-        "word": "latent",
-        "pos": "adjective",
-        "definition": "present but not yet visible, active, or developed",
-        "sentence": "The story reveals a latent talent that the character had never explored."
-      },
-      {
-        "word": "reciprocal",
-        "pos": "adjective",
-        "definition": "involving a corresponding action or relationship in both directions",
-        "sentence": "The agreement creates reciprocal obligations for both groups."
-      },
-      {
-        "word": "rigorous",
-        "pos": "adjective",
-        "definition": "thorough, careful, and demanding",
-        "sentence": "The editor applies a rigorous process to checking each reference."
-      },
-      {
-        "word": "synthesize",
-        "pos": "verb",
-        "definition": "combine different elements into a connected whole",
-        "sentence": "The conclusion will synthesize the evidence from several sources."
-      },
-      {
-        "word": "tenable",
-        "pos": "adjective",
-        "definition": "able to be defended with reasons or evidence",
-        "sentence": "The interpretation remains tenable if the final passage supports it."
-      }
+      "aggregate",
+      "causal",
+      "discern",
+      "exemplify",
+      "incompatible",
+      "latent",
+      "reciprocal",
+      "rigorous",
+      "synthesize",
+      "tenable"
     ]
   },
   {
     "title": "Revision",
     "words": [
-      {
-        "word": "amend",
-        "pos": "verb",
-        "definition": "make a change to a text, rule, or proposal",
-        "sentence": "The members voted to amend the club’s scheduling rule."
-      },
-      {
-        "word": "concise",
-        "pos": "adjective",
-        "definition": "expressing much in few words without unnecessary detail",
-        "sentence": "The concise summary states the argument in two sentences."
-      },
-      {
-        "word": "displace",
-        "pos": "verb",
-        "definition": "move something from its position or replace it",
-        "sentence": "The new display will displace the temporary shelves near the entrance."
-      },
-      {
-        "word": "explicit",
-        "pos": "adjective",
-        "definition": "stated clearly and directly",
-        "sentence": "The instructions contain an explicit warning about mixing the samples."
-      },
-      {
-        "word": "intact",
-        "pos": "adjective",
-        "definition": "complete and not damaged or missing parts",
-        "sentence": "The letter’s outer envelope remained intact."
-      },
-      {
-        "word": "pervasive",
-        "pos": "adjective",
-        "definition": "spread throughout an area or activity",
-        "sentence": "A pervasive sense of uncertainty shapes the atmosphere of the story."
-      },
-      {
-        "word": "reiterate",
-        "pos": "verb",
-        "definition": "state something again for emphasis or clarity",
-        "sentence": "The conclusion will reiterate the need for additional evidence."
-      },
-      {
-        "word": "relevant",
-        "pos": "adjective",
-        "definition": "directly connected to the matter being considered",
-        "sentence": "Only relevant details should appear in the final summary."
-      },
-      {
-        "word": "supplant",
-        "pos": "verb",
-        "definition": "replace something in its role or position",
-        "sentence": "In the imagined workshop, a new technique may supplant the older method."
-      },
-      {
-        "word": "versatile",
-        "pos": "adjective",
-        "definition": "able to serve many purposes or adapt to different tasks",
-        "sentence": "The versatile performer can sing, act, and design sets."
-      }
+      "amend",
+      "concise",
+      "displace",
+      "explicit",
+      "intact",
+      "pervasive",
+      "reiterate",
+      "relevant",
+      "supplant",
+      "versatile"
     ]
   },
   {
     "title": "Degree and extent",
     "words": [
-      {
-        "word": "approximate",
-        "pos": "adjective",
-        "definition": "close to an exact amount or description but not precise",
-        "sentence": "The map gives an approximate distance between the two stations."
-      },
-      {
-        "word": "constitute",
-        "pos": "verb",
-        "definition": "form or make up something",
-        "sentence": "These three scenes constitute the first act of the play."
-      },
-      {
-        "word": "disproportionate",
-        "pos": "adjective",
-        "definition": "too large or too small in relation to something else",
-        "sentence": "One minor episode receives a disproportionate amount of attention."
-      },
-      {
-        "word": "exceed",
-        "pos": "verb",
-        "definition": "go beyond a stated amount, limit, or expectation",
-        "sentence": "The final cost must not exceed the agreed budget."
-      },
-      {
-        "word": "finite",
-        "pos": "adjective",
-        "definition": "having a definite limit",
-        "sentence": "The team has a finite amount of time to finish the work."
-      },
-      {
-        "word": "insignificant",
-        "pos": "adjective",
-        "definition": "too small or unimportant to matter in the context",
-        "sentence": "The reviewer considers the difference insignificant for this comparison."
-      },
-      {
-        "word": "moderate",
-        "pos": "adjective",
-        "definition": "neither extreme nor excessive",
-        "sentence": "The narrator expresses moderate optimism rather than complete confidence."
-      },
-      {
-        "word": "peripheral",
-        "pos": "adjective",
-        "definition": "outside the central or most important area",
-        "sentence": "The author removes peripheral details to keep the argument focused."
-      },
-      {
-        "word": "substantial",
-        "pos": "adjective",
-        "definition": "large or important in amount, extent, or degree",
-        "sentence": "The revised plan requires a substantial investment of time."
-      },
-      {
-        "word": "wholly",
-        "pos": "adverb",
-        "definition": "entirely or completely",
-        "sentence": "The second account is not wholly consistent with the first."
-      }
+      "approximate",
+      "constitute",
+      "disproportionate",
+      "exceed",
+      "finite",
+      "insignificant",
+      "moderate",
+      "peripheral",
+      "substantial",
+      "wholly"
     ]
   },
   {
     "title": "Sources and knowledge",
     "words": [
-      {
-        "word": "cite",
-        "pos": "verb",
-        "definition": "refer to a source or example as support",
-        "sentence": "The essay should cite the document that supports its claim."
-      },
-      {
-        "word": "credible",
-        "pos": "adjective",
-        "definition": "worthy of belief or trust",
-        "sentence": "The editor looks for a credible source with direct knowledge of the event."
-      },
-      {
-        "word": "disclose",
-        "pos": "verb",
-        "definition": "make previously unknown information available",
-        "sentence": "The narrator chooses to disclose the secret only in the final chapter."
-      },
-      {
-        "word": "extrapolate",
-        "pos": "verb",
-        "definition": "estimate beyond known information by extending an observed pattern",
-        "sentence": "The small sample may not allow us to extrapolate to the whole population."
-      },
-      {
-        "word": "intrinsic",
-        "pos": "adjective",
-        "definition": "belonging to the essential nature of something",
-        "sentence": "The essay distinguishes intrinsic value from usefulness to others."
-      },
-      {
-        "word": "pertinent",
-        "pos": "adjective",
-        "definition": "directly applicable to the question at hand",
-        "sentence": "The witness offers a pertinent detail about the missing key."
-      },
-      {
-        "word": "recollect",
-        "pos": "verb",
-        "definition": "remember something from the past",
-        "sentence": "The narrator tries to recollect the exact words of the promise."
-      },
-      {
-        "word": "specious",
-        "pos": "adjective",
-        "definition": "appearing convincing but actually unsound",
-        "sentence": "The critic exposes a specious argument by identifying its hidden assumption."
-      },
-      {
-        "word": "tangible",
-        "pos": "adjective",
-        "definition": "able to be touched or clearly observed",
-        "sentence": "The repaired roof provides tangible evidence that the work has begun."
-      },
-      {
-        "word": "verify",
-        "pos": "verb",
-        "definition": "check that something is true or accurate",
-        "sentence": "The assistant will verify the total against the original receipts."
-      }
+      "cite",
+      "credible",
+      "disclose",
+      "extrapolate",
+      "intrinsic",
+      "pertinent",
+      "recollect",
+      "specious",
+      "tangible",
+      "verify"
     ]
   },
   {
     "title": "Process and organization",
     "words": [
-      {
-        "word": "arbitrary",
-        "pos": "adjective",
-        "definition": "chosen without a consistent reason or system",
-        "sentence": "The reviewer objects to an arbitrary rule that changes between cases."
-      },
-      {
-        "word": "coincide",
-        "pos": "verb",
-        "definition": "occur at the same time or correspond closely",
-        "sentence": "The two accounts coincide on the sequence of the main events."
-      },
-      {
-        "word": "distribute",
-        "pos": "verb",
-        "definition": "divide or spread something among people or places",
-        "sentence": "The volunteers will distribute the materials evenly among the tables."
-      },
-      {
-        "word": "facilitate",
-        "pos": "verb",
-        "definition": "make an action or process easier",
-        "sentence": "A clear index can facilitate a search through the records."
-      },
-      {
-        "word": "indispensable",
-        "pos": "adjective",
-        "definition": "absolutely necessary",
-        "sentence": "The narrator regards the old notebook as indispensable to her investigation."
-      },
-      {
-        "word": "interval",
-        "pos": "noun",
-        "definition": "a space or period between two points or events",
-        "sentence": "The experiment repeats each observation at a fixed interval."
-      },
-      {
-        "word": "preliminary",
-        "pos": "adjective",
-        "definition": "coming before the main action or final result",
-        "sentence": "The report presents preliminary findings that require further checking."
-      },
-      {
-        "word": "regulate",
-        "pos": "verb",
-        "definition": "control or direct through rules or a mechanism",
-        "sentence": "The device uses a valve to regulate the flow in the model."
-      },
-      {
-        "word": "sequential",
-        "pos": "adjective",
-        "definition": "arranged in a particular order",
-        "sentence": "The diagram presents the instructions as sequential steps."
-      },
-      {
-        "word": "transition",
-        "pos": "noun",
-        "definition": "a change or movement from one state or stage to another",
-        "sentence": "The final scene marks a transition from uncertainty to confidence."
-      }
+      "arbitrary",
+      "coincide",
+      "distribute",
+      "facilitate",
+      "indispensable",
+      "interval",
+      "preliminary",
+      "regulate",
+      "sequential",
+      "transition"
     ]
   },
   {
     "title": "Stance and emotion",
     "words": [
-      {
-        "word": "apprehensive",
-        "pos": "adjective",
-        "definition": "anxious about something that may happen",
-        "sentence": "The apprentice feels apprehensive before her first public performance."
-      },
-      {
-        "word": "contempt",
-        "pos": "noun",
-        "definition": "a feeling that someone or something is unworthy of respect",
-        "sentence": "The character’s contempt is clear in his dismissive response."
-      },
-      {
-        "word": "detached",
-        "pos": "adjective",
-        "definition": "not emotionally involved in the subject",
-        "sentence": "The narrator maintains a detached tone while describing the dispute."
-      },
-      {
-        "word": "emphatic",
-        "pos": "adjective",
-        "definition": "expressed with strong force or certainty",
-        "sentence": "The speaker gives an emphatic denial of the accusation."
-      },
-      {
-        "word": "gratuitous",
-        "pos": "adjective",
-        "definition": "unnecessary and lacking a good reason",
-        "sentence": "The editor removes a gratuitous insult that adds nothing to the argument."
-      },
-      {
-        "word": "indignant",
-        "pos": "adjective",
-        "definition": "angry because of perceived unfairness",
-        "sentence": "The worker sounds indignant when describing the unequal treatment."
-      },
-      {
-        "word": "optimistic",
-        "pos": "adjective",
-        "definition": "hopeful about future outcomes",
-        "sentence": "The final paragraph is optimistic about the unfinished project."
-      },
-      {
-        "word": "reluctant",
-        "pos": "adjective",
-        "definition": "unwilling or hesitant to act",
-        "sentence": "The witness is reluctant to discuss the missing letter."
-      },
-      {
-        "word": "solemn",
-        "pos": "adjective",
-        "definition": "serious and dignified",
-        "sentence": "The ceremony gives the opening scene a solemn atmosphere."
-      },
-      {
-        "word": "wry",
-        "pos": "adjective",
-        "definition": "showing dry or gently ironic humor",
-        "sentence": "The narrator makes a wry observation about his own mistake."
-      }
+      "apprehensive",
+      "contempt",
+      "detached",
+      "emphatic",
+      "gratuitous",
+      "indignant",
+      "optimistic",
+      "reluctant",
+      "solemn",
+      "wry"
     ]
   },
   {
     "title": "Effort and influence",
     "words": [
-      {
-        "word": "alleviate",
-        "pos": "verb",
-        "definition": "make pain, difficulty, or suffering less severe",
-        "sentence": "A simpler schedule could alleviate the pressure on the small staff."
-      },
-      {
-        "word": "compensate",
-        "pos": "verb",
-        "definition": "make up for a loss or disadvantage",
-        "sentence": "Extra preparation may compensate for the team’s limited rehearsal time."
-      },
-      {
-        "word": "deter",
-        "pos": "verb",
-        "definition": "discourage someone from an action",
-        "sentence": "The warning is meant to deter visitors from touching the display."
-      },
-      {
-        "word": "engender",
-        "pos": "verb",
-        "definition": "cause a feeling, condition, or situation to develop",
-        "sentence": "Conflicting explanations can engender doubt among readers."
-      },
-      {
-        "word": "impetus",
-        "pos": "noun",
-        "definition": "a force or reason that prompts action",
-        "sentence": "The unexpected discovery provides the impetus for a new investigation."
-      },
-      {
-        "word": "leverage",
-        "pos": "verb",
-        "definition": "use an existing advantage to achieve a result",
-        "sentence": "The club hopes to leverage its experience to organize a larger event."
-      },
-      {
-        "word": "persevere",
-        "pos": "verb",
-        "definition": "continue trying despite difficulty",
-        "sentence": "The apprentice chooses to persevere after the first design fails."
-      },
-      {
-        "word": "reinforce",
-        "pos": "verb",
-        "definition": "make an existing idea, behavior, or structure stronger",
-        "sentence": "The final example helps reinforce the essay’s central contrast."
-      },
-      {
-        "word": "suppress",
-        "pos": "verb",
-        "definition": "prevent the expression, development, or release of something",
-        "sentence": "The ruler in the novel tries to suppress criticism of the decree."
-      },
-      {
-        "word": "withstand",
-        "pos": "verb",
-        "definition": "resist or endure an opposing force or difficulty",
-        "sentence": "The model bridge must withstand the weight specified in the instructions."
-      }
+      "alleviate",
+      "compensate",
+      "deter",
+      "engender",
+      "impetus",
+      "leverage",
+      "persevere",
+      "reinforce",
+      "suppress",
+      "withstand"
     ]
   },
   {
     "title": "Describing ideas",
     "words": [
-      {
-        "word": "austere",
-        "pos": "adjective",
-        "definition": "plain and without unnecessary decoration",
-        "sentence": "The stage has an austere design with only a chair and a lamp."
-      },
-      {
-        "word": "convoluted",
-        "pos": "adjective",
-        "definition": "unnecessarily complicated or difficult to follow",
-        "sentence": "The reviewer replaces the convoluted explanation with a clearer sequence."
-      },
-      {
-        "word": "dogmatic",
-        "pos": "adjective",
-        "definition": "expressing beliefs as unquestionable facts",
-        "sentence": "The narrator’s dogmatic statements leave no room for alternative views."
-      },
-      {
-        "word": "eccentric",
-        "pos": "adjective",
-        "definition": "unconventional or noticeably unusual",
-        "sentence": "The story introduces an eccentric inventor with an unusual daily routine."
-      },
-      {
-        "word": "incongruous",
-        "pos": "adjective",
-        "definition": "not fitting well with the surrounding situation",
-        "sentence": "The cheerful music seems incongruous in the otherwise somber scene."
-      },
-      {
-        "word": "meager",
-        "pos": "adjective",
-        "definition": "small in quantity or inadequate",
-        "sentence": "The character must complete the journey with meager supplies."
-      },
-      {
-        "word": "ornate",
-        "pos": "adjective",
-        "definition": "elaborately decorated",
-        "sentence": "An ornate frame surrounds the otherwise simple drawing."
-      },
-      {
-        "word": "plausibility",
-        "pos": "noun",
-        "definition": "the quality of seeming reasonable or believable",
-        "sentence": "The missing evidence weakens the plausibility of the explanation."
-      },
-      {
-        "word": "succinct",
-        "pos": "adjective",
-        "definition": "briefly and clearly expressed",
-        "sentence": "The speaker gives a succinct answer instead of repeating the full argument."
-      },
-      {
-        "word": "vivid",
-        "pos": "adjective",
-        "definition": "producing a strong, clear impression",
-        "sentence": "The writer uses vivid details to bring the imagined street to life."
-      }
+      "austere",
+      "convoluted",
+      "dogmatic",
+      "eccentric",
+      "incongruous",
+      "meager",
+      "ornate",
+      "plausibility",
+      "succinct",
+      "vivid"
     ]
   },
   {
     "title": "Distinctions",
     "words": [
-      {
-        "word": "accentuate",
-        "pos": "verb",
-        "definition": "make a feature more noticeable or prominent",
-        "sentence": "The dark background helps accentuate the pale lines of the drawing."
-      },
-      {
-        "word": "credulous",
-        "pos": "adjective",
-        "definition": "too ready to believe claims without sufficient evidence",
-        "sentence": "The narrator warns that a credulous audience may accept the rumor."
-      },
-      {
-        "word": "diffuse",
-        "pos": "adjective",
-        "definition": "spread out rather than concentrated in one place",
-        "sentence": "The lamp produces a diffuse glow across the room."
-      },
-      {
-        "word": "evoke",
-        "pos": "verb",
-        "definition": "bring a feeling, image, or memory to mind",
-        "sentence": "The description aims to evoke the stillness of the imagined landscape."
-      },
-      {
-        "word": "homogeneous",
-        "pos": "adjective",
-        "definition": "made up of elements that are alike in relevant ways",
-        "sentence": "The author questions whether the sample is too homogeneous to represent the community."
-      },
-      {
-        "word": "inconclusive",
-        "pos": "adjective",
-        "definition": "not providing a definite answer or resolution",
-        "sentence": "The evidence is inconclusive, so the investigators reserve judgment."
-      },
-      {
-        "word": "obsolete",
-        "pos": "adjective",
-        "definition": "no longer used or useful because something has replaced it",
-        "sentence": "In the story, the old machine becomes obsolete after the workshop changes."
-      },
-      {
-        "word": "quantify",
-        "pos": "verb",
-        "definition": "express or measure something as a number or amount",
-        "sentence": "The team needs a consistent scale to quantify the observed changes."
-      },
-      {
-        "word": "prudent",
-        "pos": "adjective",
-        "definition": "showing careful judgment about possible consequences",
-        "sentence": "It would be prudent to check the measurements before cutting the material."
-      },
-      {
-        "word": "trivial",
-        "pos": "adjective",
-        "definition": "of little importance or significance",
-        "sentence": "The narrator dismisses the spelling difference as trivial to the dispute."
-      }
+      "accentuate",
+      "credulous",
+      "diffuse",
+      "evoke",
+      "homogeneous",
+      "inconclusive",
+      "obsolete",
+      "quantify",
+      "prudent",
+      "trivial"
     ]
   },
   {
     "title": "Working with ideas",
     "words": [
-      {
-        "word": "adept",
-        "pos": "adjective",
-        "definition": "highly skilled at a particular activity",
-        "sentence": "The character is adept at noticing inconsistencies in written accounts."
-      },
-      {
-        "word": "challenge",
-        "pos": "verb",
-        "definition": "question the truth, authority, or validity of something",
-        "sentence": "The new evidence may challenge the accepted interpretation of the scene."
-      },
-      {
-        "word": "comprise",
-        "pos": "verb",
-        "definition": "consist of particular parts or members",
-        "sentence": "The fictional author’s final collection will comprise ten short essays."
-      },
-      {
-        "word": "defer",
-        "pos": "verb",
-        "definition": "postpone an action or decision until a later time",
-        "sentence": "The committee will defer its decision until the missing report arrives."
-      },
-      {
-        "word": "erratic",
-        "pos": "adjective",
-        "definition": "irregular and unpredictable in behavior or movement",
-        "sentence": "The diary records an erratic pattern of attendance at rehearsals."
-      },
-      {
-        "word": "harbor",
-        "pos": "verb",
-        "definition": "hold a feeling or thought privately",
-        "sentence": "The narrator continues to harbor doubts about the official explanation."
-      },
-      {
-        "word": "incentive",
-        "pos": "noun",
-        "definition": "something that encourages a person to act",
-        "sentence": "The prize gives the characters an incentive to complete the difficult task."
-      },
-      {
-        "word": "notion",
-        "pos": "noun",
-        "definition": "an idea, belief, or conception",
-        "sentence": "The essay questions the notion that popularity guarantees quality."
-      },
-      {
-        "word": "salient",
-        "pos": "adjective",
-        "definition": "especially noticeable or important in the situation",
-        "sentence": "The summary identifies the most salient differences between the accounts."
-      },
-      {
-        "word": "tenuous",
-        "pos": "adjective",
-        "definition": "weak or lacking a firm basis",
-        "sentence": "The argument relies on a tenuous connection between unrelated events."
-      }
+      "adept",
+      "challenge",
+      "comprise",
+      "defer",
+      "erratic",
+      "harbor",
+      "incentive",
+      "notion",
+      "salient",
+      "tenuous"
     ]
   },
   {
     "title": "Collaboration and inquiry",
     "words": [
-      {
-        "word": "adversarial",
-        "pos": "adjective",
-        "definition": "involving opposing sides in conflict",
-        "sentence": "The dialogue becomes adversarial when each speaker rejects the other’s evidence."
-      },
-      {
-        "word": "catalyst",
-        "pos": "noun",
-        "definition": "something that causes or speeds a significant change",
-        "sentence": "The lost letter becomes a catalyst for the character’s investigation."
-      },
-      {
-        "word": "consensus",
-        "pos": "noun",
-        "definition": "general agreement among members of a group",
-        "sentence": "The committee reaches a consensus after discussing several alternatives."
-      },
-      {
-        "word": "deviation",
-        "pos": "noun",
-        "definition": "a departure from an expected course, rule, or pattern",
-        "sentence": "The unusual result represents a deviation from the earlier observations."
-      },
-      {
-        "word": "encompass",
-        "pos": "verb",
-        "definition": "include a range of things within a larger whole",
-        "sentence": "The exhibition will encompass paintings, sketches, and unfinished designs."
-      },
-      {
-        "word": "improvise",
-        "pos": "verb",
-        "definition": "create or perform without a fully prepared plan",
-        "sentence": "The actors must improvise when a prop disappears during the scene."
-      },
-      {
-        "word": "manifest",
-        "pos": "adjective",
-        "definition": "clear and readily apparent",
-        "sentence": "The character’s disappointment is manifest in her silence and lowered gaze."
-      },
-      {
-        "word": "neutral",
-        "pos": "adjective",
-        "definition": "not supporting either side of a dispute",
-        "sentence": "The moderator remains neutral while inviting each speaker to explain."
-      },
-      {
-        "word": "replicate",
-        "pos": "verb",
-        "definition": "repeat a procedure or reproduce a result",
-        "sentence": "Another team will try to replicate the experiment using the same method."
-      },
-      {
-        "word": "scrutinize",
-        "pos": "verb",
-        "definition": "examine very closely and critically",
-        "sentence": "The editor will scrutinize every quotation before publication."
-      }
+      "adversarial",
+      "catalyst",
+      "consensus",
+      "deviation",
+      "encompass",
+      "improvise",
+      "manifest",
+      "neutral",
+      "replicate",
+      "scrutinize"
     ]
   },
   {
     "title": "Limits of evidence",
     "words": [
-      {
-        "word": "anomaly",
-        "pos": "noun",
-        "definition": "something that differs from the expected pattern",
-        "sentence": "The single unusually high reading is an anomaly in the data set."
-      },
-      {
-        "word": "contingent",
-        "pos": "adjective",
-        "definition": "dependent on a condition being met",
-        "sentence": "The trip is contingent on enough volunteers being available."
-      },
-      {
-        "word": "criterion",
-        "pos": "noun",
-        "definition": "a standard used to judge or decide something",
-        "sentence": "Clarity is one criterion the panel uses to evaluate each explanation."
-      },
-      {
-        "word": "definitive",
-        "pos": "adjective",
-        "definition": "providing a final or authoritative resolution",
-        "sentence": "The missing records prevent the historian from giving a definitive answer."
-      },
-      {
-        "word": "enduring",
-        "pos": "adjective",
-        "definition": "lasting for a long time",
-        "sentence": "The story explores the enduring influence of a childhood promise."
-      },
-      {
-        "word": "inhibit",
-        "pos": "verb",
-        "definition": "hinder or restrain a process or action",
-        "sentence": "The cramped workspace could inhibit movement during the demonstration."
-      },
-      {
-        "word": "malleable",
-        "pos": "adjective",
-        "definition": "capable of being shaped or changed",
-        "sentence": "The sculptor chooses a malleable material that can be reshaped easily."
-      },
-      {
-        "word": "presume",
-        "pos": "verb",
-        "definition": "accept something as true without conclusive proof",
-        "sentence": "We should not presume that the two narrators witnessed the same event."
-      },
-      {
-        "word": "rebut",
-        "pos": "verb",
-        "definition": "respond to an argument with opposing evidence or reasoning",
-        "sentence": "The second speaker will rebut the objection by citing the original rule."
-      },
-      {
-        "word": "utility",
-        "pos": "noun",
-        "definition": "practical usefulness",
-        "sentence": "The review considers the utility of the index for readers seeking specific topics."
-      }
+      "anomaly",
+      "contingent",
+      "criterion",
+      "definitive",
+      "enduring",
+      "inhibit",
+      "malleable",
+      "presume",
+      "rebut",
+      "utility"
     ]
   },
   {
     "title": "Describing decisions",
     "words": [
-      {
-        "word": "accord",
-        "pos": "noun",
-        "definition": "agreement or harmony between people or ideas",
-        "sentence": "The two accounts are in accord about the time of the meeting."
-      },
-      {
-        "word": "cognitive",
-        "pos": "adjective",
-        "definition": "relating to mental processes such as thinking and remembering",
-        "sentence": "The discussion concerns the cognitive effort required to follow the instructions."
-      },
-      {
-        "word": "defy",
-        "pos": "verb",
-        "definition": "openly resist or fail to conform to something",
-        "sentence": "The protagonist decides to defy the order and continue the search."
-      },
-      {
-        "word": "economical",
-        "pos": "adjective",
-        "definition": "using no more resources or words than necessary",
-        "sentence": "The reviewer praises the economical prose for conveying much in a few lines."
-      },
-      {
-        "word": "endorse",
-        "pos": "verb",
-        "definition": "express approval or support for something",
-        "sentence": "The committee will endorse the proposal if the budget is revised."
-      },
-      {
-        "word": "inadvertent",
-        "pos": "adjective",
-        "definition": "unintentional or accidental",
-        "sentence": "The letter was sent to the wrong office because of an inadvertent error."
-      },
-      {
-        "word": "legitimate",
-        "pos": "adjective",
-        "definition": "justified, acceptable, or in accordance with established rules",
-        "sentence": "The passage raises a legitimate concern about the missing evidence."
-      },
-      {
-        "word": "perplex",
-        "pos": "verb",
-        "definition": "cause confusion or uncertainty",
-        "sentence": "The conflicting dates perplex the student reading the two records."
-      },
-      {
-        "word": "redundancy",
-        "pos": "noun",
-        "definition": "unnecessary repetition of information or function",
-        "sentence": "The editor removes redundancy by deleting the repeated explanation."
-      },
-      {
-        "word": "revise",
-        "pos": "verb",
-        "definition": "change a text or plan to improve or correct it",
-        "sentence": "The writer will revise the conclusion after considering the criticism."
-      }
+      "accord",
+      "cognitive",
+      "defy",
+      "economical",
+      "endorse",
+      "inadvertent",
+      "legitimate",
+      "perplex",
+      "redundancy",
+      "revise"
     ]
   },
   {
     "title": "Outcomes and effort",
     "words": [
-      {
-        "word": "attain",
-        "pos": "verb",
-        "definition": "succeed in reaching a goal or level",
-        "sentence": "The apprentice hopes to attain the skill needed for the final design."
-      },
-      {
-        "word": "consolidate",
-        "pos": "verb",
-        "definition": "combine separate things into a more unified whole",
-        "sentence": "The librarian will consolidate the scattered records into one catalog."
-      },
-      {
-        "word": "deplete",
-        "pos": "verb",
-        "definition": "use up or greatly reduce an available supply",
-        "sentence": "The long rehearsal could deplete the batteries in the recording device."
-      },
-      {
-        "word": "enumerate",
-        "pos": "verb",
-        "definition": "list items individually or count them one by one",
-        "sentence": "The report will enumerate the steps taken during the inspection."
-      },
-      {
-        "word": "futile",
-        "pos": "adjective",
-        "definition": "unlikely to achieve the intended result",
-        "sentence": "The character realizes that searching the already emptied room is futile."
-      },
-      {
-        "word": "insight",
-        "pos": "noun",
-        "definition": "a clear understanding of an underlying feature or problem",
-        "sentence": "The comparison offers insight into the narrator’s changing priorities."
-      },
-      {
-        "word": "modest",
-        "pos": "adjective",
-        "definition": "limited in size, amount, or ambition",
-        "sentence": "The project begins with a modest goal of cataloging one shelf."
-      },
-      {
-        "word": "polarize",
-        "pos": "verb",
-        "definition": "divide people or opinions into strongly opposing groups",
-        "sentence": "The proposal threatens to polarize the fictional council."
-      },
-      {
-        "word": "relieve",
-        "pos": "verb",
-        "definition": "reduce a burden, pressure, or uncomfortable condition",
-        "sentence": "Additional staff could relieve the pressure on the two volunteers."
-      },
-      {
-        "word": "transform",
-        "pos": "verb",
-        "definition": "change something substantially in form or character",
-        "sentence": "The final discovery will transform the reader’s view of the narrator."
-      }
+      "attain",
+      "consolidate",
+      "deplete",
+      "enumerate",
+      "futile",
+      "insight",
+      "modest",
+      "polarize",
+      "relieve",
+      "transform"
     ]
   },
   {
     "title": "Standards and independence",
     "words": [
-      {
-        "word": "authentic",
-        "pos": "adjective",
-        "definition": "genuine rather than copied, false, or artificial",
-        "sentence": "The curator must determine whether the signature is authentic."
-      },
-      {
-        "word": "constraint",
-        "pos": "noun",
-        "definition": "a limit or restriction on action",
-        "sentence": "The small budget is a constraint on the set designer’s choices."
-      },
-      {
-        "word": "determine",
-        "pos": "verb",
-        "definition": "establish something through investigation or reasoning",
-        "sentence": "The team will determine the length by comparing the marked scale."
-      },
-      {
-        "word": "eminent",
-        "pos": "adjective",
-        "definition": "widely respected and distinguished in a field",
-        "sentence": "The story introduces an eminent scholar who is asked to examine the manuscript."
-      },
-      {
-        "word": "independent",
-        "pos": "adjective",
-        "definition": "not controlled by or relying on another in the relevant respect",
-        "sentence": "The reviewer seeks an independent assessment from someone outside the project."
-      },
-      {
-        "word": "judicious",
-        "pos": "adjective",
-        "definition": "showing sound and careful judgment",
-        "sentence": "A judicious selection of examples makes the argument clearer."
-      },
-      {
-        "word": "mutual",
-        "pos": "adjective",
-        "definition": "shared or experienced by each of two or more parties",
-        "sentence": "The dialogue gradually reveals the characters’ mutual respect."
-      },
-      {
-        "word": "prospective",
-        "pos": "adjective",
-        "definition": "expected or possible in the future",
-        "sentence": "The brochure answers questions from prospective members of the club."
-      },
-      {
-        "word": "rigid",
-        "pos": "adjective",
-        "definition": "not flexible or willing to change",
-        "sentence": "The fictional council follows a rigid procedure despite changing conditions."
-      },
-      {
-        "word": "tolerance",
-        "pos": "noun",
-        "definition": "willingness to accept differences or permit something within limits",
-        "sentence": "The narrator admires the teacher’s tolerance for disagreement."
-      }
+      "authentic",
+      "constraint",
+      "determine",
+      "eminent",
+      "independent",
+      "judicious",
+      "mutual",
+      "prospective",
+      "rigid",
+      "tolerance"
     ]
   },
   {
     "title": "Patterns and causes",
     "words": [
-      {
-        "word": "anticipate",
-        "pos": "verb",
-        "definition": "expect or prepare for something before it happens",
-        "sentence": "The group tries to anticipate questions that visitors might ask."
-      },
-      {
-        "word": "correlation",
-        "pos": "noun",
-        "definition": "a relationship in which two variables tend to change together",
-        "sentence": "The graph suggests a correlation without showing that one factor causes the other."
-      },
-      {
-        "word": "deviate",
-        "pos": "verb",
-        "definition": "depart from an expected course or standard",
-        "sentence": "The later chapters deviate from the pattern established at the beginning."
-      },
-      {
-        "word": "exert",
-        "pos": "verb",
-        "definition": "apply a force, influence, or effort",
-        "sentence": "The character tries to exert influence over the committee’s decision."
-      },
-      {
-        "word": "intermittent",
-        "pos": "adjective",
-        "definition": "stopping and starting at intervals",
-        "sentence": "The scene is interrupted by intermittent sounds from the hallway."
-      },
-      {
-        "word": "mechanism",
-        "pos": "noun",
-        "definition": "a process or arrangement through which something works",
-        "sentence": "The diagram explains the mechanism that opens the model gate."
-      },
-      {
-        "word": "predict",
-        "pos": "verb",
-        "definition": "state what is expected to happen in the future",
-        "sentence": "The pattern allows the team to predict the next value in the sequence."
-      },
-      {
-        "word": "recur",
-        "pos": "verb",
-        "definition": "happen again or repeatedly",
-        "sentence": "Images of closed doors recur throughout the story."
-      },
-      {
-        "word": "threshold",
-        "pos": "noun",
-        "definition": "a point at which a condition begins or changes",
-        "sentence": "The instructions specify the threshold at which the alarm should activate."
-      },
-      {
-        "word": "underlying",
-        "pos": "adjective",
-        "definition": "forming a less obvious basis or cause",
-        "sentence": "The final paragraph identifies the underlying assumption behind the disagreement."
-      }
+      "anticipate",
+      "correlation",
+      "deviate",
+      "exert",
+      "intermittent",
+      "mechanism",
+      "predict",
+      "recur",
+      "threshold",
+      "underlying"
     ]
   },
   {
     "title": "Communication",
     "words": [
-      {
-        "word": "articulate",
-        "pos": "verb",
-        "definition": "express an idea clearly in words",
-        "sentence": "The speaker must articulate why the distinction matters."
-      },
-      {
-        "word": "complement",
-        "pos": "verb",
-        "definition": "add something that completes or improves another thing",
-        "sentence": "The diagrams complement the written directions by showing each step."
-      },
-      {
-        "word": "dispute",
-        "pos": "verb",
-        "definition": "question or argue against a claim",
-        "sentence": "The second account does not dispute the date, only the location."
-      },
-      {
-        "word": "elliptical",
-        "pos": "adjective",
-        "definition": "leaving things unstated and requiring the reader to infer connections",
-        "sentence": "The character’s elliptical reply hints at a problem without naming it."
-      },
-      {
-        "word": "illustrate",
-        "pos": "verb",
-        "definition": "make an idea clear by giving an example or image",
-        "sentence": "The author uses a short anecdote to illustrate the principle."
-      },
-      {
-        "word": "literal",
-        "pos": "adjective",
-        "definition": "following the ordinary direct meaning of words",
-        "sentence": "The phrase has a literal meaning as well as a symbolic one."
-      },
-      {
-        "word": "paraphrase",
-        "pos": "verb",
-        "definition": "express the meaning of a text in different words",
-        "sentence": "The student will paraphrase the argument before responding to it."
-      },
-      {
-        "word": "receptive",
-        "pos": "adjective",
-        "definition": "willing to consider new ideas or suggestions",
-        "sentence": "The editor is receptive to criticism and asks for specific examples."
-      },
-      {
-        "word": "satirical",
-        "pos": "adjective",
-        "definition": "using humor or irony to expose faults",
-        "sentence": "The satirical dialogue mocks the invented council’s pointless procedures."
-      },
-      {
-        "word": "terse",
-        "pos": "adjective",
-        "definition": "very brief in expression, sometimes seeming abrupt",
-        "sentence": "The narrator receives a terse reply containing only two words."
-      }
+      "articulate",
+      "complement",
+      "dispute",
+      "elliptical",
+      "illustrate",
+      "literal",
+      "paraphrase",
+      "receptive",
+      "satirical",
+      "terse"
     ]
   },
   {
     "title": "Careful distinctions",
     "words": [
-      {
-        "word": "alienate",
-        "pos": "verb",
-        "definition": "cause someone to feel isolated or estranged",
-        "sentence": "The leader’s dismissive tone may alienate the volunteers."
-      },
-      {
-        "word": "conjecture",
-        "pos": "noun",
-        "definition": "an explanation or conclusion based on incomplete evidence",
-        "sentence": "Without the final page, the proposed ending remains a conjecture."
-      },
-      {
-        "word": "dispassionate",
-        "pos": "adjective",
-        "definition": "not influenced by strong emotion or personal feeling",
-        "sentence": "The narrator adopts a dispassionate tone when comparing the two accounts."
-      },
-      {
-        "word": "exacting",
-        "pos": "adjective",
-        "definition": "requiring great care, precision, or effort",
-        "sentence": "The restoration is an exacting task because the paper tears easily."
-      },
-      {
-        "word": "intuitive",
-        "pos": "adjective",
-        "definition": "understood through immediate feeling or perception rather than explicit reasoning",
-        "sentence": "The character has an intuitive sense that something is missing."
-      },
-      {
-        "word": "legible",
-        "pos": "adjective",
-        "definition": "clear enough to read",
-        "sentence": "Only a few words on the damaged note remain legible."
-      },
-      {
-        "word": "opaque",
-        "pos": "adjective",
-        "definition": "difficult to understand or see through",
-        "sentence": "The critic describes the explanation as opaque because its terms are undefined."
-      },
-      {
-        "word": "perceptive",
-        "pos": "adjective",
-        "definition": "quick to notice or understand significant details",
-        "sentence": "The perceptive reader notices a contradiction in the opening lines."
-      },
-      {
-        "word": "relinquish",
-        "pos": "verb",
-        "definition": "give up possession or control of something",
-        "sentence": "The character refuses to relinquish the notebook until the mystery is solved."
-      },
-      {
-        "word": "unequivocal",
-        "pos": "adjective",
-        "definition": "clear and leaving no reasonable doubt about the intended meaning",
-        "sentence": "The letter gives an unequivocal refusal rather than a conditional answer."
-      }
+      "alienate",
+      "conjecture",
+      "dispassionate",
+      "exacting",
+      "intuitive",
+      "legible",
+      "opaque",
+      "perceptive",
+      "relinquish",
+      "unequivocal"
     ]
   },
   {
     "title": "Familiar words in academic contexts",
     "words": [
-      {
-        "word": "address",
-        "pos": "verb",
-        "definition": "deal with or give attention to a matter",
-        "sentence": "The final paragraph will address the strongest objection to the proposal."
-      },
-      {
-        "word": "bear",
-        "pos": "verb",
-        "definition": "carry or support a burden or responsibility",
-        "sentence": "The committee must bear responsibility for the decision it made."
-      },
-      {
-        "word": "charge",
-        "pos": "noun",
-        "definition": "an accusation that someone has done something wrong",
-        "sentence": "The narrator denies the charge that she concealed the letter."
-      },
-      {
-        "word": "qualitative",
-        "pos": "adjective",
-        "definition": "describing qualities or characteristics rather than numerical amounts",
-        "sentence": "The report includes qualitative descriptions of how participants used the room."
-      },
-      {
-        "word": "qualm",
-        "pos": "noun",
-        "definition": "a feeling of doubt or unease about an action",
-        "sentence": "The character has a qualm about accepting credit for another person’s work."
-      },
-      {
-        "word": "register",
-        "pos": "verb",
-        "definition": "show or express a response or perception",
-        "sentence": "The actor’s face did not register surprise when the visitor arrived."
-      },
-      {
-        "word": "reserve",
-        "pos": "noun",
-        "definition": "restraint in showing feelings or sharing thoughts",
-        "sentence": "The narrator’s reserve makes her rare expressions of affection significant."
-      },
-      {
-        "word": "resolve",
-        "pos": "verb",
-        "definition": "settle a question, disagreement, or difficulty",
-        "sentence": "The missing record could resolve the dispute about the meeting."
-      },
-      {
-        "word": "scale",
-        "pos": "noun",
-        "definition": "the size or extent of something",
-        "sentence": "The diagram does not convey the full scale of the proposed structure."
-      },
-      {
-        "word": "yield",
-        "pos": "verb",
-        "definition": "produce or provide a result",
-        "sentence": "The comparison may yield an explanation for the different outcomes."
-      }
+      "address",
+      "bear",
+      "charge",
+      "qualitative",
+      "qualm",
+      "register",
+      "reserve",
+      "resolve",
+      "scale",
+      "yield"
     ]
   },
   {
     "title": "More familiar words in context",
     "words": [
-      {
-        "word": "check",
-        "pos": "verb",
-        "definition": "stop, limit, or restrain an action or development",
-        "sentence": "The committee introduces a rule intended to check excessive spending."
-      },
-      {
-        "word": "command",
-        "pos": "verb",
-        "definition": "have or receive a particular degree of respect or attention",
-        "sentence": "The speaker’s calm explanation can command the audience’s attention."
-      },
-      {
-        "word": "compound",
-        "pos": "verb",
-        "definition": "make an existing problem greater by adding to it",
-        "sentence": "A second delay would compound the difficulty of finishing on time."
-      },
-      {
-        "word": "concrete",
-        "pos": "adjective",
-        "definition": "specific and based on tangible details rather than abstractions",
-        "sentence": "The writer gives a concrete example instead of another general statement."
-      },
-      {
-        "word": "intimate",
-        "pos": "verb",
-        "definition": "suggest or hint at something indirectly",
-        "sentence": "The narrator will intimate that the visitor knows more than he admits."
-      },
-      {
-        "word": "issue",
-        "pos": "noun",
-        "definition": "a matter under discussion or in dispute",
-        "sentence": "The central issue is whether the original promise still applies."
-      },
-      {
-        "word": "minute",
-        "pos": "adjective",
-        "definition": "extremely small or precise in detail",
-        "sentence": "The drawing contains minute details that require close inspection."
-      },
-      {
-        "word": "object",
-        "pos": "verb",
-        "definition": "express opposition or disagreement",
-        "sentence": "The committee members object to the unexplained change in procedure."
-      },
-      {
-        "word": "pose",
-        "pos": "verb",
-        "definition": "present or create a question, challenge, or difficulty",
-        "sentence": "The missing measurements pose a problem for the final comparison."
-      },
-      {
-        "word": "reflect",
-        "pos": "verb",
-        "definition": "show or reveal a condition, idea, or influence",
-        "sentence": "The character’s response may reflect an earlier experience described in the story."
-      }
+      "check",
+      "command",
+      "compound",
+      "concrete",
+      "intimate",
+      "issue",
+      "minute",
+      "object",
+      "pose",
+      "reflect"
     ]
   },
   {
     "title": "Context changes meaning",
     "words": [
-      {
-        "word": "appreciate",
-        "pos": "verb",
-        "definition": "recognize the significance or full meaning of something",
-        "sentence": "The reader can appreciate the irony only after learning who wrote the note."
-      },
-      {
-        "word": "channel",
-        "pos": "verb",
-        "definition": "direct energy or resources toward a particular purpose",
-        "sentence": "The group will channel its effort into completing the unfinished catalog."
-      },
-      {
-        "word": "constitutive",
-        "pos": "adjective",
-        "definition": "helping to form or establish the essential character of something",
-        "sentence": "The essay treats shared rules as constitutive of the imagined community."
-      },
-      {
-        "word": "discriminating",
-        "pos": "adjective",
-        "definition": "showing careful judgment about subtle differences in quality",
-        "sentence": "The critic is a discriminating reader who notices differences between the drafts."
-      },
-      {
-        "word": "fine",
-        "pos": "adjective",
-        "definition": "subtle and requiring careful attention to distinguish",
-        "sentence": "The argument depends on a fine distinction between intention and result."
-      },
-      {
-        "word": "gravity",
-        "pos": "noun",
-        "definition": "seriousness or importance",
-        "sentence": "The silence in the room emphasizes the gravity of the decision."
-      },
-      {
-        "word": "maintain",
-        "pos": "verb",
-        "definition": "continue to assert that something is true",
-        "sentence": "The witness will maintain that the room was empty despite the conflicting account."
-      },
-      {
-        "word": "partial",
-        "pos": "adjective",
-        "definition": "favoring one side rather than judging impartially",
-        "sentence": "The narrator admits being partial to the friend who helped her."
-      },
-      {
-        "word": "temper",
-        "pos": "verb",
-        "definition": "moderate or soften the force of something",
-        "sentence": "The author uses a qualification to temper the earlier criticism."
-      },
-      {
-        "word": "undercut",
-        "pos": "verb",
-        "definition": "weaken the force or effectiveness of something",
-        "sentence": "The contradictory detail could undercut the narrator’s confident explanation."
-      }
+      "appreciate",
+      "channel",
+      "constitutive",
+      "discriminating",
+      "fine",
+      "gravity",
+      "maintain",
+      "partial",
+      "temper",
+      "undercut"
     ]
   },
   {
     "title": "Reading viewpoints",
     "words": [
-      {
-        "word": "apt",
-        "pos": "adjective",
-        "definition": "well suited or appropriate to the situation",
-        "sentence": "The reviewer finds the image of a maze an apt comparison for the plot."
-      },
-      {
-        "word": "capacity",
-        "pos": "noun",
-        "definition": "the ability to do, understand, or contain something",
-        "sentence": "The story explores the character’s capacity for forgiveness."
-      },
-      {
-        "word": "convention",
-        "pos": "noun",
-        "definition": "a widely accepted practice or rule in a particular context",
-        "sentence": "The play challenges the convention of keeping the narrator outside the action."
-      },
-      {
-        "word": "disposition",
-        "pos": "noun",
-        "definition": "a person’s usual tendency or temperament",
-        "sentence": "The protagonist’s cautious disposition influences every decision she makes."
-      },
-      {
-        "word": "enlighten",
-        "pos": "verb",
-        "definition": "give someone greater knowledge or understanding",
-        "sentence": "The added example should enlighten readers who found the first explanation confusing."
-      },
-      {
-        "word": "formulate",
-        "pos": "verb",
-        "definition": "develop and express an idea or plan precisely",
-        "sentence": "The team will formulate a testable explanation before beginning the trial."
-      },
-      {
-        "word": "implication",
-        "pos": "noun",
-        "definition": "a possible consequence or meaning that follows from something",
-        "sentence": "The final discovery has an important implication for the earlier argument."
-      },
-      {
-        "word": "prone",
-        "pos": "adjective",
-        "definition": "having a tendency or susceptibility to something",
-        "sentence": "The fictional inventor is prone to abandoning one design for another."
-      },
-      {
-        "word": "readily",
-        "pos": "adverb",
-        "definition": "easily or without hesitation",
-        "sentence": "The small label can be readily distinguished from the larger heading."
-      },
-      {
-        "word": "stance",
-        "pos": "noun",
-        "definition": "an attitude or position toward an issue",
-        "sentence": "The final paragraph clarifies the author’s stance on preserving the building."
-      }
+      "apt",
+      "capacity",
+      "convention",
+      "disposition",
+      "enlighten",
+      "formulate",
+      "implication",
+      "prone",
+      "readily",
+      "stance"
     ]
   },
   {
     "title": "Strength of conclusions",
     "words": [
-      {
-        "word": "absolute",
-        "pos": "adjective",
-        "definition": "complete or allowing no exceptions or limits",
-        "sentence": "The author challenges the absolute claim that every case follows the same rule."
-      },
-      {
-        "word": "compatible",
-        "pos": "adjective",
-        "definition": "able to exist or work together without conflict",
-        "sentence": "The new evidence is compatible with the earlier explanation."
-      },
-      {
-        "word": "dubious",
-        "pos": "adjective",
-        "definition": "doubtful or not clearly reliable",
-        "sentence": "The editor regards the unsigned account as a dubious source."
-      },
-      {
-        "word": "entail",
-        "pos": "verb",
-        "definition": "involve something as a necessary part or consequence",
-        "sentence": "Accepting the proposal would entail changing the existing schedule."
-      },
-      {
-        "word": "indeterminate",
-        "pos": "adjective",
-        "definition": "not definitely known, established, or fixed",
-        "sentence": "The date of the fictional manuscript remains indeterminate."
-      },
-      {
-        "word": "justification",
-        "pos": "noun",
-        "definition": "a reason or explanation that supports an action or belief",
-        "sentence": "The committee asks for a justification before approving the exception."
-      },
-      {
-        "word": "plentiful",
-        "pos": "adjective",
-        "definition": "available in large amounts",
-        "sentence": "In the imagined port, supplies are plentiful at the start of the story."
-      },
-      {
-        "word": "requisite",
-        "pos": "adjective",
-        "definition": "required for a particular purpose or situation",
-        "sentence": "The applicant must demonstrate the requisite skills for the role."
-      },
-      {
-        "word": "sole",
-        "pos": "adjective",
-        "definition": "the only one",
-        "sentence": "The diary is the sole source mentioned in the passage."
-      },
-      {
-        "word": "surmise",
-        "pos": "verb",
-        "definition": "form a conclusion based on limited evidence",
-        "sentence": "The reader may surmise why the character hesitates, but the text does not confirm it."
-      }
+      "absolute",
+      "compatible",
+      "dubious",
+      "entail",
+      "indeterminate",
+      "justification",
+      "plentiful",
+      "requisite",
+      "sole",
+      "surmise"
     ]
   },
   {
     "title": "Time and persistence",
     "words": [
-      {
-        "word": "abate",
-        "pos": "verb",
-        "definition": "become less intense or severe",
-        "sentence": "The narrator waits for the noise to abate before continuing the story."
-      },
-      {
-        "word": "chronological",
-        "pos": "adjective",
-        "definition": "arranged in the order in which events occur",
-        "sentence": "The biography presents the fictional artist’s work in chronological order."
-      },
-      {
-        "word": "durable",
-        "pos": "adjective",
-        "definition": "able to last or resist wear over time",
-        "sentence": "The model needs a durable hinge that can withstand repeated opening."
-      },
-      {
-        "word": "emergent",
-        "pos": "adjective",
-        "definition": "newly developing or becoming apparent",
-        "sentence": "The essay traces an emergent pattern in the character’s early choices."
-      },
-      {
-        "word": "fleeting",
-        "pos": "adjective",
-        "definition": "passing very quickly",
-        "sentence": "The narrator describes a fleeting glimpse of the figure in the doorway."
-      },
-      {
-        "word": "incessant",
-        "pos": "adjective",
-        "definition": "continuing without stopping or with very few pauses",
-        "sentence": "The character struggles to read amid the incessant noise of the workshop."
-      },
-      {
-        "word": "prolong",
-        "pos": "verb",
-        "definition": "make something last longer",
-        "sentence": "The extra discussion could prolong the meeting beyond its planned end."
-      },
-      {
-        "word": "recant",
-        "pos": "verb",
-        "definition": "formally withdraw a previously stated belief or claim",
-        "sentence": "The witness chooses to recant the accusation after discovering the missing note."
-      },
-      {
-        "word": "subsequent",
-        "pos": "adjective",
-        "definition": "coming after something else in time or order",
-        "sentence": "The subsequent chapter explains why the earlier account was incomplete."
-      },
-      {
-        "word": "waning",
-        "pos": "adjective",
-        "definition": "gradually becoming weaker or smaller",
-        "sentence": "The character’s waning enthusiasm is evident in her shorter journal entries."
-      }
+      "abate",
+      "chronological",
+      "durable",
+      "emergent",
+      "fleeting",
+      "incessant",
+      "prolong",
+      "recant",
+      "subsequent",
+      "waning"
     ]
   },
   {
     "title": "Complexity and order",
     "words": [
-      {
-        "word": "analogize",
-        "pos": "verb",
-        "definition": "explain or compare by drawing a similarity between things",
-        "sentence": "The author will analogize the revision process to reshaping a rough sculpture."
-      },
-      {
-        "word": "cohesion",
-        "pos": "noun",
-        "definition": "the quality of holding together as a connected whole",
-        "sentence": "Repeated images give the separate scenes a sense of cohesion."
-      },
-      {
-        "word": "dichotomy",
-        "pos": "noun",
-        "definition": "a division into two sharply contrasting parts or categories",
-        "sentence": "The critic questions the dichotomy between practical and imaginative work."
-      },
-      {
-        "word": "exposition",
-        "pos": "noun",
-        "definition": "an explanation or presentation of background information",
-        "sentence": "The opening scene provides exposition before the main conflict begins."
-      },
-      {
-        "word": "interdependent",
-        "pos": "adjective",
-        "definition": "depending on one another",
-        "sentence": "The fictional community’s workshops are interdependent because each supplies the others."
-      },
-      {
-        "word": "methodical",
-        "pos": "adjective",
-        "definition": "following an orderly and systematic procedure",
-        "sentence": "The investigator takes a methodical approach, checking one drawer at a time."
-      },
-      {
-        "word": "paradigm",
-        "pos": "noun",
-        "definition": "a model or framework that shapes how something is understood",
-        "sentence": "The discovery leads the character to question the prevailing paradigm."
-      },
-      {
-        "word": "restructure",
-        "pos": "verb",
-        "definition": "organize something in a different way",
-        "sentence": "The editor will restructure the essay so the evidence precedes the conclusion."
-      },
-      {
-        "word": "schematic",
-        "pos": "adjective",
-        "definition": "showing the main arrangement while omitting detailed appearance",
-        "sentence": "The instructions include a schematic drawing of the assembly."
-      },
-      {
-        "word": "unify",
-        "pos": "verb",
-        "definition": "bring separate parts into a single connected whole",
-        "sentence": "The repeated question helps unify the collection of essays."
-      }
+      "analogize",
+      "cohesion",
+      "dichotomy",
+      "exposition",
+      "interdependent",
+      "methodical",
+      "paradigm",
+      "restructure",
+      "schematic",
+      "unify"
     ]
   },
   {
     "title": "Action and response",
     "words": [
-      {
-        "word": "accommodate",
-        "pos": "verb",
-        "definition": "adjust something to make room for a need or difference",
-        "sentence": "The revised schedule will accommodate volunteers who arrive later."
-      },
-      {
-        "word": "coerce",
-        "pos": "verb",
-        "definition": "compel someone to act through force or threats",
-        "sentence": "The ruler tries to coerce the messenger into revealing the destination."
-      },
-      {
-        "word": "deflect",
-        "pos": "verb",
-        "definition": "turn something away from its original direction or focus",
-        "sentence": "The speaker uses humor to deflect attention from the unanswered question."
-      },
-      {
-        "word": "elicit",
-        "pos": "verb",
-        "definition": "draw out a response, information, or reaction",
-        "sentence": "The interviewer asks an open question to elicit a detailed response."
-      },
-      {
-        "word": "forestall",
-        "pos": "verb",
-        "definition": "prevent or delay something by acting in advance",
-        "sentence": "The team checks the equipment early to forestall problems during the demonstration."
-      },
-      {
-        "word": "instigate",
-        "pos": "verb",
-        "definition": "initiate or provoke an action or event",
-        "sentence": "The anonymous note may instigate a new round of questions."
-      },
-      {
-        "word": "placate",
-        "pos": "verb",
-        "definition": "make an angry or upset person calmer",
-        "sentence": "The manager offers an explanation to placate the impatient visitors."
-      },
-      {
-        "word": "reciprocate",
-        "pos": "verb",
-        "definition": "respond to an action with a corresponding action",
-        "sentence": "The character decides to reciprocate her neighbor’s kindness."
-      },
-      {
-        "word": "solicit",
-        "pos": "verb",
-        "definition": "ask for or seek something from others",
-        "sentence": "The committee will solicit suggestions before choosing a design."
-      },
-      {
-        "word": "usurp",
-        "pos": "verb",
-        "definition": "take a role or power without a proper right to it",
-        "sentence": "In the play, the adviser attempts to usurp the absent ruler’s authority."
-      }
+      "accommodate",
+      "coerce",
+      "deflect",
+      "elicit",
+      "forestall",
+      "instigate",
+      "placate",
+      "reciprocate",
+      "solicit",
+      "usurp"
     ]
   },
   {
     "title": "Care and accuracy",
     "words": [
-      {
-        "word": "adverse",
-        "pos": "adjective",
-        "definition": "unfavorable or harmful",
-        "sentence": "The fictional expedition continues despite adverse conditions along the route."
-      },
-      {
-        "word": "calibrate",
-        "pos": "verb",
-        "definition": "adjust a measuring instrument against a known standard",
-        "sentence": "The technician must calibrate the instrument before comparing the readings."
-      },
-      {
-        "word": "distort",
-        "pos": "verb",
-        "definition": "change something so it no longer represents the original accurately",
-        "sentence": "Leaving out the qualification would distort the author’s meaning."
-      },
-      {
-        "word": "elucidate",
-        "pos": "verb",
-        "definition": "make an idea or problem clear by explaining it",
-        "sentence": "The diagram helps elucidate the process described in the paragraph."
-      },
-      {
-        "word": "fidelity",
-        "pos": "noun",
-        "definition": "faithfulness to an original source, promise, or standard",
-        "sentence": "The critic praises the translation’s fidelity to the tone of the original poem."
-      },
-      {
-        "word": "incorporate",
-        "pos": "verb",
-        "definition": "include something as part of a larger whole",
-        "sentence": "The revised plan will incorporate suggestions from the volunteers."
-      },
-      {
-        "word": "legibility",
-        "pos": "noun",
-        "definition": "the quality of being clear enough to read",
-        "sentence": "The faded ink reduces the legibility of the handwritten note."
-      },
-      {
-        "word": "precision",
-        "pos": "noun",
-        "definition": "exactness in measurement or expression",
-        "sentence": "The editor values precision and replaces the vague phrase with a specific one."
-      },
-      {
-        "word": "rectify",
-        "pos": "verb",
-        "definition": "correct an error or put something right",
-        "sentence": "The team will rectify the mislabeled diagram before distributing the instructions."
-      },
-      {
-        "word": "validate",
-        "pos": "verb",
-        "definition": "confirm the soundness or accuracy of something through evidence or checking",
-        "sentence": "The reviewer needs additional evidence to validate the proposed interpretation."
-      }
+      "adverse",
+      "calibrate",
+      "distort",
+      "elucidate",
+      "fidelity",
+      "incorporate",
+      "legibility",
+      "precision",
+      "rectify",
+      "validate"
     ]
   },
   {
     "title": "Range and balance",
     "words": [
+      "accrue",
+      "brevity",
+      "contextualize",
+      "disparity",
+      "egalitarian",
+      "formative",
+      "induce",
+      "perfunctory",
+      "replenish",
+      "versatility"
+    ]
+  }
+];
+window.VOCABULARY_SETS = [
+  {
+    "title": "Recurring practice words",
+    "words": [
       {
-        "word": "accrue",
-        "pos": "verb",
-        "definition": "accumulate or increase over time",
-        "sentence": "Small benefits may accrue as the volunteers gain experience."
-      },
-      {
-        "word": "brevity",
-        "pos": "noun",
-        "definition": "shortness in duration or expression",
-        "sentence": "The reviewer admires the brevity of the explanation without finding it incomplete."
-      },
-      {
-        "word": "contextualize",
-        "pos": "verb",
-        "definition": "place something in its surrounding circumstances to clarify its meaning",
-        "sentence": "The introduction will contextualize the letter by describing the events that preceded it."
-      },
-      {
-        "word": "disparity",
-        "pos": "noun",
-        "definition": "a noticeable and often unequal difference between things",
-        "sentence": "The passage draws attention to the disparity in the two groups’ resources."
-      },
-      {
-        "word": "egalitarian",
+        "word": "accidental",
         "pos": "adjective",
-        "definition": "favoring equal rights or status for people",
-        "sentence": "The fictional club adopts an egalitarian rule that gives each member one vote."
+        "definition": "happening by chance rather than by design",
+        "sentence": "The accidental discovery changed the direction of the investigation.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "accidental"
+          },
+          {
+            "test": 9,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "accidental"
+          }
+        ],
+        "testCount": 2
       },
       {
-        "word": "formative",
+        "word": "common",
         "pos": "adjective",
-        "definition": "having an important influence on later development",
-        "sentence": "The narrator describes the apprenticeship as a formative experience."
+        "definition": "shared by many people or found in many places",
+        "sentence": "A common feature links the otherwise different paintings.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "common"
+          },
+          {
+            "test": 8,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "common"
+          }
+        ],
+        "testCount": 2
       },
       {
-        "word": "induce",
-        "pos": "verb",
-        "definition": "cause a state or lead someone to act",
-        "sentence": "The discovery could induce the committee to reconsider its decision."
-      },
-      {
-        "word": "perfunctory",
+        "word": "confident",
         "pos": "adjective",
-        "definition": "done routinely with little care or genuine attention",
-        "sentence": "The character offers a perfunctory apology and quickly changes the subject."
+        "definition": "feeling sure about an ability or conclusion",
+        "sentence": "The researcher was confident that the measurements were reliable.",
+        "sources": [
+          {
+            "test": 9,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "confident"
+          },
+          {
+            "test": 10,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "confident"
+          }
+        ],
+        "testCount": 2
       },
       {
-        "word": "replenish",
-        "pos": "verb",
-        "definition": "restore a supply by filling it again",
-        "sentence": "The volunteers must replenish the materials before the next session."
-      },
-      {
-        "word": "versatility",
+        "word": "evidence",
         "pos": "noun",
-        "definition": "the ability to perform many different tasks or functions",
-        "sentence": "The reviewer praises the performer’s versatility across several demanding roles."
+        "definition": "information that helps support or challenge a claim",
+        "sentence": "The letters provide evidence that the two writers exchanged ideas.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "evidence"
+          },
+          {
+            "test": 7,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "evidence"
+          }
+        ],
+        "testCount": 2
+      },
+      {
+        "word": "imaginative",
+        "pos": "adjective",
+        "definition": "showing creativity or the ability to invent new ideas",
+        "sentence": "Her imaginative design turned a narrow hallway into an inviting gallery.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "imaginative"
+          },
+          {
+            "test": 10,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "imaginative"
+          }
+        ],
+        "testCount": 2
+      },
+      {
+        "word": "indecipherable",
+        "pos": "adjective",
+        "definition": "impossible or very difficult to read or understand",
+        "sentence": "The faded handwriting was indecipherable even under a bright lamp.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "indecipherable"
+          },
+          {
+            "test": 9,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "indecipherable"
+          }
+        ],
+        "testCount": 2
+      },
+      {
+        "word": "intriguing",
+        "pos": "adjective",
+        "definition": "arousing curiosity or interest",
+        "sentence": "The intriguing pattern encouraged the students to investigate further.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "intriguing"
+          },
+          {
+            "test": 6,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "intriguing"
+          }
+        ],
+        "testCount": 2
+      },
+      {
+        "word": "neglect",
+        "pos": "verb",
+        "definition": "fail to give something the attention or care it needs",
+        "sentence": "A reader should not neglect the details that challenge an initial impression.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "neglect"
+          },
+          {
+            "test": 11,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "neglect"
+          }
+        ],
+        "testCount": 2
+      },
+      {
+        "word": "obvious",
+        "pos": "adjective",
+        "definition": "easy to see or understand",
+        "sentence": "The obvious difference between the drafts is the removal of the final paragraph.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "obvious"
+          },
+          {
+            "test": 7,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "obvious"
+          }
+        ],
+        "testCount": 2
+      },
+      {
+        "word": "recognizable",
+        "pos": "adjective",
+        "definition": "familiar enough to be identified",
+        "sentence": "The melody remained recognizable despite its slower tempo.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "recognizable"
+          },
+          {
+            "test": 5,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "recognizable"
+          }
+        ],
+        "testCount": 2
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 02",
+    "words": [
+      {
+        "word": "evaluate",
+        "pos": "verb",
+        "definition": "assess the quality, value, or importance of something",
+        "sentence": "The panel will evaluate each proposal using the same criteria.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "evaluate"
+          },
+          {
+            "test": 5,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "evaluated"
+          }
+        ],
+        "testCount": 2
+      },
+      {
+        "word": "substantial",
+        "pos": "adjective",
+        "definition": "large or important in amount, extent, or degree",
+        "sentence": "The revised plan requires a substantial investment of time.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "substantial"
+          },
+          {
+            "test": 8,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "substantial"
+          }
+        ],
+        "testCount": 2
+      },
+      {
+        "word": "adjust",
+        "pos": "verb",
+        "definition": "change something slightly to suit a need or condition",
+        "sentence": "The technician will adjust the lens to sharpen the image.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "adjust"
+          },
+          {
+            "test": 6,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "adjusted"
+          }
+        ],
+        "testCount": 2
+      },
+      {
+        "word": "reduce",
+        "pos": "verb",
+        "definition": "make something smaller in amount, degree, or size",
+        "sentence": "The revision will reduce the number of repeated examples.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "reduced"
+          },
+          {
+            "test": 11,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "reducing"
+          }
+        ],
+        "testCount": 2
+      },
+      {
+        "word": "ameliorate",
+        "pos": "verb",
+        "definition": "make a difficult or unpleasant situation better",
+        "sentence": "The new drainage system could ameliorate flooding near the entrance.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "ameliorate"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "analogous",
+        "pos": "adjective",
+        "definition": "similar in a way that makes a comparison useful",
+        "sentence": "The author presents an analogous situation to clarify the problem.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "analogous"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "annotate",
+        "pos": "verb",
+        "definition": "add explanatory notes or comments to a text",
+        "sentence": "The students annotate the passage to record questions about the argument.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 20,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "annotate"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "antecedent",
+        "pos": "noun",
+        "definition": "something that comes before and helps explain a later development",
+        "sentence": "The early sketch was an antecedent of the artist's later mural.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "antecedent"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "anticipate",
+        "pos": "verb",
+        "definition": "expect or prepare for something before it happens",
+        "sentence": "The group tries to anticipate questions that visitors might ask.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "anticipated"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "appropriate",
+        "pos": "adjective",
+        "definition": "suitable for a particular purpose or situation",
+        "sentence": "A formal tone is appropriate for the committee's final report.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "appropriate"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 03",
+    "words": [
+      {
+        "word": "approximate",
+        "pos": "adjective",
+        "definition": "close to an exact amount or description but not precise",
+        "sentence": "The map gives an approximate distance between the two stations.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "approximate"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "atypical",
+        "pos": "adjective",
+        "definition": "different from what is usual or expected",
+        "sentence": "The atypical result prompted the team to repeat the experiment.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "atypical"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "burdensome",
+        "pos": "adjective",
+        "definition": "difficult to carry out because it requires much effort or expense",
+        "sentence": "The burdensome reporting rule left the volunteers little time for other tasks.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "burdensome"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "buttress",
+        "pos": "verb",
+        "definition": "strengthen or support an argument or structure",
+        "sentence": "The newly discovered records buttress the historian's account.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 20,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "buttress"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "circumvent",
+        "pos": "verb",
+        "definition": "find a way around an obstacle or restriction",
+        "sentence": "The characters try to circumvent the locked entrance by using another route.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "circumvent"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "coincidence",
+        "pos": "noun",
+        "definition": "a chance occurrence of related events without an apparent causal connection",
+        "sentence": "The identical arrival times were a coincidence rather than the result of coordination.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 21,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "coincidence"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "collaboration",
+        "pos": "noun",
+        "definition": "the act of working together toward a shared result",
+        "sentence": "The exhibition grew out of a collaboration between a painter and a composer.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "collaboration"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "commercialization",
+        "pos": "noun",
+        "definition": "the process of making something available for sale or business use",
+        "sentence": "The team discussed the commercialization of its laboratory invention.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "commercialization"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "compelling",
+        "pos": "adjective",
+        "definition": "powerfully convincing or persuasive",
+        "sentence": "The witness offers a compelling reason to reconsider the decision.",
+        "sources": [
+          {
+            "test": 9,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "compelling"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "compose",
+        "pos": "verb",
+        "definition": "create a written, musical, or artistic work",
+        "sentence": "She plans to compose a short piece for the school orchestra.",
+        "sources": [
+          {
+            "test": 9,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "compose"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 04",
+    "words": [
+      {
+        "word": "compound",
+        "pos": "verb",
+        "definition": "make an existing problem greater by adding to it",
+        "sentence": "A second delay would compound the difficulty of finishing on time.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "compound"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "comprehend",
+        "pos": "verb",
+        "definition": "understand the meaning of something",
+        "sentence": "The diagram helped the class comprehend the complex process.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "comprehend"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "conceptualize",
+        "pos": "verb",
+        "definition": "form an idea or mental model of something",
+        "sentence": "The architect used sketches to conceptualize the new library.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "conceptualize"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "conspicuous",
+        "pos": "adjective",
+        "definition": "easily noticed or attracting attention",
+        "sentence": "The empty frame is conspicuous among the finished paintings.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "conspicuous"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "consistent",
+        "pos": "adjective",
+        "definition": "remaining in agreement or showing the same pattern",
+        "sentence": "The two witnesses gave consistent accounts of the event.",
+        "sources": [
+          {
+            "test": 9,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "consistent"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "contentious",
+        "pos": "adjective",
+        "definition": "likely to cause disagreement or argument",
+        "sentence": "The contentious proposal divided the planning committee.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "contentious"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "contradict",
+        "pos": "verb",
+        "definition": "state or show the opposite of something",
+        "sentence": "The final paragraph appears to contradict the opening claim.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "contradicted"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "controversial",
+        "pos": "adjective",
+        "definition": "causing strong disagreement among people",
+        "sentence": "The controversial ending led readers to debate the novel for weeks.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "controversial"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "controversy",
+        "pos": "noun",
+        "definition": "a public disagreement involving strongly held opposing views",
+        "sentence": "The proposed demolition became the subject of controversy.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 21,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "controversy"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "corroborate",
+        "pos": "verb",
+        "definition": "support a statement with additional evidence",
+        "sentence": "The photographs corroborate the witness’s description of the room.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "corroborate"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 05",
+    "words": [
+      {
+        "word": "critique",
+        "pos": "noun",
+        "definition": "a careful assessment of the strengths and weaknesses of a work",
+        "sentence": "Her critique praised the study's design but questioned its conclusion.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "critique"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "delegate",
+        "pos": "verb",
+        "definition": "assign a task or responsibility to another person",
+        "sentence": "The director will delegate ticket sales to a volunteer team.",
+        "sources": [
+          {
+            "test": 9,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "delegate"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "determine",
+        "pos": "verb",
+        "definition": "establish something through investigation or reasoning",
+        "sentence": "The team will determine the length by comparing the marked scale.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "determined"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "disconcerting",
+        "pos": "adjective",
+        "definition": "causing uneasiness or a loss of confidence",
+        "sentence": "The disconcerting gap between the two estimates required an explanation.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "disconcerting"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "discount",
+        "pos": "verb",
+        "definition": "treat a claim or possibility as less important or credible",
+        "sentence": "The reviewer refused to discount an explanation before examining its evidence.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "discounted"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "disengage",
+        "pos": "verb",
+        "definition": "withdraw from an activity or release a connection",
+        "sentence": "The researcher paused to disengage from the debate and reconsider the data.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 20,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "disengage"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "disparage",
+        "pos": "verb",
+        "definition": "speak about someone or something in a dismissive or belittling way",
+        "sentence": "The critic should assess the argument rather than disparage its author.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "disparage"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "disseminate",
+        "pos": "verb",
+        "definition": "distribute information widely",
+        "sentence": "The museum plans to disseminate its findings through free public lectures.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "disseminate"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "distort",
+        "pos": "verb",
+        "definition": "change something so it no longer represents the original accurately",
+        "sentence": "Leaving out the qualification would distort the author’s meaning.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "distort"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "dwindle",
+        "pos": "verb",
+        "definition": "gradually become smaller in number or amount",
+        "sentence": "The team's supplies began to dwindle during the long journey.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "dwindling"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 06",
+    "words": [
+      {
+        "word": "dynamic",
+        "pos": "adjective",
+        "definition": "changing or active rather than fixed",
+        "sentence": "The model represents the shoreline as a dynamic system that shifts over time.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "dynamic"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "earnest",
+        "pos": "adjective",
+        "definition": "sincere and serious in intention",
+        "sentence": "Her earnest request persuaded the group to reconsider its decision.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "earnest"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "effective",
+        "pos": "adjective",
+        "definition": "successful in producing an intended result",
+        "sentence": "The revised schedule proved effective in reducing delays.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "effective"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "enact",
+        "pos": "verb",
+        "definition": "put a law or rule into effect through formal approval",
+        "sentence": "The council voted to enact a rule protecting the historic square.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "enact"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "enduring",
+        "pos": "adjective",
+        "definition": "lasting for a long time",
+        "sentence": "The story explores the enduring influence of a childhood promise.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "enduring"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "epitomize",
+        "pos": "verb",
+        "definition": "be a particularly clear example of a quality or type",
+        "sentence": "The balanced design seems to epitomize the architect's preference for simplicity.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "epitomizing"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "establish",
+        "pos": "verb",
+        "definition": "demonstrate or make something firmly accepted",
+        "sentence": "The experiment aims to establish whether light affects the reaction.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "establishes"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "esteem",
+        "pos": "noun",
+        "definition": "respect and admiration",
+        "sentence": "Her careful scholarship earned the esteem of her colleagues.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 21,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "esteem"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "exacerbate",
+        "pos": "verb",
+        "definition": "make an existing problem worse",
+        "sentence": "Conflicting instructions could exacerbate the confusion.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "exacerbating"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "exhaustive",
+        "pos": "adjective",
+        "definition": "including every relevant part or possibility",
+        "sentence": "An exhaustive search examined every labeled box in the room.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "exhaustive"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 07",
+    "words": [
+      {
+        "word": "exploit",
+        "pos": "verb",
+        "definition": "make use of a resource or opportunity to achieve a purpose",
+        "sentence": "The designer can exploit natural light to brighten the room.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "exploited"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "extensive",
+        "pos": "adjective",
+        "definition": "covering a large area or a wide range",
+        "sentence": "The author conducted extensive research before writing the biography.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "extensive"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "fragile",
+        "pos": "adjective",
+        "definition": "easily broken, damaged, or disrupted",
+        "sentence": "The fragile manuscript required careful handling.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "fragile"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "highlight",
+        "pos": "verb",
+        "definition": "draw particular attention to something",
+        "sentence": "The final paragraph will highlight the study's main limitation.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "highlight"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "hoard",
+        "pos": "verb",
+        "definition": "collect and keep more of something than is needed",
+        "sentence": "The character tries to hoard supplies instead of sharing them with the group.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "hoard"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "hypothesize",
+        "pos": "verb",
+        "definition": "propose a possible explanation that can be tested",
+        "sentence": "The students hypothesize that temperature changes the rate of evaporation.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "hypothesized"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "impartial",
+        "pos": "adjective",
+        "definition": "fair and not favoring one side",
+        "sentence": "An impartial reviewer considers evidence from both teams.",
+        "sources": [
+          {
+            "test": 9,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "impartial"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "impending",
+        "pos": "adjective",
+        "definition": "about to happen, often with a sense of concern",
+        "sentence": "Dark clouds warned the hikers of an impending storm.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "impending"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "impenetrable",
+        "pos": "adjective",
+        "definition": "impossible or very difficult to enter or understand",
+        "sentence": "The dense technical language made the report seem impenetrable to new readers.",
+        "sources": [
+          {
+            "test": 9,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "impenetrable"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "imperceptible",
+        "pos": "adjective",
+        "definition": "too slight to be noticed",
+        "sentence": "The change in color was imperceptible without comparing the samples side by side.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "imperceptible"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 08",
+    "words": [
+      {
+        "word": "implement",
+        "pos": "verb",
+        "definition": "put a plan or decision into action",
+        "sentence": "The school will implement the new schedule next month.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "implement"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "import",
+        "pos": "noun",
+        "definition": "importance or significance",
+        "sentence": "The historian explained the import of the newly discovered letter.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "import"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "inadequate",
+        "pos": "adjective",
+        "definition": "not sufficient or suitable for a particular need",
+        "sentence": "The small sample was inadequate for drawing a broad conclusion.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "inadequate"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "inadvertently",
+        "pos": "adverb",
+        "definition": "without intending to do so",
+        "sentence": "The editor inadvertently omitted the final sentence.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "inadvertently"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "incident",
+        "pos": "noun",
+        "definition": "a particular event or occurrence",
+        "sentence": "The narrator describes an incident that changed her view of the town.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 21,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "incident"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "incongruous",
+        "pos": "adjective",
+        "definition": "not fitting well with the surrounding situation",
+        "sentence": "The cheerful music seems incongruous in the otherwise somber scene.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "incongruous"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "infallible",
+        "pos": "adjective",
+        "definition": "incapable of making mistakes or being wrong",
+        "sentence": "The study warns against treating any single measurement as infallible.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "infallible"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "infrequent",
+        "pos": "adjective",
+        "definition": "happening rarely or at long intervals",
+        "sentence": "The infrequent bus service made evening rehearsals difficult to attend.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "infrequent"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "innocuous",
+        "pos": "adjective",
+        "definition": "unlikely to cause harm or offense",
+        "sentence": "The seemingly innocuous remark unexpectedly started a long debate.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "innocuous"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "integral",
+        "pos": "adjective",
+        "definition": "necessary to the completeness or functioning of something",
+        "sentence": "The map is an integral part of the instructions.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "integral"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 09",
+    "words": [
+      {
+        "word": "interconnected",
+        "pos": "adjective",
+        "definition": "linked to one another in a network of relationships",
+        "sentence": "The diagram shows how the region's waterways are interconnected.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "interconnected"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "interpret",
+        "pos": "verb",
+        "definition": "explain or understand the meaning of something",
+        "sentence": "Readers may interpret the final image in different ways.",
+        "sources": [
+          {
+            "test": 9,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "interpret"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "interpretation",
+        "pos": "noun",
+        "definition": "a particular explanation or understanding of meaning",
+        "sentence": "Her interpretation of the poem emphasizes the speaker's uncertainty.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "interpretation"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "involuntarily",
+        "pos": "adverb",
+        "definition": "without conscious choice or control",
+        "sentence": "The startled observer involuntarily stepped backward.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "involuntarily"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "isolate",
+        "pos": "verb",
+        "definition": "separate something from other things",
+        "sentence": "The experiment attempts to isolate the effect of temperature.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 20,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "isolate"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "latent",
+        "pos": "adjective",
+        "definition": "present but not yet visible, active, or developed",
+        "sentence": "The story reveals a latent talent that the character had never explored.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "latent"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "legitimate",
+        "pos": "adjective",
+        "definition": "justified, acceptable, or in accordance with established rules",
+        "sentence": "The passage raises a legitimate concern about the missing evidence.",
+        "sources": [
+          {
+            "test": 9,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "legitimate"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "lucrative",
+        "pos": "adjective",
+        "definition": "producing a large financial profit",
+        "sentence": "The character leaves a lucrative position to pursue painting.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "lucrative"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "mandatory",
+        "pos": "adjective",
+        "definition": "required by a rule or authority",
+        "sentence": "Attendance at the safety briefing is mandatory for all volunteers.",
+        "sources": [
+          {
+            "test": 9,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "mandatory"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "manifest",
+        "pos": "adjective",
+        "definition": "clear and readily apparent",
+        "sentence": "The character’s disappointment is manifest in her silence and lowered gaze.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 19,
+            "kind": "Words in Context target",
+            "observed": "manifest"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 10",
+    "words": [
+      {
+        "word": "mimic",
+        "pos": "verb",
+        "definition": "imitate the behavior or appearance of something",
+        "sentence": "The costume was designed to mimic the colors of a forest floor.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "mimic"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "misanthropic",
+        "pos": "adjective",
+        "definition": "displaying distrust or dislike of people in general",
+        "sentence": "The novel's misanthropic narrator expects every stranger to be selfish.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "misanthropic"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "misinterpret",
+        "pos": "verb",
+        "definition": "understand something incorrectly",
+        "sentence": "A reader might misinterpret the irony as a sincere compliment.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "misinterpreted"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "moderation",
+        "pos": "noun",
+        "definition": "the avoidance of extremes or excess",
+        "sentence": "The essay recommends moderation rather than an all-or-nothing approach.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "moderation"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "obscure",
+        "pos": "adjective",
+        "definition": "not widely known or easily understood",
+        "sentence": "The researcher uncovered an obscure reference in an old catalog.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "obscure"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "observable",
+        "pos": "adjective",
+        "definition": "able to be noticed or measured",
+        "sentence": "The revised method produced an observable change in the sample.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "observable"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "observant",
+        "pos": "adjective",
+        "definition": "quick to notice details",
+        "sentence": "The observant reader notices that the narrator changes her description.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "observant"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "oddity",
+        "pos": "noun",
+        "definition": "something unusual or unexpected",
+        "sentence": "One oddity in the pattern suggested that a number had been copied incorrectly.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 21,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "oddity"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "offhand",
+        "pos": "adjective",
+        "definition": "casual and made without much preparation or thought",
+        "sentence": "An offhand comment later became the starting point for the investigation.",
+        "sources": [
+          {
+            "test": 9,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "offhand"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "operative",
+        "pos": "adjective",
+        "definition": "in effect or currently functioning",
+        "sentence": "The temporary agreement remains operative until the new rules begin.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "operative"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 11",
+    "words": [
+      {
+        "word": "ornamental",
+        "pos": "adjective",
+        "definition": "serving mainly as decoration",
+        "sentence": "The ornamental border adds beauty without changing the map's information.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "ornamental"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "outmoded",
+        "pos": "adjective",
+        "definition": "no longer suited to current needs or ways of doing things",
+        "sentence": "The studio replaced its outmoded equipment with more reliable tools.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "outmoded"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "outstrip",
+        "pos": "verb",
+        "definition": "exceed or move ahead of something",
+        "sentence": "Demand for tickets began to outstrip the theater's capacity.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "outstrip"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "overlook",
+        "pos": "verb",
+        "definition": "fail to notice or consider something",
+        "sentence": "The reviewer did not overlook the inconsistency in the final paragraph.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "overlook"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "overtly",
+        "pos": "adverb",
+        "definition": "openly and in an easily noticeable way",
+        "sentence": "The narrator never overtly states her disappointment.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "overtly"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "perceptible",
+        "pos": "adjective",
+        "definition": "able to be noticed by the senses",
+        "sentence": "A perceptible shift in tone separates the hopeful opening from the cautious ending.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "perceptible"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "peripheral",
+        "pos": "adjective",
+        "definition": "outside the central or most important area",
+        "sentence": "The author removes peripheral details to keep the argument focused.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "peripheral"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "permanent",
+        "pos": "adjective",
+        "definition": "intended to last indefinitely rather than temporarily",
+        "sentence": "The temporary display will become a permanent part of the museum.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "permanent"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "perpetual",
+        "pos": "adjective",
+        "definition": "continuing without an apparent end or interruption",
+        "sentence": "The character seems caught in a perpetual cycle of planning and postponing.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "perpetual"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "persistent",
+        "pos": "adjective",
+        "definition": "continuing despite difficulty or over time",
+        "sentence": "The persistent leak required several attempts at repair.",
+        "sources": [
+          {
+            "test": 9,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "persistent"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 12",
+    "words": [
+      {
+        "word": "popularize",
+        "pos": "verb",
+        "definition": "make an idea or activity widely known or liked",
+        "sentence": "The accessible essays helped popularize a difficult scientific idea.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 20,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "popularize"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "postulate",
+        "pos": "verb",
+        "definition": "propose something as a basis for reasoning or investigation",
+        "sentence": "The researchers postulate a connection that later experiments can test.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "postulate"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "pragmatic",
+        "pos": "adjective",
+        "definition": "focused on practical results and workable solutions",
+        "sentence": "The committee took a pragmatic approach and repaired the existing shelves.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "pragmatic"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "preclude",
+        "pos": "verb",
+        "definition": "prevent something from happening or being possible",
+        "sentence": "A missing signature may preclude the application’s acceptance.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "precluding"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "predetermined",
+        "pos": "adjective",
+        "definition": "decided or fixed before an event occurs",
+        "sentence": "The participants followed a predetermined sequence of tasks.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "predetermined"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "prediction",
+        "pos": "noun",
+        "definition": "a statement about what is expected to happen",
+        "sentence": "The final observation did not match the model's prediction.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "prediction"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "pretentious",
+        "pos": "adjective",
+        "definition": "trying to seem more impressive or important than is justified",
+        "sentence": "The reviewer found the elaborate title pretentious because the argument was simple.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "pretentious"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "preventable",
+        "pos": "adjective",
+        "definition": "capable of being stopped from happening",
+        "sentence": "The delay was preventable because the missing materials could have been ordered earlier.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "preventable"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "prolong",
+        "pos": "verb",
+        "definition": "make something last longer",
+        "sentence": "The extra discussion could prolong the meeting beyond its planned end.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "prolong"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "prominent",
+        "pos": "adjective",
+        "definition": "easily noticed or important within a group",
+        "sentence": "A prominent tower appears at the center of the painting.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "prominent"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 13",
+    "words": [
+      {
+        "word": "prudently",
+        "pos": "adverb",
+        "definition": "with careful judgment about possible consequences",
+        "sentence": "The organizers prudently reserved extra time for questions.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "prudently"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "questionable",
+        "pos": "adjective",
+        "definition": "open to doubt about reliability, correctness, or acceptability",
+        "sentence": "The conclusion rests on a questionable assumption that every participant agreed.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "questionable"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "rationalize",
+        "pos": "verb",
+        "definition": "attempt to justify something by offering reasons that may conceal the real motive",
+        "sentence": "The character tries to rationalize her decision by blaming the weather.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "rationalize"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "recalcitrant",
+        "pos": "adjective",
+        "definition": "stubbornly resisting authority or guidance",
+        "sentence": "The recalcitrant character refuses every request to follow the group's plan.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "recalcitrant"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "reciprocate",
+        "pos": "verb",
+        "definition": "respond to an action with a corresponding action",
+        "sentence": "The character decides to reciprocate her neighbor’s kindness.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 20,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "reciprocate"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "rectify",
+        "pos": "verb",
+        "definition": "correct an error or put something right",
+        "sentence": "The team will rectify the mislabeled diagram before distributing the instructions.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "rectify"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "redefine",
+        "pos": "verb",
+        "definition": "give a word, idea, or role a new meaning or boundary",
+        "sentence": "The discovery may redefine how researchers describe the category.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "redefined"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "redress",
+        "pos": "verb",
+        "definition": "correct or make amends for a wrong or imbalance",
+        "sentence": "The revised policy aims to redress the unequal distribution of resources.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "redressing"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "reflect",
+        "pos": "verb",
+        "definition": "show or reveal a condition, idea, or influence",
+        "sentence": "The character’s response may reflect an earlier experience described in the story.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "reflect"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "renounce",
+        "pos": "verb",
+        "definition": "formally give up or reject a claim, belief, or right",
+        "sentence": "The character chooses to renounce her claim to the disputed property.",
+        "sources": [
+          {
+            "test": 9,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "renounce"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 14",
+    "words": [
+      {
+        "word": "replicable",
+        "pos": "adjective",
+        "definition": "capable of being repeated with comparable results",
+        "sentence": "A clear procedure makes the experiment replicable by other teams.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "replicable"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "replicate",
+        "pos": "verb",
+        "definition": "repeat a procedure or reproduce a result",
+        "sentence": "Another team will try to replicate the experiment using the same method.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "replicate"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "reprieve",
+        "pos": "noun",
+        "definition": "a temporary relief or postponement of something difficult",
+        "sentence": "The extension gave the students a brief reprieve from the deadline.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 21,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "reprieve"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "reserve",
+        "pos": "noun",
+        "definition": "restraint in showing feelings or sharing thoughts",
+        "sentence": "The narrator’s reserve makes her rare expressions of affection significant.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "reserve"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "resilient",
+        "pos": "adjective",
+        "definition": "able to recover after difficulty or disruption",
+        "sentence": "The story presents a resilient community that rebuilds after setbacks.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "resilient"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "restore",
+        "pos": "verb",
+        "definition": "return something to an earlier condition or position",
+        "sentence": "The team hopes to restore the damaged mural.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "restored"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "restrict",
+        "pos": "verb",
+        "definition": "limit the range, amount, or freedom of something",
+        "sentence": "The rules restrict visitors to the marked paths.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 20,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "restricted"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "retain",
+        "pos": "verb",
+        "definition": "keep or continue to possess",
+        "sentence": "The revised story will retain the original opening scene.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "retain"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "rival",
+        "pos": "verb",
+        "definition": "match or compete closely with something in quality or achievement",
+        "sentence": "The small theater's production could rival those of much larger companies.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "rival"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "sanction",
+        "pos": "verb",
+        "definition": "formally approve or authorize",
+        "sentence": "The committee must sanction the change before work can begin.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "sanction"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 15",
+    "words": [
+      {
+        "word": "sanguine",
+        "pos": "adjective",
+        "definition": "hopeful and confident about a situation",
+        "sentence": "Despite the early setback, the director remained sanguine about the project.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "sanguine"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "satisfactory",
+        "pos": "adjective",
+        "definition": "good enough to meet a need or requirement",
+        "sentence": "The first explanation was satisfactory until new evidence raised further questions.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "satisfactory"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "shrewd",
+        "pos": "adjective",
+        "definition": "showing sharp practical judgment",
+        "sentence": "Her shrewd observation revealed a weakness in the proposed plan.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "shrewd"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "significant",
+        "pos": "adjective",
+        "definition": "important enough to deserve attention",
+        "sentence": "The small wording change had a significant effect on the argument.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "significant"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "sincerity",
+        "pos": "noun",
+        "definition": "honesty in expressing true feelings or beliefs",
+        "sentence": "The letter's sincerity is evident in its direct acknowledgment of mistakes.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 21,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "sincerity"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "sophisticated",
+        "pos": "adjective",
+        "definition": "complex, refined, or showing advanced understanding",
+        "sentence": "The sophisticated model accounts for several interacting variables.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "sophisticated"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "source",
+        "pos": "noun",
+        "definition": "the origin from which something comes or is obtained",
+        "sentence": "The diary became an important source of information about daily life.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "source"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "speculate",
+        "pos": "verb",
+        "definition": "form ideas or explanations without sufficient confirming evidence",
+        "sentence": "The narrator can only speculate about why the letter was destroyed.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "speculates"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "strenuously",
+        "pos": "adverb",
+        "definition": "with great effort or force",
+        "sentence": "The advocate strenuously challenged the unsupported conclusion.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "strenuously"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "stymie",
+        "pos": "verb",
+        "definition": "block or seriously hinder progress",
+        "sentence": "A shortage of materials could stymie the restoration project.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "stymie"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 16",
+    "words": [
+      {
+        "word": "subsequent",
+        "pos": "adjective",
+        "definition": "coming after something else in time or order",
+        "sentence": "The subsequent chapter explains why the earlier account was incomplete.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "subsequent"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "summarize",
+        "pos": "verb",
+        "definition": "state the main points briefly",
+        "sentence": "The final paragraph will summarize the findings without repeating every detail.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "summarize"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "superficial",
+        "pos": "adjective",
+        "definition": "concerned only with the surface rather than deeper features",
+        "sentence": "The reviewer criticizes the superficial comparison for ignoring important differences.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "superficial"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "supplement",
+        "pos": "verb",
+        "definition": "add something to make a whole more complete",
+        "sentence": "The author will supplement the written account with a diagram.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "supplement"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "suppress",
+        "pos": "verb",
+        "definition": "prevent the expression, development, or release of something",
+        "sentence": "The ruler in the novel tries to suppress criticism of the decree.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "suppress"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "synchronization",
+        "pos": "noun",
+        "definition": "the coordination of events so that they happen at the same time or in step",
+        "sentence": "The performance required precise synchronization between the dancers and musicians.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "synchronization"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "tangential",
+        "pos": "adjective",
+        "definition": "only slightly related to the main subject",
+        "sentence": "The editor removed a tangential anecdote that distracted from the central claim.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "tangential"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "tedious",
+        "pos": "adjective",
+        "definition": "boring because of repetition or excessive length",
+        "sentence": "Checking each copied number was tedious but necessary.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "tedious"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "tentative",
+        "pos": "adjective",
+        "definition": "provisional and subject to revision",
+        "sentence": "Our tentative conclusion may change when more evidence arrives.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "tentative"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "tenuous",
+        "pos": "adjective",
+        "definition": "weak or lacking a firm basis",
+        "sentence": "The argument relies on a tenuous connection between unrelated events.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "tenuous"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 17",
+    "words": [
+      {
+        "word": "theory",
+        "pos": "noun",
+        "definition": "a system of ideas intended to explain observations",
+        "sentence": "The new observations led the team to revise its theory.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "theory"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "thoughtfulness",
+        "pos": "noun",
+        "definition": "careful consideration or attention to others' needs",
+        "sentence": "The letter shows thoughtfulness in its respectful response to criticism.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 21,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "thoughtfulness"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "trace",
+        "pos": "noun",
+        "definition": "a small sign or remaining indication of something",
+        "sentence": "The surface retained a trace of the original blue paint.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 4,
+            "kind": "Words in Context target",
+            "observed": "trace"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "tranquil",
+        "pos": "adjective",
+        "definition": "calm and peaceful",
+        "sentence": "The tranquil opening contrasts with the noisy scene that follows.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "tranquil"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "transparent",
+        "pos": "adjective",
+        "definition": "open and easy to understand rather than concealed",
+        "sentence": "The researchers used a transparent process that allowed others to check their work.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "transparent"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "unassuming",
+        "pos": "adjective",
+        "definition": "modest and not seeking attention",
+        "sentence": "The unassuming musician seemed surprised by the audience's applause.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "unassuming"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "undeniable",
+        "pos": "adjective",
+        "definition": "so clear or well supported that it cannot reasonably be disputed",
+        "sentence": "The repeated measurements provided undeniable evidence of a change.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "undeniable"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "uniform",
+        "pos": "adjective",
+        "definition": "consistent or the same throughout",
+        "sentence": "The instructions require a uniform method of recording each observation.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "uniform"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "unintended",
+        "pos": "adjective",
+        "definition": "not planned or deliberately sought",
+        "sentence": "The rule had the unintended effect of making the process slower.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "unintended"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "universal",
+        "pos": "adjective",
+        "definition": "applying to every member of a group or to all cases",
+        "sentence": "The essay challenges the claim that the experience is universal.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "universal"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 18",
+    "words": [
+      {
+        "word": "unobtrusive",
+        "pos": "adjective",
+        "definition": "not attracting attention or interfering",
+        "sentence": "The unobtrusive labels allowed visitors to focus on the artwork.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "unobtrusive"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "unpredictable",
+        "pos": "adjective",
+        "definition": "not possible to forecast reliably",
+        "sentence": "The unpredictable weather forced the group to prepare several plans.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "unpredictable"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "warranted",
+        "pos": "adjective",
+        "definition": "justified by available reasons or evidence",
+        "sentence": "A cautious conclusion is warranted because the sample is small.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "warranted"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "widespread",
+        "pos": "adjective",
+        "definition": "found across many places or among many people",
+        "sentence": "The survey suggests widespread interest in the proposed exhibition.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "widespread"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "acquire",
+        "pos": "verb",
+        "definition": "gain or obtain something",
+        "sentence": "The museum hopes to acquire a drawing that completes its collection.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "acquired"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "acceptable",
+        "pos": "adjective",
+        "definition": "good enough to satisfy a requirement or standard",
+        "sentence": "The revised proposal offered an acceptable solution to both groups.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "acceptable"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "blemish",
+        "pos": "noun",
+        "definition": "a flaw or imperfection that damages an otherwise favorable appearance",
+        "sentence": "The stain was the only blemish on the restored fabric.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "blemish"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "characterization",
+        "pos": "noun",
+        "definition": "a description of the qualities or features of someone or something",
+        "sentence": "The essay's characterization of the narrator as careless ignores several careful decisions.",
+        "sources": [
+          {
+            "test": 8,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "characterization"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "conceal",
+        "pos": "verb",
+        "definition": "hide something from view or knowledge",
+        "sentence": "The character attempts to conceal the letter in a drawer.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "concealed"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "critical",
+        "pos": "adjective",
+        "definition": "essential to the success or understanding of something",
+        "sentence": "The missing measurement is critical to evaluating the conclusion.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "critical"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 19",
+    "words": [
+      {
+        "word": "defend",
+        "pos": "verb",
+        "definition": "support a position against criticism or challenge",
+        "sentence": "The author uses the final example to defend her interpretation.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "defend"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "amusing",
+        "pos": "adjective",
+        "definition": "entertaining or funny",
+        "sentence": "The amusing misunderstanding gives the scene a lighthearted tone.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 21,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "amusing"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "interrupt",
+        "pos": "verb",
+        "definition": "stop something briefly by breaking its continuity",
+        "sentence": "A sudden announcement may interrupt the rehearsal.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "interrupt"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "overcome",
+        "pos": "verb",
+        "definition": "succeed in dealing with an obstacle or difficulty",
+        "sentence": "The team worked together to overcome the shortage of space.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "overcome"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "praise",
+        "pos": "verb",
+        "definition": "express approval or admiration",
+        "sentence": "The reviewer will praise the argument's clarity while questioning its evidence.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 20,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "praise"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "reject",
+        "pos": "verb",
+        "definition": "refuse to accept an idea or proposal",
+        "sentence": "The committee may reject the proposal if its costs remain unclear.",
+        "sources": [
+          {
+            "test": 9,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "rejecting"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "validate",
+        "pos": "verb",
+        "definition": "confirm the soundness or accuracy of something through evidence or checking",
+        "sentence": "The reviewer needs additional evidence to validate the proposed interpretation.",
+        "sources": [
+          {
+            "test": 4,
+            "page": 19,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "validated"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "weaken",
+        "pos": "verb",
+        "definition": "make something less strong or convincing",
+        "sentence": "The contradictory evidence could weaken the author's claim.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 20,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "weaken"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "beneficially",
+        "pos": "adverb",
+        "definition": "in a way that produces a useful or favorable effect",
+        "sentence": "The new arrangement beneficially changed how the team shared its workspace.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "beneficially"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "cordially",
+        "pos": "adverb",
+        "definition": "in a warm, friendly, or polite manner",
+        "sentence": "The host cordially welcomed the visiting researchers.",
+        "sources": [
+          {
+            "test": 6,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "cordially"
+          }
+        ],
+        "testCount": 1
+      }
+    ]
+  },
+  {
+    "title": "SAT practice words 20",
+    "words": [
+      {
+        "word": "careful",
+        "pos": "adjective",
+        "definition": "giving close attention to avoid mistakes or harm",
+        "sentence": "A careful reading reveals a qualification in the final sentence.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "careful"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "chaotic",
+        "pos": "adjective",
+        "definition": "lacking order or organization",
+        "sentence": "The chaotic draft became clearer after the writer grouped related ideas.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "chaotic"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "condition",
+        "pos": "noun",
+        "definition": "a circumstance or requirement affecting what can happen",
+        "sentence": "One condition of the grant was that the findings be shared publicly.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "condition"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "demands",
+        "pos": "noun",
+        "definition": "requirements that call for effort, attention, or resources",
+        "sentence": "The demands of the project led the team to revise its schedule.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "A",
+            "observed": "demands"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "doubts",
+        "pos": "noun",
+        "definition": "feelings of uncertainty about whether something is true or reliable",
+        "sentence": "The unexpected result raised doubts about the original explanation.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "doubts"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "distract",
+        "pos": "verb",
+        "definition": "divert attention away from a main focus",
+        "sentence": "Unnecessary details can distract the reader from the central argument.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 20,
+            "kind": "Words in Context answer choice",
+            "choice": "C",
+            "observed": "distracted"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "experiment",
+        "pos": "noun",
+        "definition": "a planned test used to investigate an idea or effect",
+        "sentence": "The experiment compared two materials under the same conditions.",
+        "sources": [
+          {
+            "test": 7,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "experiment"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "hibernation",
+        "pos": "noun",
+        "definition": "a prolonged state of greatly reduced activity and metabolism in some animals",
+        "sentence": "The fictional naturalist's notes describe an animal entering hibernation.",
+        "sources": [
+          {
+            "test": 10,
+            "page": 5,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "hibernation"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "informal",
+        "pos": "adjective",
+        "definition": "casual and not bound by strict conventions",
+        "sentence": "The informal discussion helped the group explore ideas before writing its report.",
+        "sources": [
+          {
+            "test": 11,
+            "page": 4,
+            "kind": "Words in Context answer choice",
+            "choice": "B",
+            "observed": "informal"
+          }
+        ],
+        "testCount": 1
+      },
+      {
+        "word": "obtain",
+        "pos": "verb",
+        "definition": "get or acquire something",
+        "sentence": "The researcher must obtain permission before examining the private collection.",
+        "sources": [
+          {
+            "test": 5,
+            "page": 18,
+            "kind": "Words in Context answer choice",
+            "choice": "D",
+            "observed": "obtain"
+          }
+        ],
+        "testCount": 1
       }
     ]
   }
