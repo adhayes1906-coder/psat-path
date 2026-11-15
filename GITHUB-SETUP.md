@@ -32,8 +32,8 @@ Demo mode has sample answers, completed sessions, and planned dates. It uses sep
 ## Use your workbook
 
 1. Open **Skills workbook** and choose a session.
-2. Write your answers in **Questions**.
-3. Open **Answers & solutions**, compare your work, and select **Got it** or **Revisit**.
+2. Choose one option for each practice question in **Questions**. Use × to cross out an option if helpful.
+3. Open **Answers & solutions**, see automatically checked answers and compare your work with the equations and explanations.
 4. Add a reflection and select **Complete session**.
 5. Open **Study calendar** to choose a start date and a 2-day or 3-day weekly plan.
 

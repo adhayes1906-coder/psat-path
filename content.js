@@ -34,7 +34,14 @@ window.WORKBOOK = [
             "label": "Check your answer",
             "mathml": "<mrow><mn>4</mn><mo>(</mo><mn>2</mn><mo>×</mo><mn>5</mn><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>28</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x = 2",
+          "x = 5",
+          "x = 8",
+          "x = 10"
+        ],
+        "correct": 1
       },
       {
         "prompt": "A taxi charges $5 plus $2.50 per mile. If the fare is $22.50, how many miles?",
@@ -57,7 +64,14 @@ window.WORKBOOK = [
             "label": "Answer",
             "mathml": "<mrow><mi>m</mi><mo>=</mo><mn>7</mn><mtext> miles</mtext></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "5 miles",
+          "7 miles",
+          "9 miles",
+          "11 miles"
+        ],
+        "correct": 1
       },
       {
         "prompt": "Solve 3x + 4 = x + 18.",
@@ -80,7 +94,14 @@ window.WORKBOOK = [
             "label": "Divide both sides by 2",
             "mathml": "<mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>14</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>=</mo><mn>7</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x = 5",
+          "x = 6",
+          "x = 7",
+          "x = 11"
+        ],
+        "correct": 2
       }
     ],
     "resource": [
@@ -102,17 +123,38 @@ window.WORKBOOK = [
       {
         "prompt": "What is the central idea?",
         "solution": "The passage describes a laptop-lending program, how students used it, and the library's response. The central idea must include the policy adjustment, not just that laptops were lent.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "The library ended laptop lending because students rarely used it.",
+          "Students preferred buying laptops instead of borrowing them.",
+          "The library changed checkout rules in response to borrowing patterns.",
+          "Families asked the library to allow weekend borrowing only."
+        ],
+        "correct": 2
       },
       {
         "prompt": "Which detail best shows the policy changed?",
         "solution": "Find the action after staff noticed weekend-only borrowing: they 'extended checkout periods.' That is the explicit change.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Many students borrowed laptops only on weekends.",
+          "The library lent laptops to students without reliable devices.",
+          "The library plans to ask families about their needs.",
+          "Staff members extended the laptop checkout periods."
+        ],
+        "correct": 3
       },
       {
         "prompt": "Why might the library survey families?",
         "solution": "The final sentence says the library plans to survey families before changing policy again. Surveys provide information about families' needs.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "To understand families’ needs before making another policy change.",
+          "To prove that every family already owns a reliable laptop.",
+          "To find out which students should stop attending the library.",
+          "To confirm that weekend borrowing has ended completely."
+        ],
+        "correct": 0
       }
     ],
     "resource": [
@@ -156,12 +198,26 @@ window.WORKBOOK = [
             "label": "Check your answer",
             "mathml": "<mrow><mn>4</mn><mo>(</mo><mn>2</mn><mo>×</mo><mn>5</mn><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>28</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x = 2",
+          "x = 5",
+          "x = 8",
+          "x = 10"
+        ],
+        "correct": 1
       },
       {
         "prompt": "Reading: What is the central idea?",
         "solution": "The passage describes a laptop-lending program, how students used it, and the library's response. The central idea must include the policy adjustment, not just that laptops were lent.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "The library ended laptop lending because students rarely used it.",
+          "Students preferred buying laptops instead of borrowing them.",
+          "The library changed checkout rules in response to borrowing patterns.",
+          "Families asked the library to allow weekend borrowing only."
+        ],
+        "correct": 2
       },
       {
         "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
@@ -202,7 +258,14 @@ window.WORKBOOK = [
             "label": "Simplify",
             "mathml": "<mrow><mi>m</mi><mo>=</mo><mfrac><mrow><mn>8</mn></mrow><mrow><mn>4</mn></mrow></mfrac><mo>=</mo><mn>2</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "1/2",
+          "2",
+          "4",
+          "8"
+        ],
+        "correct": 1
       },
       {
         "prompt": "For f(x) = 3x - 4, find f(-2).",
@@ -221,7 +284,14 @@ window.WORKBOOK = [
             "label": "Multiply, then subtract",
             "mathml": "<mrow><mi>f</mi><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mo>−</mo><mn>6</mn><mo>−</mo><mn>4</mn><mo>=</mo><mo>−</mo><mn>10</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "−10",
+          "−2",
+          "2",
+          "10"
+        ],
+        "correct": 0
       },
       {
         "prompt": "If y = -2x + 7, find y when x = 5.",
@@ -240,7 +310,14 @@ window.WORKBOOK = [
             "label": "Answer",
             "mathml": "<mrow><mi>y</mi><mo>=</mo><mo>−</mo><mn>3</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "−17",
+          "−3",
+          "3",
+          "17"
+        ],
+        "correct": 1
       }
     ],
     "resource": [
@@ -262,17 +339,38 @@ window.WORKBOOK = [
       {
         "prompt": "What does “consistent” most nearly mean?",
         "solution": "The passage says the result appeared 'across three trials.' In this context, consistent means repeated or stable rather than random.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Unexpected",
+          "Incorrect",
+          "Repeated or stable",
+          "Quickly completed"
+        ],
+        "correct": 2
       },
       {
         "prompt": "What changed Lena’s thinking?",
         "solution": "At first Lena thought the result was an error. After she repeated the experiment and saw the same result three times, she reconsidered.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "A judge told her that her first explanation was correct.",
+          "She stopped testing after the first unusual result.",
+          "She changed the experiment until the result disappeared.",
+          "Repeated trials produced the same unexpected result."
+        ],
+        "correct": 3
       },
       {
         "prompt": "What is the passage mainly about?",
         "solution": "The sequence is unexpected result → repeated testing → revision of explanation. That is the main message.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Repeated testing can lead a scientist to revise an explanation.",
+          "Unexpected results should always be dismissed as mistakes.",
+          "Science fairs reward experiments with familiar results.",
+          "One trial is enough to confirm every scientific explanation."
+        ],
+        "correct": 0
       }
     ],
     "resource": [
@@ -308,12 +406,26 @@ window.WORKBOOK = [
             "label": "Simplify",
             "mathml": "<mrow><mi>m</mi><mo>=</mo><mfrac><mrow><mn>8</mn></mrow><mrow><mn>4</mn></mrow></mfrac><mo>=</mo><mn>2</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "1/2",
+          "2",
+          "4",
+          "8"
+        ],
+        "correct": 1
       },
       {
         "prompt": "Reading: What does “consistent” most nearly mean?",
         "solution": "The passage says the result appeared 'across three trials.' In this context, consistent means repeated or stable rather than random.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Unexpected",
+          "Incorrect",
+          "Repeated or stable",
+          "Quickly completed"
+        ],
+        "correct": 2
       },
       {
         "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
@@ -354,7 +466,14 @@ window.WORKBOOK = [
             "label": "Answer",
             "mathml": "<mrow><msup><mi>x</mi><mrow><mn>3</mn><mo>+</mo><mn>4</mn></mrow></msup><mo>=</mo><msup><mi>x</mi><mrow><mn>7</mn></mrow></msup></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x¹²",
+          "x⁷",
+          "x",
+          "2x⁷"
+        ],
+        "correct": 1
       },
       {
         "prompt": "Factor x² + 7x + 12.",
@@ -373,7 +492,14 @@ window.WORKBOOK = [
             "label": "Write the factors",
             "mathml": "<mrow><msup><mi>x</mi><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>7</mn><mi>x</mi><mo>+</mo><mn>12</mn><mo>=</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "(x + 2)(x + 6)",
+          "(x − 3)(x − 4)",
+          "(x + 3)(x + 4)",
+          "(x + 1)(x + 12)"
+        ],
+        "correct": 2
       },
       {
         "prompt": "Solve x² - 9 = 0.",
@@ -396,7 +522,14 @@ window.WORKBOOK = [
             "label": "Keep both solutions",
             "mathml": "<mrow><mi>x</mi><mo>=</mo><mn>3</mn><mtext> or </mtext><mi>x</mi><mo>=</mo><mo>−</mo><mn>3</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x = 3 only",
+          "x = −3 only",
+          "x = −9 or x = 9",
+          "x = −3 or x = 3"
+        ],
+        "correct": 3
       }
     ],
     "resource": [
@@ -418,17 +551,38 @@ window.WORKBOOK = [
       {
         "prompt": "What is the function of “However”?",
         "solution": "'However' signals a contrast: planting trees helps, BUT planting alone is not sufficient.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "It adds a limitation: planting trees helps, but planting alone is insufficient.",
+          "It provides another example of a city that plants trees.",
+          "It shows that watering trees causes summer temperatures to rise.",
+          "It repeats the claim that maintenance plans are unnecessary."
+        ],
+        "correct": 0
       },
       {
         "prompt": "What is the author’s main claim?",
         "solution": "The conclusion says successful programs need planting funds AND a long-term maintenance plan. That is the author's main claim.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Cities should replace all young trees with mature trees.",
+          "Successful tree programs need both planting and long-term care.",
+          "Shade is the only way trees can cool their surroundings.",
+          "Cities should fund planting instead of watering and maintenance."
+        ],
+        "correct": 1
       },
       {
         "prompt": "Which sentence gives a reason trees reduce heat?",
         "solution": "The second sentence explicitly says trees provide shade and cool the air through evaporation. That supports the heat-reduction explanation.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Some cities plant trees to reduce summer heat.",
+          "However, planting alone is not enough: young trees require watering and care.",
+          "Trees provide shade and cool the surrounding air through evaporation.",
+          "A successful program therefore needs both planting funds and a long-term maintenance plan."
+        ],
+        "correct": 2
       }
     ],
     "resource": [
@@ -464,12 +618,26 @@ window.WORKBOOK = [
             "label": "Answer",
             "mathml": "<mrow><msup><mi>x</mi><mrow><mn>3</mn><mo>+</mo><mn>4</mn></mrow></msup><mo>=</mo><msup><mi>x</mi><mrow><mn>7</mn></mrow></msup></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x¹²",
+          "x⁷",
+          "x",
+          "2x⁷"
+        ],
+        "correct": 1
       },
       {
         "prompt": "Reading: What is the function of “However”?",
         "solution": "'However' signals a contrast: planting trees helps, BUT planting alone is not sufficient.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "It adds a limitation: planting trees helps, but planting alone is insufficient.",
+          "It provides another example of a city that plants trees.",
+          "It shows that watering trees causes summer temperatures to rise.",
+          "It repeats the claim that maintenance plans are unnecessary."
+        ],
+        "correct": 0
       },
       {
         "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
@@ -526,7 +694,14 @@ window.WORKBOOK = [
             "label": "Solve for y",
             "mathml": "<mrow><mi>y</mi><mo>=</mo><mn>4</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x = 4, y = 8",
+          "x = 6, y = 6",
+          "x = 12, y = 4",
+          "x = 8, y = 4"
+        ],
+        "correct": 3
       },
       {
         "prompt": "Solve 2x + y = 11 and y = x + 2.",
@@ -557,7 +732,14 @@ window.WORKBOOK = [
             "label": "Find y",
             "mathml": "<mrow><mi>y</mi><mo>=</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>5</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x = 3, y = 5",
+          "x = 5, y = 3",
+          "x = 4, y = 7",
+          "x = 2, y = 7"
+        ],
+        "correct": 0
       },
       {
         "prompt": "Two adult tickets cost $12 each; student tickets cost $7. Two adults and three students cost how much?",
@@ -580,7 +762,14 @@ window.WORKBOOK = [
             "label": "Answer",
             "mathml": "<mrow><mtext>Total</mtext><mo>=</mo><mtext>$</mtext><mn>45</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "$38",
+          "$45",
+          "$57",
+          "$60"
+        ],
+        "correct": 1
       }
     ],
     "resource": [
@@ -602,17 +791,38 @@ window.WORKBOOK = [
       {
         "prompt": "Which concern do opponents raise?",
         "solution": "The opponents' concern is stated directly: after-school sports could end later.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Students would be less alert when school began.",
+          "Students would attend more classes each day.",
+          "After-school sports would finish later.",
+          "Attendance could no longer be measured."
+        ],
+        "correct": 2
       },
       {
         "prompt": "What is the principal’s approach?",
         "solution": "The principal proposes a one-semester trial, surveys, and attendance data before a permanent decision—testing the idea before committing.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Reject the change without collecting any information.",
+          "Make the change permanent before asking students.",
+          "Let sports teams decide the schedule without a trial.",
+          "Try the change for one semester and gather evidence."
+        ],
+        "correct": 3
       },
       {
         "prompt": "Why track attendance?",
         "solution": "Attendance tracking gives a measurable indicator of how the schedule change affects students, rather than relying only on opinions.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "To measure how the schedule change affects students.",
+          "To prove that all students prefer later sports practices.",
+          "To replace the proposed trial with a permanent decision.",
+          "To determine which students support every school policy."
+        ],
+        "correct": 0
       }
     ],
     "resource": [
@@ -664,12 +874,26 @@ window.WORKBOOK = [
             "label": "Solve for y",
             "mathml": "<mrow><mi>y</mi><mo>=</mo><mn>4</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x = 4, y = 8",
+          "x = 6, y = 6",
+          "x = 12, y = 4",
+          "x = 8, y = 4"
+        ],
+        "correct": 3
       },
       {
         "prompt": "Reading: Which concern do opponents raise?",
         "solution": "The opponents' concern is stated directly: after-school sports could end later.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Students would be less alert when school began.",
+          "Students would attend more classes each day.",
+          "After-school sports would finish later.",
+          "Attendance could no longer be measured."
+        ],
+        "correct": 2
       },
       {
         "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
@@ -714,7 +938,14 @@ window.WORKBOOK = [
             "label": "Solve both equations",
             "mathml": "<mrow><mi>x</mi><mo>=</mo><mn>2</mn><mtext> or </mtext><mi>x</mi><mo>=</mo><mn>3</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x = −2 or x = −3",
+          "x = 2 or x = 3",
+          "x = −2 or x = 3",
+          "x = 1 or x = 6"
+        ],
+        "correct": 1
       },
       {
         "prompt": "Find the vertex x-coordinate of y = x² - 6x + 2.",
@@ -733,7 +964,14 @@ window.WORKBOOK = [
             "label": "Substitute and simplify",
             "mathml": "<mrow><msub><mi>x</mi><mrow><mi>v</mi></mrow></msub><mo>=</mo><mfrac><mrow><mo>−</mo><mo>(</mo><mo>−</mo><mn>6</mn><mo>)</mo></mrow><mrow><mn>2</mn><mo>(</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>6</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>=</mo><mn>3</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "−6",
+          "−3",
+          "3",
+          "6"
+        ],
+        "correct": 2
       },
       {
         "prompt": "Evaluate g(4) if g(x) = x² - 2x.",
@@ -752,7 +990,14 @@ window.WORKBOOK = [
             "label": "Evaluate",
             "mathml": "<mrow><mi>g</mi><mo>(</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>16</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>8</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "−8",
+          "0",
+          "4",
+          "8"
+        ],
+        "correct": 3
       }
     ],
     "resource": [
@@ -772,19 +1017,40 @@ window.WORKBOOK = [
     "passage": "Researchers compared two gardens. Both received equal sunlight, but one was watered more often. The frequently watered garden produced more tomatoes. ___, the researchers could not conclude that water alone caused the difference because soil quality had not been measured.",
     "questions": [
       {
-        "prompt": "Choose the best transition: Therefore / However / Similarly.",
+        "prompt": "Which transition best completes the passage?",
         "solution": "The first finding suggests more water may help; the next sentence limits that conclusion. 'However' correctly introduces this contrast.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "However",
+          "Therefore",
+          "Similarly",
+          "For example"
+        ],
+        "correct": 0
       },
       {
         "prompt": "What was controlled in the comparison?",
         "solution": "The second sentence states that both gardens received equal sunlight, making sunlight the controlled condition.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Soil quality",
+          "The amount of sunlight",
+          "The number of tomatoes produced",
+          "The frequency of watering"
+        ],
+        "correct": 1
       },
       {
         "prompt": "What other variable may explain the results?",
         "solution": "The last clause says soil quality was not measured, so it could also explain the different yields.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "The researchers’ favorite vegetable",
+          "The day the results were announced",
+          "Soil quality",
+          "The names given to the gardens"
+        ],
+        "correct": 2
       }
     ],
     "resource": [
@@ -824,12 +1090,26 @@ window.WORKBOOK = [
             "label": "Solve both equations",
             "mathml": "<mrow><mi>x</mi><mo>=</mo><mn>2</mn><mtext> or </mtext><mi>x</mi><mo>=</mo><mn>3</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x = −2 or x = −3",
+          "x = 2 or x = 3",
+          "x = −2 or x = 3",
+          "x = 1 or x = 6"
+        ],
+        "correct": 1
       },
       {
-        "prompt": "Reading: Choose the best transition: Therefore / However / Similarly.",
+        "prompt": "Reading: Which transition best completes the passage?",
         "solution": "The first finding suggests more water may help; the next sentence limits that conclusion. 'However' correctly introduces this contrast.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "However",
+          "Therefore",
+          "Similarly",
+          "For example"
+        ],
+        "correct": 0
       },
       {
         "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
@@ -874,7 +1154,14 @@ window.WORKBOOK = [
             "label": "Answer",
             "mathml": "<mrow><mtext>Sale price</mtext><mo>=</mo><mtext>$</mtext><mn>60</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "$20",
+          "$55",
+          "$75",
+          "$60"
+        ],
+        "correct": 3
       },
       {
         "prompt": "A value rises from 40 to 50. Find percent increase.",
@@ -893,7 +1180,14 @@ window.WORKBOOK = [
             "label": "Convert to a percent",
             "mathml": "<mrow><mn>0.25</mn><mo>×</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>25</mn><mo>%</mo></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "25%",
+          "10%",
+          "20%",
+          "125%"
+        ],
+        "correct": 0
       },
       {
         "prompt": "Find the mean of 6, 8, 10, and 12.",
@@ -912,7 +1206,14 @@ window.WORKBOOK = [
             "label": "Simplify",
             "mathml": "<mrow><mtext>Mean</mtext><mo>=</mo><mfrac><mrow><mn>36</mn></mrow><mrow><mn>4</mn></mrow></mfrac><mo>=</mo><mn>9</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "8",
+          "9",
+          "10",
+          "36"
+        ],
+        "correct": 1
       }
     ],
     "resource": [
@@ -934,17 +1235,38 @@ window.WORKBOOK = [
       {
         "prompt": "Which inference is best supported?",
         "solution": "Attendance rose while time at each exhibit fell. A busier museum is a reasonable inference, though not proven.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "All visitors disliked the museum’s exhibits.",
+          "Free admission definitely caused visitors to learn less.",
+          "The museum may have been busier during free-admission periods.",
+          "Guided tours had already increased the length of every visit."
+        ],
+        "correct": 2
       },
       {
         "prompt": "Why suggest guided tours?",
         "solution": "The director wants tours to help guests engage even during busy periods. That is the stated purpose.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "To reduce the museum’s total attendance.",
+          "To require visitors to pay for Friday admission.",
+          "To replace the entire museum collection.",
+          "To help visitors engage with exhibits during busy periods."
+        ],
+        "correct": 3
       },
       {
         "prompt": "Does the passage prove free admission caused shorter visits?",
         "solution": "The passage gives observations, not a controlled experiment; other factors could explain the shorter visits.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "No; the observations do not rule out other explanations.",
+          "Yes; two events happening together always proves causation.",
+          "Yes; the director had already completed a controlled experiment.",
+          "No; the passage says attendance did not change at all."
+        ],
+        "correct": 0
       }
     ],
     "resource": [
@@ -984,12 +1306,26 @@ window.WORKBOOK = [
             "label": "Answer",
             "mathml": "<mrow><mtext>Sale price</mtext><mo>=</mo><mtext>$</mtext><mn>60</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "$20",
+          "$55",
+          "$75",
+          "$60"
+        ],
+        "correct": 3
       },
       {
         "prompt": "Reading: Which inference is best supported?",
         "solution": "Attendance rose while time at each exhibit fell. A busier museum is a reasonable inference, though not proven.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "All visitors disliked the museum’s exhibits.",
+          "Free admission definitely caused visitors to learn less.",
+          "The museum may have been busier during free-admission periods.",
+          "Guided tours had already increased the length of every visit."
+        ],
+        "correct": 2
       },
       {
         "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
@@ -1030,7 +1366,14 @@ window.WORKBOOK = [
             "label": "Simplify the perfect square",
             "mathml": "<mrow><msqrt><mrow><mn>50</mn></mrow></msqrt><mo>=</mo><mn>5</mn><msqrt><mrow><mn>2</mn></mrow></msqrt></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "25√2",
+          "5√2",
+          "10√5",
+          "5"
+        ],
+        "correct": 1
       },
       {
         "prompt": "Solve 2(x + 4) - 3 = 15.",
@@ -1057,7 +1400,14 @@ window.WORKBOOK = [
             "label": "Divide by 2",
             "mathml": "<mrow><mi>x</mi><mo>=</mo><mn>5</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x = 2",
+          "x = 4",
+          "x = 5",
+          "x = 7"
+        ],
+        "correct": 2
       },
       {
         "prompt": "Simplify (x² - 9)/(x - 3), x ≠ 3.",
@@ -1080,7 +1430,14 @@ window.WORKBOOK = [
             "label": "Answer, including the restriction",
             "mathml": "<mrow><mi>x</mi><mo>+</mo><mn>3</mn><mo>,</mo><mi>x</mi><mo>≠</mo><mn>3</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x − 3, with x ≠ 3",
+          "x + 3, with no restriction",
+          "x − 3, with no restriction",
+          "x + 3, with x ≠ 3"
+        ],
+        "correct": 3
       }
     ],
     "resource": [
@@ -1102,17 +1459,38 @@ window.WORKBOOK = [
       {
         "prompt": "Why is the revision stronger?",
         "solution": "The original says 'very good' and 'a lot of stuff.' The revision gives counts of wins and forums, making the claim specific.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "It replaces general praise with specific, checkable accomplishments.",
+          "It removes all information about what the club achieved.",
+          "It proves that every other school club is less successful.",
+          "It uses more praise without adding any supporting evidence."
+        ],
+        "correct": 0
       },
       {
         "prompt": "What does “vague” mean here?",
         "solution": "Vague means not precise. The original wording does not explain what the club actually achieved.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Detailed and measurable",
+          "Not precise or specific",
+          "Formal and technical",
+          "Strongly negative"
+        ],
+        "correct": 1
       },
       {
         "prompt": "Which version would be more persuasive in an application? Why?",
         "solution": "The revised sentence is stronger because 'three regional competitions' and 'two public forums' are concrete, checkable accomplishments.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "The original, because “very good” gives exact evidence.",
+          "The original, because applications should avoid accomplishments.",
+          "The revision, because it supports its claim with concrete results.",
+          "The revision, because it does not mention any club activities."
+        ],
+        "correct": 2
       }
     ],
     "resource": [
@@ -1148,12 +1526,26 @@ window.WORKBOOK = [
             "label": "Simplify the perfect square",
             "mathml": "<mrow><msqrt><mrow><mn>50</mn></mrow></msqrt><mo>=</mo><mn>5</mn><msqrt><mrow><mn>2</mn></mrow></msqrt></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "25√2",
+          "5√2",
+          "10√5",
+          "5"
+        ],
+        "correct": 1
       },
       {
         "prompt": "Reading: Why is the revision stronger?",
         "solution": "The original says 'very good' and 'a lot of stuff.' The revision gives counts of wins and forums, making the claim specific.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "It replaces general praise with specific, checkable accomplishments.",
+          "It removes all information about what the club achieved.",
+          "It proves that every other school club is less successful.",
+          "It uses more praise without adding any supporting evidence."
+        ],
+        "correct": 0
       },
       {
         "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
@@ -1198,7 +1590,14 @@ window.WORKBOOK = [
             "label": "Divide by 2",
             "mathml": "<mrow><mi>x</mi><mo>=</mo><mn>6</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x = 2",
+          "x = 4",
+          "x = 5",
+          "x = 6"
+        ],
+        "correct": 3
       },
       {
         "prompt": "Factor x² - x - 12.",
@@ -1217,7 +1616,14 @@ window.WORKBOOK = [
             "label": "Write the factors",
             "mathml": "<mrow><msup><mi>x</mi><mrow><mn>2</mn></mrow></msup><mo>−</mo><mi>x</mi><mo>−</mo><mn>12</mn><mo>=</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>4</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "(x − 4)(x + 3)",
+          "(x + 4)(x − 3)",
+          "(x − 6)(x + 2)",
+          "(x − 4)(x − 3)"
+        ],
+        "correct": 0
       },
       {
         "prompt": "A line has slope 3 and passes through (0, -2). Write its equation.",
@@ -1236,7 +1642,14 @@ window.WORKBOOK = [
             "label": "Write the equation",
             "mathml": "<mrow><mi>y</mi><mo>=</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "y = −2x + 3",
+          "y = 3x − 2",
+          "y = 3x + 2",
+          "y = −3x − 2"
+        ],
+        "correct": 1
       }
     ],
     "resource": [
@@ -1258,17 +1671,38 @@ window.WORKBOOK = [
       {
         "prompt": "What two perspectives are described?",
         "solution": "One group says cycling feels safer; another says traffic is slower. The question asks for BOTH perspectives.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Both groups say that traffic is faster and cycling is less safe.",
+          "Some favor removing all roads, while others favor closing every bike lane.",
+          "Some feel safer cycling, while others report slower traffic.",
+          "Cyclists and drivers both demand an immediate permanent change."
+        ],
+        "correct": 2
       },
       {
         "prompt": "What evidence did officials collect?",
         "solution": "The final sentence identifies two sources: measured traffic speeds and surveys of cyclists and drivers.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Only the opinions of cyclists who liked the lane.",
+          "Only the number of bicycles sold in local shops.",
+          "Accident reports and a count of new parking spaces.",
+          "Traffic-speed measurements and surveys of cyclists and drivers."
+        ],
+        "correct": 3
       },
       {
         "prompt": "What is the best summary?",
         "solution": "A good summary includes the disagreement and the city's response: gathering evidence before changing the bike lane.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Residents expressed different views, so officials gathered evidence before deciding on changes.",
+          "Officials removed the lane immediately because every resident opposed it.",
+          "All residents agreed that the lane made both cycling and driving faster.",
+          "Officials decided surveys were unnecessary because traffic speed never changed."
+        ],
+        "correct": 0
       }
     ],
     "resource": [
@@ -1308,12 +1742,26 @@ window.WORKBOOK = [
             "label": "Divide by 2",
             "mathml": "<mrow><mi>x</mi><mo>=</mo><mn>6</mn></mrow>"
           }
-        ]
+        ],
+        "choices": [
+          "x = 2",
+          "x = 4",
+          "x = 5",
+          "x = 6"
+        ],
+        "correct": 3
       },
       {
         "prompt": "Reading: What two perspectives are described?",
         "solution": "One group says cycling feels safer; another says traffic is slower. The question asks for BOTH perspectives.",
-        "scored": true
+        "scored": true,
+        "choices": [
+          "Both groups say that traffic is faster and cycling is less safe.",
+          "Some favor removing all roads, while others favor closing every bike lane.",
+          "Some feel safer cycling, while others report slower traffic.",
+          "Cyclists and drivers both demand an immediate permanent change."
+        ],
+        "correct": 2
       },
       {
         "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
