@@ -9,6 +9,7 @@ A calm, interactive PSAT skills workbook with worked solutions, optional 1.5x mo
 - 8 learning cycles and 24 sessions from the supplied Third Edition workbook.
 - 64 multiple-choice practice questions with four options each, automatic checking, and an option eliminator, 8 unscored memory checks, and worked explanations for all 72 prompts.
 - Step-by-step equations with formatted fractions, powers, square roots, and final answers in every math solution.
+- Longer original reading texts within the digital SAT passage-length range, with visible word counts.
 - Separate Questions, Answers & solutions, Learn more, and Multiple-choice tips tabs.
 - Four independent, optional module timer presets: Reading & Writing 1/2 at 48:00; Math 1/2 at 52:30.
 - Saved answers, checked-answer accuracy, session completion, K/F/U/T/G tags, reflections, and a revisit list.
@@ -55,3 +56,9 @@ Official timing reference: [College Board PSAT/NMSQT structure](https://satsuite
 Browser checks covered answer saving, solutions, self-review, completion, completed calendar dates, automatic scheduling, timer presets, timer switching, reload persistence, and a 390-pixel phone layout. JavaScript syntax and workbook content counts were checked. Linked Khan Academy course pages returned HTTP 200 during preparation on November 14, 2026.
 
 The multiple-choice options and answer keys are newly authored adaptations of the supplied workbook. The eight memory checks remain open-ended. Earlier written responses and their existing completion/review data are preserved; choosing a new option reopens that session for review. The tips tab links to College Board sources.
+
+## Reading length update
+
+The eight reading samples have been expanded into original practice passages, also used in the matching mixed reviews. Word counts are displayed in the workbook. Every passage falls within the current digital SAT range of 25–150 ordinary words, and also within the framework’s technical six-character word range. These are adaptations, not copied official passages. The workbook retains three questions per shared text; the digital SAT uses one question per passage or passage pair. Length alignment does not establish equivalent exam difficulty. Questions, options, and evidence references were reviewed for consistency; previously saved progress remains available.
+
+Source: [College Board SAT Reading and Writing](https://satsuite.collegeboard.org/sat/whats-on-the-test/reading-writing).

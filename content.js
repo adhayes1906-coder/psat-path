@@ -118,7 +118,7 @@ window.WORKBOOK = [
     "title": "Evidence and main idea",
     "duration": "25–30 min",
     "page": 5,
-    "passage": "A community library began lending laptops to students who lacked reliable devices at home. During the first month, many students borrowed laptops only on weekends. Staff members then extended checkout periods, and weekday borrowing increased. The library plans to survey families before changing its policy again.",
+    "passage": "A community library began lending laptops to students who lacked reliable devices at home. The program was intended to make homework and online research easier to complete outside school hours. During the first month, many students borrowed laptops only on weekends. Staff reviewed checkout records and noticed that the brief loan period made borrowing during the school week less convenient. Staff members then extended checkout periods, and weekday borrowing increased. Rather than assuming the revised rules solved every problem, staff wanted to learn whether families still faced barriers such as transportation or limited internet access. The library plans to survey families before changing its policy again.",
     "questions": [
       {
         "prompt": "What is the central idea?",
@@ -161,7 +161,8 @@ window.WORKBOOK = [
       "SAT Reading & Writing",
       "https://www.khanacademy.org/test-prep/sat-reading-and-writing"
     ],
-    "skill": "Central Ideas and Details; Command of Evidence"
+    "skill": "Central Ideas and Details; Command of Evidence",
+    "passageWords": 106
   },
   {
     "id": "1C",
@@ -171,7 +172,7 @@ window.WORKBOOK = [
     "title": "Recall, connect & review",
     "duration": "20–25 min",
     "page": 6,
-    "passage": "A community library began lending laptops to students who lacked reliable devices at home. During the first month, many students borrowed laptops only on weekends. Staff members then extended checkout periods, and weekday borrowing increased. The library plans to survey families before changing its policy again.",
+    "passage": "A community library began lending laptops to students who lacked reliable devices at home. The program was intended to make homework and online research easier to complete outside school hours. During the first month, many students borrowed laptops only on weekends. Staff reviewed checkout records and noticed that the brief loan period made borrowing during the school week less convenient. Staff members then extended checkout periods, and weekday borrowing increased. Rather than assuming the revised rules solved every problem, staff wanted to learn whether families still faced barriers such as transportation or limited internet access. The library plans to survey families before changing its policy again.",
     "questions": [
       {
         "prompt": "Math: Solve 4(2x - 3) = 28.",
@@ -229,7 +230,8 @@ window.WORKBOOK = [
       "Linear equations",
       "https://www.khanacademy.org/math/algebra/one-variable-linear-equations"
     ],
-    "skill": "Linear equations and recall + Evidence and main idea"
+    "skill": "Linear equations and recall + Evidence and main idea",
+    "passageWords": 106
   },
   {
     "id": "2A",
@@ -334,7 +336,7 @@ window.WORKBOOK = [
     "title": "Vocabulary in context",
     "duration": "25–30 min",
     "page": 8,
-    "passage": "During a science fair, Lena initially dismissed an unexpected result as an error. After repeating the experiment, she reconsidered. The result was consistent across three trials, suggesting that the original explanation needed revision.",
+    "passage": "During a science fair, Lena initially dismissed an unexpected result as an error. She had predicted that all the seedlings in her experiment would grow at approximately the same rate, but one group grew more slowly. Before discarding those measurements, she checked her equipment and reviewed the steps recorded in her notebook. She then repeated the procedure, keeping the conditions and measurement schedule unchanged. After repeating the experiment, she reconsidered. The result was consistent across three trials, suggesting that the original explanation needed revision. Lena decided that her presentation should describe the repeated observations and discuss possible explanations rather than quietly omit the measurements that did not match her prediction.",
     "questions": [
       {
         "prompt": "What does “consistent” most nearly mean?",
@@ -377,7 +379,8 @@ window.WORKBOOK = [
       "SAT Reading & Writing",
       "https://www.khanacademy.org/test-prep/sat-reading-and-writing"
     ],
-    "skill": "Words in Context"
+    "skill": "Words in Context",
+    "passageWords": 110
   },
   {
     "id": "2C",
@@ -387,7 +390,7 @@ window.WORKBOOK = [
     "title": "Recall, connect & review",
     "duration": "20–25 min",
     "page": 9,
-    "passage": "During a science fair, Lena initially dismissed an unexpected result as an error. After repeating the experiment, she reconsidered. The result was consistent across three trials, suggesting that the original explanation needed revision.",
+    "passage": "During a science fair, Lena initially dismissed an unexpected result as an error. She had predicted that all the seedlings in her experiment would grow at approximately the same rate, but one group grew more slowly. Before discarding those measurements, she checked her equipment and reviewed the steps recorded in her notebook. She then repeated the procedure, keeping the conditions and measurement schedule unchanged. After repeating the experiment, she reconsidered. The result was consistent across three trials, suggesting that the original explanation needed revision. Lena decided that her presentation should describe the repeated observations and discuss possible explanations rather than quietly omit the measurements that did not match her prediction.",
     "questions": [
       {
         "prompt": "Math: A line passes through (2, 5) and (6, 13). Find its slope.",
@@ -437,7 +440,8 @@ window.WORKBOOK = [
       "Slope & functions",
       "https://www.khanacademy.org/math/algebra/linear-equations-and-inequalities"
     ],
-    "skill": "Slope and functions + Vocabulary in context"
+    "skill": "Slope and functions + Vocabulary in context",
+    "passageWords": 110
   },
   {
     "id": "3A",
@@ -546,7 +550,7 @@ window.WORKBOOK = [
     "title": "Structure and purpose",
     "duration": "25–30 min",
     "page": 11,
-    "passage": "Some cities plant trees to reduce summer heat. Trees provide shade and cool the surrounding air through evaporation. However, planting alone is not enough: young trees require watering and care. A successful program therefore needs both planting funds and a long-term maintenance plan.",
+    "passage": "Some cities plant trees to reduce summer heat. Trees provide shade and cool the surrounding air through evaporation. A proposal to add trees along busy sidewalks may therefore appeal to residents who walk to work, school, or nearby shops. However, planting alone is not enough: young trees require watering and care. Without a clear arrangement for that work, the initial investment may not produce the lasting benefits that planners expect. A city evaluating such a proposal should consider who will maintain the trees and how that work will be funded after the planting crews leave. A successful program therefore needs both planting funds and a long-term maintenance plan.",
     "questions": [
       {
         "prompt": "What is the function of “However”?",
@@ -589,7 +593,8 @@ window.WORKBOOK = [
       "SAT Reading & Writing",
       "https://www.khanacademy.org/test-prep/sat-reading-and-writing"
     ],
-    "skill": "Text Structure and Purpose"
+    "skill": "Text Structure and Purpose",
+    "passageWords": 108
   },
   {
     "id": "3C",
@@ -599,7 +604,7 @@ window.WORKBOOK = [
     "title": "Recall, connect & review",
     "duration": "20–25 min",
     "page": 12,
-    "passage": "Some cities plant trees to reduce summer heat. Trees provide shade and cool the surrounding air through evaporation. However, planting alone is not enough: young trees require watering and care. A successful program therefore needs both planting funds and a long-term maintenance plan.",
+    "passage": "Some cities plant trees to reduce summer heat. Trees provide shade and cool the surrounding air through evaporation. A proposal to add trees along busy sidewalks may therefore appeal to residents who walk to work, school, or nearby shops. However, planting alone is not enough: young trees require watering and care. Without a clear arrangement for that work, the initial investment may not produce the lasting benefits that planners expect. A city evaluating such a proposal should consider who will maintain the trees and how that work will be funded after the planting crews leave. A successful program therefore needs both planting funds and a long-term maintenance plan.",
     "questions": [
       {
         "prompt": "Math: Simplify (x³)(x⁴).",
@@ -649,7 +654,8 @@ window.WORKBOOK = [
       "Exponents & factoring",
       "https://www.khanacademy.org/math/algebra/polynomials"
     ],
-    "skill": "Exponents and factoring + Structure and purpose"
+    "skill": "Exponents and factoring + Structure and purpose",
+    "passageWords": 108
   },
   {
     "id": "4A",
@@ -786,7 +792,7 @@ window.WORKBOOK = [
     "title": "Comparing claims",
     "duration": "25–30 min",
     "page": 14,
-    "passage": "A school proposed starting classes 20 minutes later. Supporters argued that students would arrive more alert. Opponents worried that after-school sports would end later. The principal suggested a one-semester trial with surveys and attendance tracking before making a permanent decision.",
+    "passage": "A school proposed starting classes 20 minutes later. Supporters argued that students would arrive more alert. They wanted the discussion to focus on whether a different morning schedule might help students begin lessons ready to participate. Opponents worried that after-school sports would end later. They asked how the change would affect transportation and other afternoon commitments. Both groups offered concerns that could be considered during a temporary change, but neither set of opinions showed exactly what would happen at this school. The principal suggested a one-semester trial with surveys and attendance tracking before making a permanent decision. This would allow the school to compare experiences and measurable results before committing to a new schedule.",
     "questions": [
       {
         "prompt": "Which concern do opponents raise?",
@@ -829,7 +835,8 @@ window.WORKBOOK = [
       "SAT Reading & Writing",
       "https://www.khanacademy.org/test-prep/sat-reading-and-writing"
     ],
-    "skill": "Cross-Text Connections; Command of Evidence"
+    "skill": "Cross-Text Connections; Command of Evidence",
+    "passageWords": 114
   },
   {
     "id": "4C",
@@ -839,7 +846,7 @@ window.WORKBOOK = [
     "title": "Recall, connect & review",
     "duration": "20–25 min",
     "page": 15,
-    "passage": "A school proposed starting classes 20 minutes later. Supporters argued that students would arrive more alert. Opponents worried that after-school sports would end later. The principal suggested a one-semester trial with surveys and attendance tracking before making a permanent decision.",
+    "passage": "A school proposed starting classes 20 minutes later. Supporters argued that students would arrive more alert. They wanted the discussion to focus on whether a different morning schedule might help students begin lessons ready to participate. Opponents worried that after-school sports would end later. They asked how the change would affect transportation and other afternoon commitments. Both groups offered concerns that could be considered during a temporary change, but neither set of opinions showed exactly what would happen at this school. The principal suggested a one-semester trial with surveys and attendance tracking before making a permanent decision. This would allow the school to compare experiences and measurable results before committing to a new schedule.",
     "questions": [
       {
         "prompt": "Math: Solve x + y = 12 and x - y = 4.",
@@ -905,7 +912,8 @@ window.WORKBOOK = [
       "Systems of equations",
       "https://www.khanacademy.org/math/algebra/systems-of-equations"
     ],
-    "skill": "Systems of equations + Comparing claims"
+    "skill": "Systems of equations + Comparing claims",
+    "passageWords": 114
   },
   {
     "id": "5A",
@@ -1014,7 +1022,7 @@ window.WORKBOOK = [
     "title": "Transitions and logic",
     "duration": "25–30 min",
     "page": 17,
-    "passage": "Researchers compared two gardens. Both received equal sunlight, but one was watered more often. The frequently watered garden produced more tomatoes. ___, the researchers could not conclude that water alone caused the difference because soil quality had not been measured.",
+    "passage": "Researchers compared two gardens. Both received equal sunlight, but one was watered more often. The researchers recorded the watering schedule and counted the tomatoes harvested from each garden during the same growing period. The frequently watered garden produced more tomatoes. At first, this difference appeared to offer a straightforward reason to recommend additional watering. ___, the researchers could not conclude that water alone caused the difference because soil quality had not been measured. A garden with different soil conditions might produce a different yield even if the watering schedules were identical. Before making a firm recommendation, the researchers proposed another comparison that would account for soil quality as well as the amount of water supplied.",
     "questions": [
       {
         "prompt": "Which transition best completes the passage?",
@@ -1030,7 +1038,7 @@ window.WORKBOOK = [
       },
       {
         "prompt": "What was controlled in the comparison?",
-        "solution": "The second sentence states that both gardens received equal sunlight, making sunlight the controlled condition.",
+        "solution": "The text states that both gardens received equal sunlight. That makes the amount of sunlight a controlled condition; watering frequency differed between the gardens.",
         "scored": true,
         "choices": [
           "Soil quality",
@@ -1042,7 +1050,7 @@ window.WORKBOOK = [
       },
       {
         "prompt": "What other variable may explain the results?",
-        "solution": "The last clause says soil quality was not measured, so it could also explain the different yields.",
+        "solution": "The text explicitly says soil quality had not been measured. Differences in soil quality could therefore help explain the different tomato yields.",
         "scored": true,
         "choices": [
           "The researchers’ favorite vegetable",
@@ -1057,7 +1065,8 @@ window.WORKBOOK = [
       "SAT Reading & Writing",
       "https://www.khanacademy.org/test-prep/sat-reading-and-writing"
     ],
-    "skill": "Transitions"
+    "skill": "Transitions",
+    "passageWords": 115
   },
   {
     "id": "5C",
@@ -1067,7 +1076,7 @@ window.WORKBOOK = [
     "title": "Recall, connect & review",
     "duration": "20–25 min",
     "page": 18,
-    "passage": "Researchers compared two gardens. Both received equal sunlight, but one was watered more often. The frequently watered garden produced more tomatoes. ___, the researchers could not conclude that water alone caused the difference because soil quality had not been measured.",
+    "passage": "Researchers compared two gardens. Both received equal sunlight, but one was watered more often. The researchers recorded the watering schedule and counted the tomatoes harvested from each garden during the same growing period. The frequently watered garden produced more tomatoes. At first, this difference appeared to offer a straightforward reason to recommend additional watering. ___, the researchers could not conclude that water alone caused the difference because soil quality had not been measured. A garden with different soil conditions might produce a different yield even if the watering schedules were identical. Before making a firm recommendation, the researchers proposed another comparison that would account for soil quality as well as the amount of water supplied.",
     "questions": [
       {
         "prompt": "Math: Solve x² - 5x + 6 = 0.",
@@ -1121,7 +1130,8 @@ window.WORKBOOK = [
       "Quadratics",
       "https://www.khanacademy.org/math/algebra/quadratics"
     ],
-    "skill": "Quadratics + Transitions and logic"
+    "skill": "Quadratics + Transitions and logic",
+    "passageWords": 115
   },
   {
     "id": "6A",
@@ -1230,7 +1240,7 @@ window.WORKBOOK = [
     "title": "Inference with evidence",
     "duration": "25–30 min",
     "page": 20,
-    "passage": "When the museum began offering free admission on Fridays, attendance rose. Yet visitors spent less time at each exhibit on average. The director suggested adding short guided tours to help guests engage with the collection even during busy periods.",
+    "passage": "When the museum began offering free admission on Fridays, attendance rose. Staff members welcomed the opportunity to introduce the collection to more people. Yet visitors spent less time at each exhibit on average. The museum's records described these two changes, but they did not establish why individual visitors moved through the galleries more quickly. For example, the observations alone could not show whether every visitor had the same interests or the same amount of time available. The director suggested adding short guided tours to help guests engage with the collection even during busy periods. She also recommended collecting more information before treating shorter visits as a direct consequence of the admission policy.",
     "questions": [
       {
         "prompt": "Which inference is best supported?",
@@ -1246,7 +1256,7 @@ window.WORKBOOK = [
       },
       {
         "prompt": "Why suggest guided tours?",
-        "solution": "The director wants tours to help guests engage even during busy periods. That is the stated purpose.",
+        "solution": "The director proposes short guided tours to help guests engage with the collection even during busy periods. The tours are intended to support engagement, not to reduce attendance or change admission fees.",
         "scored": true,
         "choices": [
           "To reduce the museum’s total attendance.",
@@ -1273,7 +1283,8 @@ window.WORKBOOK = [
       "SAT Reading & Writing",
       "https://www.khanacademy.org/test-prep/sat-reading-and-writing"
     ],
-    "skill": "Inferences; Command of Evidence"
+    "skill": "Inferences; Command of Evidence",
+    "passageWords": 112
   },
   {
     "id": "6C",
@@ -1283,7 +1294,7 @@ window.WORKBOOK = [
     "title": "Recall, connect & review",
     "duration": "20–25 min",
     "page": 21,
-    "passage": "When the museum began offering free admission on Fridays, attendance rose. Yet visitors spent less time at each exhibit on average. The director suggested adding short guided tours to help guests engage with the collection even during busy periods.",
+    "passage": "When the museum began offering free admission on Fridays, attendance rose. Staff members welcomed the opportunity to introduce the collection to more people. Yet visitors spent less time at each exhibit on average. The museum's records described these two changes, but they did not establish why individual visitors moved through the galleries more quickly. For example, the observations alone could not show whether every visitor had the same interests or the same amount of time available. The director suggested adding short guided tours to help guests engage with the collection even during busy periods. She also recommended collecting more information before treating shorter visits as a direct consequence of the admission policy.",
     "questions": [
       {
         "prompt": "Math: A $80 jacket is discounted 25%. Find the sale price.",
@@ -1337,7 +1348,8 @@ window.WORKBOOK = [
       "Percent & data",
       "https://www.khanacademy.org/test-prep/v2-sat-math"
     ],
-    "skill": "Percent and data + Inference with evidence"
+    "skill": "Percent and data + Inference with evidence",
+    "passageWords": 112
   },
   {
     "id": "7A",
@@ -1454,7 +1466,7 @@ window.WORKBOOK = [
     "title": "Precision and revision",
     "duration": "25–30 min",
     "page": 23,
-    "passage": "A student wrote: “The debate club was very good and did a lot of stuff.” Her teacher recommended replacing vague language with specific evidence. The student revised the sentence to: “The debate club won three regional competitions and hosted two public forums.”",
+    "passage": "A student wrote: “The debate club was very good and did a lot of stuff.” Her teacher recommended replacing vague language with specific evidence. The sentence expressed approval, but a reader unfamiliar with the club would not know which activities or achievements justified that approval. The teacher asked the student to look through meeting records and select accomplishments that could be checked. The student revised the sentence to: “The debate club won three regional competitions and hosted two public forums.” The revision did not ask readers to accept a general opinion without support. Instead, it gave them concrete results to consider when evaluating the club's work, making the statement more useful in an application.",
     "questions": [
       {
         "prompt": "Why is the revision stronger?",
@@ -1497,7 +1509,8 @@ window.WORKBOOK = [
       "SAT Reading & Writing",
       "https://www.khanacademy.org/test-prep/sat-reading-and-writing"
     ],
-    "skill": "Rhetorical Synthesis; Words in Context"
+    "skill": "Rhetorical Synthesis; Words in Context",
+    "passageWords": 114
   },
   {
     "id": "7C",
@@ -1507,7 +1520,7 @@ window.WORKBOOK = [
     "title": "Recall, connect & review",
     "duration": "20–25 min",
     "page": 24,
-    "passage": "A student wrote: “The debate club was very good and did a lot of stuff.” Her teacher recommended replacing vague language with specific evidence. The student revised the sentence to: “The debate club won three regional competitions and hosted two public forums.”",
+    "passage": "A student wrote: “The debate club was very good and did a lot of stuff.” Her teacher recommended replacing vague language with specific evidence. The sentence expressed approval, but a reader unfamiliar with the club would not know which activities or achievements justified that approval. The teacher asked the student to look through meeting records and select accomplishments that could be checked. The student revised the sentence to: “The debate club won three regional competitions and hosted two public forums.” The revision did not ask readers to accept a general opinion without support. Instead, it gave them concrete results to consider when evaluating the club's work, making the statement more useful in an application.",
     "questions": [
       {
         "prompt": "Math: Simplify √50.",
@@ -1557,7 +1570,8 @@ window.WORKBOOK = [
       "Radicals & expressions",
       "https://www.khanacademy.org/math/algebra/rational-exponents-and-radicals"
     ],
-    "skill": "Radicals and expressions + Precision and revision"
+    "skill": "Radicals and expressions + Precision and revision",
+    "passageWords": 114
   },
   {
     "id": "8A",
@@ -1666,7 +1680,7 @@ window.WORKBOOK = [
     "title": "Cumulative reading review",
     "duration": "25–30 min",
     "page": 26,
-    "passage": "After a neighborhood opened a bike lane, some residents reported feeling safer while cycling. Others said traffic had become slower. City officials collected traffic-speed measurements and surveyed both cyclists and drivers before deciding whether to modify the lane.",
+    "passage": "After a neighborhood opened a bike lane, some residents reported feeling safer while cycling. They described the separated space as a welcome change on a road they used for everyday trips. Others said traffic had become slower. They were concerned that the new arrangement made driving through the neighborhood less convenient. The comments showed that people using the same street could evaluate the change differently, but the comments alone did not reveal how traffic speeds had changed across different times of day. City officials collected traffic-speed measurements and surveyed both cyclists and drivers before deciding whether to modify the lane. Their review would consider both measured conditions and the experiences of different street users.",
     "questions": [
       {
         "prompt": "What two perspectives are described?",
@@ -1682,7 +1696,7 @@ window.WORKBOOK = [
       },
       {
         "prompt": "What evidence did officials collect?",
-        "solution": "The final sentence identifies two sources: measured traffic speeds and surveys of cyclists and drivers.",
+        "solution": "The text identifies two sources of evidence: traffic-speed measurements and surveys of both cyclists and drivers. Together these provide measurements and accounts of users’ experiences.",
         "scored": true,
         "choices": [
           "Only the opinions of cyclists who liked the lane.",
@@ -1709,7 +1723,8 @@ window.WORKBOOK = [
       "SAT Reading & Writing",
       "https://www.khanacademy.org/test-prep/sat-reading-and-writing"
     ],
-    "skill": "Central Ideas and Details; Command of Evidence"
+    "skill": "Central Ideas and Details; Command of Evidence",
+    "passageWords": 114
   },
   {
     "id": "8C",
@@ -1719,7 +1734,7 @@ window.WORKBOOK = [
     "title": "Recall, connect & review",
     "duration": "20–25 min",
     "page": 27,
-    "passage": "After a neighborhood opened a bike lane, some residents reported feeling safer while cycling. Others said traffic had become slower. City officials collected traffic-speed measurements and surveyed both cyclists and drivers before deciding whether to modify the lane.",
+    "passage": "After a neighborhood opened a bike lane, some residents reported feeling safer while cycling. They described the separated space as a welcome change on a road they used for everyday trips. Others said traffic had become slower. They were concerned that the new arrangement made driving through the neighborhood less convenient. The comments showed that people using the same street could evaluate the change differently, but the comments alone did not reveal how traffic speeds had changed across different times of day. City officials collected traffic-speed measurements and surveyed both cyclists and drivers before deciding whether to modify the lane. Their review would consider both measured conditions and the experiences of different street users.",
     "questions": [
       {
         "prompt": "Math: Solve 5x - 2 = 3x + 10.",
@@ -1773,6 +1788,7 @@ window.WORKBOOK = [
       "Algebra review",
       "https://www.khanacademy.org/test-prep/v2-sat-math"
     ],
-    "skill": "Mixed cumulative recall + Cumulative reading review"
+    "skill": "Mixed cumulative recall + Cumulative reading review",
+    "passageWords": 114
   }
 ];
