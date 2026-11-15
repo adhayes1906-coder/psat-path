@@ -8,6 +8,7 @@ A calm, interactive PSAT skills workbook with worked solutions, optional 1.5x mo
 
 - 8 learning cycles and 24 sessions from the supplied Third Edition workbook.
 - 64 scored practice questions, 8 unscored memory checks, and worked explanations for all 72 prompts.
+- Step-by-step equations with formatted fractions, powers, square roots, and final answers in every math solution.
 - Separate Questions, Answers & solutions, and Learn more tabs.
 - Four independent, optional module timer presets: Reading & Writing 1/2 at 48:00; Math 1/2 at 52:30.
 - Saved answers, self-reviewed accuracy, session completion, K/F/U/T/G tags, reflections, and a revisit list.
