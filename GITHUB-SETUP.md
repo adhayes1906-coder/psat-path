@@ -60,7 +60,7 @@ Timing source: [College Board PSAT/NMSQT structure](https://satsuite.collegeboar
 6. Open the next 24 sessions, created automatically from the missed and unanswered skills. Schedule them from that round’s page.
 7. Repeat through round 5. The path ends at **120 sessions and five exams**.
 
-Each follow-up session has four multiple-choice questions, explanations with math equations, learning links, and multiple-choice tips. Exam forms are original, fixed, nonadaptive practice with repeated question families and different values/scenarios. They match SAT question counts and passage-length limits but are not official or calibrated SAT tests. All Math items here use multiple choice; the actual SAT also includes student-produced answers. Use official Bluebook practice for an official practice score.
+Each follow-up session has five multiple-choice questions, explanations with math equations, learning links, and multiple-choice tips. Exam forms are original, fixed, nonadaptive practice with repeated question families and different values/scenarios. They match SAT question counts and passage-length limits but are not official or calibrated SAT tests. All Math items here use multiple choice; the actual SAT also includes student-produced answers. Use official Bluebook practice for an official practice score.
 
 **Demo:** add `?demo=1#sat-path` to the website address. It shows a hypothetical first exam result and the next targeted plan. Choose **Preview a full exam** to explore testing without changing real progress.
 
@@ -91,3 +91,9 @@ Each cycle’s **C** session is now **Vocabulary**: study 10 words, then take th
 Use **Hear word** for pronunciation, **Slower** for a slower reading, or **Hear example** for the sentence. Leave **Reading voice → Automatic** to use an English voice available on the current device, or select another voice. The sound can differ between Mac, Windows, iPhone/iPad, and Android. Tap a button to begin playback. If a network voice fails, connect to the internet or choose a voice labeled **on device**. Turn up your device volume. If audio cannot play, use **Dictionary pronunciation** under the buttons.
 
 The library has 200 words selected from vocabulary questions in official released SAT Practice Tests 4–11, with 20 quizzes. Each card links to its source test and PDF page. Open “About these 200 SAT practice words” for the selection details. This is not an exhaustive list or a live-exam frequency ranking. Search can jump to any word. Progress saves in this browser, and backups include vocabulary progress. Matching words retain reviewed status and ratings from the earlier deck; earlier quiz scores appear separately in the history. Demo mode uses separate sample progress.
+
+## Five questions per subject session
+
+Every cycle has **5 Math questions**, **5 Reading questions**, and its **10-word vocabulary review**. Questions 4–5 in Math and Reading are new original practice, with solutions. Later targeted sessions also have 5 questions each. Answer every question, open **Answers & solutions**, and choose **Complete session**.
+
+Earlier answers and notes stay saved. A previously completed session with new unanswered items reopens for the added practice; its earlier completion date stays in backups. Started exams and saved exam results remain available.
