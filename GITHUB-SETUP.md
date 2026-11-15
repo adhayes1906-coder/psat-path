@@ -13,7 +13,7 @@
 3. Enter **psat-path** as the repository name. Paste the description above.
 4. Choose **Public** for the simplest free GitHub Pages setup. The workbook code will be public; your typed answers stay in your own browser. Click **Create repository**.
 5. Click **uploading an existing file**. If the repository already has files, click **Add file → Upload files** instead.
-6. Open the unzipped folder. Drag **the files inside it**, not the ZIP or outer folder, into GitHub. You should see `index.html`, `style.css`, `app.js`, `content.js`, `sat-bank.js`, `sat-path.js`, `sat-path.css`, `reading-tips.js`, `icon.svg`, `README.md`, and this guide. If `.nojekyll` is hidden on your computer, it is fine to leave that empty file out for this plain static site.
+6. Open the unzipped folder. Drag **the files inside it**, not the ZIP or outer folder, into GitHub. You should see `index.html`, `style.css`, `app.js`, `content.js`, `sat-bank.js`, `sat-path.js`, `sat-path.css`, `reading-tips.js`, `vocabulary-data.js`, `vocabulary.js`, `vocabulary.css`, `icon.svg`, `README.md`, and this guide. If `.nojekyll` is hidden on your computer, it is fine to leave that empty file out for this plain static site.
 7. Click **Commit changes**.
 8. Click **Settings → Pages** in your repository.
 9. Under **Build and deployment**, select **Deploy from a branch**. Choose **main** and **/ (root)**, then click **Save**.
@@ -76,3 +76,14 @@ Open the repository, choose **Add file → Upload files**, and upload replacemen
 ## Reading quick tips
 
 Select **Reading quick tips** in the navigation menu, or open the tab with the same name inside a workbook or targeted practice session. Expand a question type for its strategy, reveal the example solution, and use the short checklist. The comparison panel explains what matches SAT format and what remains skill practice. Official sample questions, the Student Question Bank, and Bluebook links are included.
+
+
+## Vocabulary flashcards
+
+1. Select **SAT vocabulary** in the menu.
+2. Choose a set of 10 words. Click a card to flip from the word to its definition and example sentence.
+3. Select **Next word**. Optionally mark words **I know this** or **Practice again**.
+4. After reviewing all 10 cards, choose **Take the 10-word quiz**. Answer all questions and select **Grade my quiz**.
+5. Read the results, review missed words, retake the quiz, or continue to the next set.
+
+The library has 400 curated words and 40 quizzes. Search can jump to any word. It is a broad academic study set, not an official or exhaustive SAT vocabulary list. Progress saves in this browser, and the standard backup buttons now include vocabulary progress. Demo mode includes clearly separate sample vocabulary progress.
