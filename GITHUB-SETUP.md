@@ -53,7 +53,7 @@ Timing source: [College Board PSAT/NMSQT structure](https://satsuite.collegeboar
 ## Follow the five-round SAT path
 
 1. Choose **Five-round SAT path** in the menu.
-2. Complete the original 24 workbook sessions, including the mixed review sessions, to unlock **Exam 1**.
+2. Complete the original 24 workbook sessions, including the eight vocabulary review tests, to unlock **Exam 1**.
 3. Answer the 98 questions across four modules. Finish each module to continue; earlier modules lock. Take the 10-minute break before Math. Timers start off.
 4. Submit the exam. See overall, Reading & Writing, and Math correct totals and percentages, plus solutions and a skill breakdown.
 5. Optionally enter section scores from a separate official Bluebook exam. These fields accept official scores; the website does not estimate an SAT scaled score.
@@ -86,6 +86,8 @@ Select **Reading quick tips** in the navigation menu, or open the tab with the s
 4. After reviewing all 10 cards, choose **Take the 10-word quiz**. Answer all questions and select **Grade my quiz**.
 5. Read the results, review missed words, retake the quiz, or continue to the next set.
 
-Use **Hear word** for pronunciation, **Slower** for a slower reading, or **Hear example** for the sentence. Turn up your device volume. If audio cannot play, use **Dictionary pronunciation** under the buttons.
+Each cycle’s **C** session is now **Vocabulary**: study 10 words, then take the 10-question **Review test**. The same set is available in **SAT vocabulary**. Grading the test marks that C session complete and updates the calendar.
+
+Use **Hear word** for pronunciation, **Slower** for a slower reading, or **Hear example** for the sentence. Choose **Reading voice → Recommended** for the preferred English voice, or select another available voice. Turn up your device volume. If audio cannot play, use **Dictionary pronunciation** under the buttons.
 
 The library has 200 words selected from vocabulary questions in official released SAT Practice Tests 4–11, with 20 quizzes. Each card links to its source test and PDF page. Open “About these 200 SAT practice words” for the selection details. This is not an exhaustive list or a live-exam frequency ranking. Search can jump to any word. Progress saves in this browser, and backups include vocabulary progress. Matching words retain reviewed status and ratings from the earlier deck; earlier quiz scores appear separately in the history. Demo mode uses separate sample progress.

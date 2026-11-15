@@ -6,8 +6,8 @@ An interactive PSAT/SAT study path with 120 sessions, five original practice exa
 
 ## Features
 
-- 8 learning cycles and 24 sessions from the supplied Third Edition workbook.
-- 64 multiple-choice practice questions with four options each, automatic checking, and an option eliminator, 8 unscored memory checks, and worked explanations for all 72 prompts.
+- 8 learning cycles and 24 sessions: math, reading, and a 10-word vocabulary set with a review test in each cycle.
+- 48 workbook math/reading questions with four options, checking, elimination tools, and worked explanations; 80 vocabulary review questions across the eight cycle sets.
 - Step-by-step equations with formatted fractions, powers, square roots, and final answers in every math solution.
 - Longer original reading texts within the digital SAT passage-length range, with visible word counts.
 - Separate Questions, Answers & solutions, Learn more, and Multiple-choice tips tabs.
@@ -55,11 +55,11 @@ Official timing reference: [College Board PSAT/NMSQT structure](https://satsuite
 
 Browser checks covered answer saving, solutions, self-review, completion, completed calendar dates, automatic scheduling, timer presets, timer switching, reload persistence, and a 390-pixel phone layout. JavaScript syntax and workbook content counts were checked. Linked Khan Academy course pages returned HTTP 200 during preparation on November 14, 2026.
 
-The multiple-choice options and answer keys are newly authored adaptations of the supplied workbook. The eight memory checks remain open-ended. Earlier written responses and their existing completion/review data are preserved; choosing a new option reopens that session for review. The tips tab links to College Board sources.
+The multiple-choice options and answer keys are newly authored adaptations of the supplied workbook. The eight former Mixed sessions are replaced by vocabulary sessions. Earlier written responses and their existing completion/review data are preserved; choosing a new option reopens that session for review. The tips tab links to College Board sources.
 
 ## Reading length update
 
-The eight reading samples have been expanded into original practice passages, also used in the matching mixed reviews. Word counts are displayed in the workbook. Every passage falls within the current digital SAT range of 25–150 ordinary words, and also within the framework’s technical six-character word range. These are adaptations, not copied official passages. The workbook retains three questions per shared text; the digital SAT uses one question per passage or passage pair. Length alignment does not establish equivalent exam difficulty. Questions, options, and evidence references were reviewed for consistency; previously saved progress remains available.
+The eight reading samples have been expanded into original practice passages, used in the eight reading sessions. Word counts are displayed in the workbook. Every passage falls within the current digital SAT range of 25–150 ordinary words, and also within the framework’s technical six-character word range. These are adaptations, not copied official passages. The workbook retains three questions per shared text; the digital SAT uses one question per passage or passage pair. Length alignment does not establish equivalent exam difficulty. Questions, options, and evidence references were reviewed for consistency; previously saved progress remains available.
 
 Source: [College Board SAT Reading and Writing](https://satsuite.collegeboard.org/sat/whats-on-the-test/reading-writing).
 
@@ -100,8 +100,16 @@ Required files are `vocabulary-data.js`, `vocabulary.js`, and `vocabulary.css`. 
 
 Checks cover 200 unique cards and matching example words, all card sources against the extracted question choices/targets and PDF page text, corpus recurrence ordering, 100 deterministic quiz variants, correct/incorrect grading, ten-card gating, missed-word review, retakes, next sets, exact-word legacy migration, separate prior score history, and backup round trips. Browser verification covers card flipping, source links, quizzes, saved results, search, and a phone layout.
 
-## Vocabulary pronunciation
+## Vocabulary cycles and pronunciation update
 
-Every vocabulary card has Hear word, Slower, and Hear example controls. Word audio is also available in quizzes, and all three controls appear in quiz explanations. Playback starts only on a button press and uses the device's Web Speech speech-synthesis service, preferring an available US English voice and otherwise an English voice. Normal rate is 0.9 and slower rate is 0.65. Voice quality and pronunciation vary by device; these are synthesized readings, not dictionary recordings. Listening to the example provides context for words with multiple pronunciations.
+Session C in each of the eight original cycles is now vocabulary. Each session uses one of the first eight stable sets in the SAT vocabulary library: ten flashcards followed by a ten-question multiple-choice review test. The dedicated Vocabulary tab and SAT vocabulary page share the same answers, scores, and reviewed status. The remaining twelve sets are extra practice. There are still 24 sessions before Exam 1.
 
-A new playback replaces the previous one. Stop audio, card changes, route changes, page exit, and hiding the tab cancel playback. Unsupported browsers and playback failures have visible guidance and a Merriam-Webster dictionary link for each word. Some device voices require network access; the website adds no speech API key, speech backend, or microphone access. Hearing a word does not mark its definition reviewed or affect answers, scores, or the existing progress format. Implementation reference: [SpeechSynthesis](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis).
+Grading a cycle vocabulary test automatically completes its C session. Its saved date contributes to the study calendar, completion count, and first-exam unlock. Best vocabulary scores contribute to practice accuracy; starting a retake does not erase session completion. Exact word order and the 200-word deck identifier are unchanged. A `completedAt` date is now included in vocabulary records and their backups. Existing submitted vocabulary tests supply their actual completion date.
+
+The workbook store includes `vocabularyRevision: 1` and `legacyMixed` archives. Earlier C-session responses, choices, notes, grades, dates, and flags are moved into that archive rather than applied to the new vocabulary work. Math and reading records, plans, and completed SAT exams are retained. Older workbook backups are migrated on import; normal JSON export includes archived work and vocabulary results. Earlier mixed completion does not count as completion of a new vocabulary test.
+
+Every word has Hear word, Slower, and Hear example buttons, with word audio also in quizzes and all three in explanations. Recommended voice selection favors available neural/natural/enhanced English voices, then established English voices such as Samantha; novelty voices are penalized. A Reading voice picker lets the student choose among available English voices, with the preference saved on that device. Voice availability and quality depend on the browser and installed voices. Playback is still synthesized speech, not a human recording.
+
+Normal speech requests rate 1; Slower requests 0.45. Playback cancels the earlier request, resumes a paused engine, and allows a 100 ms cancellation interval before starting a new utterance. This avoids the immediate cancel/speak restart that can lose a slower-playback request. Stop, navigation, hidden tabs, imports, and submission cancel playback. Unsupported or failing speech has a dictionary fallback. Listening does not mark definitions reviewed. No microphone, API key, or audio backend is needed.
+
+Verified in the browser on November 15, 2026: Recommended selects Samantha, and the same word (commercialization) measured 1,286 ms at normal speed versus 1,657 ms with Slower. Browser timings vary and the synthesis rate is not a promise of a linear speed ratio. Tests cover all 200 words, voice ranking, queued restart cancellation, progress migration, shared cycle tests, completion dates, retakes, backups, and the 24-session exam gate.

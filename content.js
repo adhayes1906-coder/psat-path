@@ -168,70 +168,17 @@ window.WORKBOOK = [
     "id": "1C",
     "cycle": 1,
     "letter": "C",
-    "type": "Mixed",
-    "title": "Recall, connect & review",
-    "duration": "20–25 min",
-    "page": 6,
-    "passage": "A community library began lending laptops to students who lacked reliable devices at home. The program was intended to make homework and online research easier to complete outside school hours. During the first month, many students borrowed laptops only on weekends. Staff reviewed checkout records and noticed that the brief loan period made borrowing during the school week less convenient. Staff members then extended checkout periods, and weekday borrowing increased. Rather than assuming the revised rules solved every problem, staff wanted to learn whether families still faced barriers such as transportation or limited internet access. The library plans to survey families before changing its policy again.",
-    "questions": [
-      {
-        "prompt": "Math: Solve 4(2x - 3) = 28.",
-        "solution": "Distribute the 4: 8x - 12 = 28. Add 12 to both sides: 8x = 40. Divide by 8: x = 5. Check: 4(10 - 3) = 28.",
-        "scored": true,
-        "equations": [
-          {
-            "label": "Start with the equation",
-            "mathml": "<mrow><mn>4</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>28</mn></mrow>"
-          },
-          {
-            "label": "Distribute 4",
-            "mathml": "<mrow><mn>8</mn><mi>x</mi><mo>−</mo><mn>12</mn><mo>=</mo><mn>28</mn></mrow>"
-          },
-          {
-            "label": "Add 12 to both sides",
-            "mathml": "<mrow><mn>8</mn><mi>x</mi><mo>=</mo><mn>40</mn></mrow>"
-          },
-          {
-            "label": "Divide both sides by 8",
-            "mathml": "<mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>40</mn></mrow><mrow><mn>8</mn></mrow></mfrac><mo>=</mo><mn>5</mn></mrow>"
-          },
-          {
-            "label": "Check your answer",
-            "mathml": "<mrow><mn>4</mn><mo>(</mo><mn>2</mn><mo>×</mo><mn>5</mn><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>28</mn></mrow>"
-          }
-        ],
-        "choices": [
-          "x = 2",
-          "x = 5",
-          "x = 8",
-          "x = 10"
-        ],
-        "correct": 1
-      },
-      {
-        "prompt": "Reading: What is the central idea?",
-        "solution": "The passage describes a laptop-lending program, how students used it, and the library's response. The central idea must include the policy adjustment, not just that laptops were lent.",
-        "scored": true,
-        "choices": [
-          "The library ended laptop lending because students rarely used it.",
-          "Students preferred buying laptops instead of borrowing them.",
-          "The library changed checkout rules in response to borrowing patterns.",
-          "Families asked the library to allow weekend borrowing only."
-        ],
-        "correct": 2
-      },
-      {
-        "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
-        "solution": "Answers vary. Name a previous concept, explain the steps without notes, and give a correct example. Revisit that lesson if your explanation is incomplete.",
-        "scored": false
-      }
-    ],
+    "type": "Vocabulary",
+    "title": "SAT vocabulary · Set 1",
+    "duration": "15–20 min",
+    "page": null,
+    "questions": [],
     "resource": [
       "Linear equations",
       "https://www.khanacademy.org/math/algebra/one-variable-linear-equations"
     ],
-    "skill": "Linear equations and recall + Evidence and main idea",
-    "passageWords": 106
+    "skill": "10 SAT vocabulary words and a graded review test",
+    "vocabularySet": 0
   },
   {
     "id": "2A",
@@ -386,62 +333,17 @@ window.WORKBOOK = [
     "id": "2C",
     "cycle": 2,
     "letter": "C",
-    "type": "Mixed",
-    "title": "Recall, connect & review",
-    "duration": "20–25 min",
-    "page": 9,
-    "passage": "During a science fair, Lena initially dismissed an unexpected result as an error. She had predicted that all the seedlings in her experiment would grow at approximately the same rate, but one group grew more slowly. Before discarding those measurements, she checked her equipment and reviewed the steps recorded in her notebook. She then repeated the procedure, keeping the conditions and measurement schedule unchanged. After repeating the experiment, she reconsidered. The result was consistent across three trials, suggesting that the original explanation needed revision. Lena decided that her presentation should describe the repeated observations and discuss possible explanations rather than quietly omit the measurements that did not match her prediction.",
-    "questions": [
-      {
-        "prompt": "Math: A line passes through (2, 5) and (6, 13). Find its slope.",
-        "solution": "Use slope = change in y / change in x. The y-values change by 13 - 5 = 8; x-values by 6 - 2 = 4. Slope = 8/4 = 2.",
-        "scored": true,
-        "equations": [
-          {
-            "label": "Use change in y divided by change in x",
-            "mathml": "<mrow><mi>m</mi><mo>=</mo><mfrac><mrow><msub><mi>y</mi><mrow><mn>2</mn></mrow></msub><mo>−</mo><msub><mi>y</mi><mrow><mn>1</mn></mrow></msub></mrow><mrow><msub><mi>x</mi><mrow><mn>2</mn></mrow></msub><mo>−</mo><msub><mi>x</mi><mrow><mn>1</mn></mrow></msub></mrow></mfrac></mrow>"
-          },
-          {
-            "label": "Substitute the two points",
-            "mathml": "<mrow><mi>m</mi><mo>=</mo><mfrac><mrow><mn>13</mn><mo>−</mo><mn>5</mn></mrow><mrow><mn>6</mn><mo>−</mo><mn>2</mn></mrow></mfrac></mrow>"
-          },
-          {
-            "label": "Simplify",
-            "mathml": "<mrow><mi>m</mi><mo>=</mo><mfrac><mrow><mn>8</mn></mrow><mrow><mn>4</mn></mrow></mfrac><mo>=</mo><mn>2</mn></mrow>"
-          }
-        ],
-        "choices": [
-          "1/2",
-          "2",
-          "4",
-          "8"
-        ],
-        "correct": 1
-      },
-      {
-        "prompt": "Reading: What does “consistent” most nearly mean?",
-        "solution": "The passage says the result appeared 'across three trials.' In this context, consistent means repeated or stable rather than random.",
-        "scored": true,
-        "choices": [
-          "Unexpected",
-          "Incorrect",
-          "Repeated or stable",
-          "Quickly completed"
-        ],
-        "correct": 2
-      },
-      {
-        "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
-        "solution": "Answers vary. Name a previous concept, explain the steps without notes, and give a correct example. Revisit that lesson if your explanation is incomplete.",
-        "scored": false
-      }
-    ],
+    "type": "Vocabulary",
+    "title": "SAT vocabulary · Set 2",
+    "duration": "15–20 min",
+    "page": null,
+    "questions": [],
     "resource": [
       "Slope & functions",
       "https://www.khanacademy.org/math/algebra/linear-equations-and-inequalities"
     ],
-    "skill": "Slope and functions + Vocabulary in context",
-    "passageWords": 110
+    "skill": "10 SAT vocabulary words and a graded review test",
+    "vocabularySet": 1
   },
   {
     "id": "3A",
@@ -600,62 +502,17 @@ window.WORKBOOK = [
     "id": "3C",
     "cycle": 3,
     "letter": "C",
-    "type": "Mixed",
-    "title": "Recall, connect & review",
-    "duration": "20–25 min",
-    "page": 12,
-    "passage": "Some cities plant trees to reduce summer heat. Trees provide shade and cool the surrounding air through evaporation. A proposal to add trees along busy sidewalks may therefore appeal to residents who walk to work, school, or nearby shops. However, planting alone is not enough: young trees require watering and care. Without a clear arrangement for that work, the initial investment may not produce the lasting benefits that planners expect. A city evaluating such a proposal should consider who will maintain the trees and how that work will be funded after the planting crews leave. A successful program therefore needs both planting funds and a long-term maintenance plan.",
-    "questions": [
-      {
-        "prompt": "Math: Simplify (x³)(x⁴).",
-        "solution": "For the same base, multiplying powers adds exponents: x³ × x⁴ = x^(3+4) = x⁷.",
-        "scored": true,
-        "equations": [
-          {
-            "label": "Multiply powers with the same base",
-            "mathml": "<mrow><msup><mi>x</mi><mrow><mn>3</mn></mrow></msup><mo>×</mo><msup><mi>x</mi><mrow><mn>4</mn></mrow></msup></mrow>"
-          },
-          {
-            "label": "Add the exponents",
-            "mathml": "<mrow><msup><mi>x</mi><mrow><mn>3</mn></mrow></msup><mo>×</mo><msup><mi>x</mi><mrow><mn>4</mn></mrow></msup><mo>=</mo><msup><mi>x</mi><mrow><mn>3</mn><mo>+</mo><mn>4</mn></mrow></msup></mrow>"
-          },
-          {
-            "label": "Answer",
-            "mathml": "<mrow><msup><mi>x</mi><mrow><mn>3</mn><mo>+</mo><mn>4</mn></mrow></msup><mo>=</mo><msup><mi>x</mi><mrow><mn>7</mn></mrow></msup></mrow>"
-          }
-        ],
-        "choices": [
-          "x¹²",
-          "x⁷",
-          "x",
-          "2x⁷"
-        ],
-        "correct": 1
-      },
-      {
-        "prompt": "Reading: What is the function of “However”?",
-        "solution": "'However' signals a contrast: planting trees helps, BUT planting alone is not sufficient.",
-        "scored": true,
-        "choices": [
-          "It adds a limitation: planting trees helps, but planting alone is insufficient.",
-          "It provides another example of a city that plants trees.",
-          "It shows that watering trees causes summer temperatures to rise.",
-          "It repeats the claim that maintenance plans are unnecessary."
-        ],
-        "correct": 0
-      },
-      {
-        "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
-        "solution": "Answers vary. Name a previous concept, explain the steps without notes, and give a correct example. Revisit that lesson if your explanation is incomplete.",
-        "scored": false
-      }
-    ],
+    "type": "Vocabulary",
+    "title": "SAT vocabulary · Set 3",
+    "duration": "15–20 min",
+    "page": null,
+    "questions": [],
     "resource": [
       "Exponents & factoring",
       "https://www.khanacademy.org/math/algebra/polynomials"
     ],
-    "skill": "Exponents and factoring + Structure and purpose",
-    "passageWords": 108
+    "skill": "10 SAT vocabulary words and a graded review test",
+    "vocabularySet": 2
   },
   {
     "id": "4A",
@@ -842,78 +699,17 @@ window.WORKBOOK = [
     "id": "4C",
     "cycle": 4,
     "letter": "C",
-    "type": "Mixed",
-    "title": "Recall, connect & review",
-    "duration": "20–25 min",
-    "page": 15,
-    "passage": "A school proposed starting classes 20 minutes later. Supporters argued that students would arrive more alert. They wanted the discussion to focus on whether a different morning schedule might help students begin lessons ready to participate. Opponents worried that after-school sports would end later. They asked how the change would affect transportation and other afternoon commitments. Both groups offered concerns that could be considered during a temporary change, but neither set of opinions showed exactly what would happen at this school. The principal suggested a one-semester trial with surveys and attendance tracking before making a permanent decision. This would allow the school to compare experiences and measurable results before committing to a new schedule.",
-    "questions": [
-      {
-        "prompt": "Math: Solve x + y = 12 and x - y = 4.",
-        "solution": "Add the equations: (x+y)+(x-y) = 12+4, so 2x = 16 and x = 8. Substitute: 8+y = 12, so y = 4.",
-        "scored": true,
-        "equations": [
-          {
-            "label": "First equation",
-            "mathml": "<mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>12</mn></mrow>"
-          },
-          {
-            "label": "Second equation",
-            "mathml": "<mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>4</mn></mrow>"
-          },
-          {
-            "label": "Add the equations to eliminate y",
-            "mathml": "<mrow><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>12</mn><mo>+</mo><mn>4</mn></mrow>"
-          },
-          {
-            "label": "Solve for x",
-            "mathml": "<mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>16</mn></mrow>"
-          },
-          {
-            "label": "Divide by 2",
-            "mathml": "<mrow><mi>x</mi><mo>=</mo><mn>8</mn></mrow>"
-          },
-          {
-            "label": "Substitute x = 8",
-            "mathml": "<mrow><mn>8</mn><mo>+</mo><mi>y</mi><mo>=</mo><mn>12</mn></mrow>"
-          },
-          {
-            "label": "Solve for y",
-            "mathml": "<mrow><mi>y</mi><mo>=</mo><mn>4</mn></mrow>"
-          }
-        ],
-        "choices": [
-          "x = 4, y = 8",
-          "x = 6, y = 6",
-          "x = 12, y = 4",
-          "x = 8, y = 4"
-        ],
-        "correct": 3
-      },
-      {
-        "prompt": "Reading: Which concern do opponents raise?",
-        "solution": "The opponents' concern is stated directly: after-school sports could end later.",
-        "scored": true,
-        "choices": [
-          "Students would be less alert when school began.",
-          "Students would attend more classes each day.",
-          "After-school sports would finish later.",
-          "Attendance could no longer be measured."
-        ],
-        "correct": 2
-      },
-      {
-        "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
-        "solution": "Answers vary. Name a previous concept, explain the steps without notes, and give a correct example. Revisit that lesson if your explanation is incomplete.",
-        "scored": false
-      }
-    ],
+    "type": "Vocabulary",
+    "title": "SAT vocabulary · Set 4",
+    "duration": "15–20 min",
+    "page": null,
+    "questions": [],
     "resource": [
       "Systems of equations",
       "https://www.khanacademy.org/math/algebra/systems-of-equations"
     ],
-    "skill": "Systems of equations + Comparing claims",
-    "passageWords": 114
+    "skill": "10 SAT vocabulary words and a graded review test",
+    "vocabularySet": 3
   },
   {
     "id": "5A",
@@ -1072,66 +868,17 @@ window.WORKBOOK = [
     "id": "5C",
     "cycle": 5,
     "letter": "C",
-    "type": "Mixed",
-    "title": "Recall, connect & review",
-    "duration": "20–25 min",
-    "page": 18,
-    "passage": "Researchers compared two gardens. Both received equal sunlight, but one was watered more often. The researchers recorded the watering schedule and counted the tomatoes harvested from each garden during the same growing period. The frequently watered garden produced more tomatoes. At first, this difference appeared to offer a straightforward reason to recommend additional watering. ___, the researchers could not conclude that water alone caused the difference because soil quality had not been measured. A garden with different soil conditions might produce a different yield even if the watering schedules were identical. Before making a firm recommendation, the researchers proposed another comparison that would account for soil quality as well as the amount of water supplied.",
-    "questions": [
-      {
-        "prompt": "Math: Solve x² - 5x + 6 = 0.",
-        "solution": "Find two numbers that multiply to 6 and add to -5: -2 and -3. Factor: (x-2)(x-3)=0. Set each factor to zero: x=2 or x=3.",
-        "scored": true,
-        "equations": [
-          {
-            "label": "Start with the quadratic",
-            "mathml": "<mrow><msup><mi>x</mi><mrow><mn>2</mn></mrow></msup><mo>−</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>0</mn></mrow>"
-          },
-          {
-            "label": "Factor the quadratic",
-            "mathml": "<mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>0</mn></mrow>"
-          },
-          {
-            "label": "Set each factor equal to zero",
-            "mathml": "<mrow><mi>x</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>0</mn><mtext> or </mtext><mi>x</mi><mo>−</mo><mn>3</mn><mo>=</mo><mn>0</mn></mrow>"
-          },
-          {
-            "label": "Solve both equations",
-            "mathml": "<mrow><mi>x</mi><mo>=</mo><mn>2</mn><mtext> or </mtext><mi>x</mi><mo>=</mo><mn>3</mn></mrow>"
-          }
-        ],
-        "choices": [
-          "x = −2 or x = −3",
-          "x = 2 or x = 3",
-          "x = −2 or x = 3",
-          "x = 1 or x = 6"
-        ],
-        "correct": 1
-      },
-      {
-        "prompt": "Reading: Which transition best completes the passage?",
-        "solution": "The first finding suggests more water may help; the next sentence limits that conclusion. 'However' correctly introduces this contrast.",
-        "scored": true,
-        "choices": [
-          "However",
-          "Therefore",
-          "Similarly",
-          "For example"
-        ],
-        "correct": 0
-      },
-      {
-        "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
-        "solution": "Answers vary. Name a previous concept, explain the steps without notes, and give a correct example. Revisit that lesson if your explanation is incomplete.",
-        "scored": false
-      }
-    ],
+    "type": "Vocabulary",
+    "title": "SAT vocabulary · Set 5",
+    "duration": "15–20 min",
+    "page": null,
+    "questions": [],
     "resource": [
       "Quadratics",
       "https://www.khanacademy.org/math/algebra/quadratics"
     ],
-    "skill": "Quadratics + Transitions and logic",
-    "passageWords": 115
+    "skill": "10 SAT vocabulary words and a graded review test",
+    "vocabularySet": 4
   },
   {
     "id": "6A",
@@ -1290,66 +1037,17 @@ window.WORKBOOK = [
     "id": "6C",
     "cycle": 6,
     "letter": "C",
-    "type": "Mixed",
-    "title": "Recall, connect & review",
-    "duration": "20–25 min",
-    "page": 21,
-    "passage": "When the museum began offering free admission on Fridays, attendance rose. Staff members welcomed the opportunity to introduce the collection to more people. Yet visitors spent less time at each exhibit on average. The museum's records described these two changes, but they did not establish why individual visitors moved through the galleries more quickly. For example, the observations alone could not show whether every visitor had the same interests or the same amount of time available. The director suggested adding short guided tours to help guests engage with the collection even during busy periods. She also recommended collecting more information before treating shorter visits as a direct consequence of the admission policy.",
-    "questions": [
-      {
-        "prompt": "Math: A $80 jacket is discounted 25%. Find the sale price.",
-        "solution": "Calculate 25% of $80: 0.25 × 80 = $20. Subtract the discount: $80 - $20 = $60.",
-        "scored": true,
-        "equations": [
-          {
-            "label": "Convert 25% to a decimal",
-            "mathml": "<mrow><mn>25</mn><mo>%</mo><mo>=</mo><mn>0.25</mn></mrow>"
-          },
-          {
-            "label": "Find the discount",
-            "mathml": "<mrow><mtext>Discount</mtext><mo>=</mo><mn>0.25</mn><mo>×</mo><mn>80</mn><mo>=</mo><mn>20</mn></mrow>"
-          },
-          {
-            "label": "Subtract from the original price",
-            "mathml": "<mrow><mtext>Sale price</mtext><mo>=</mo><mn>80</mn><mo>−</mo><mn>20</mn><mo>=</mo><mn>60</mn></mrow>"
-          },
-          {
-            "label": "Answer",
-            "mathml": "<mrow><mtext>Sale price</mtext><mo>=</mo><mtext>$</mtext><mn>60</mn></mrow>"
-          }
-        ],
-        "choices": [
-          "$20",
-          "$55",
-          "$75",
-          "$60"
-        ],
-        "correct": 3
-      },
-      {
-        "prompt": "Reading: Which inference is best supported?",
-        "solution": "Attendance rose while time at each exhibit fell. A busier museum is a reasonable inference, though not proven.",
-        "scored": true,
-        "choices": [
-          "All visitors disliked the museum’s exhibits.",
-          "Free admission definitely caused visitors to learn less.",
-          "The museum may have been busier during free-admission periods.",
-          "Guided tours had already increased the length of every visit."
-        ],
-        "correct": 2
-      },
-      {
-        "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
-        "solution": "Answers vary. Name a previous concept, explain the steps without notes, and give a correct example. Revisit that lesson if your explanation is incomplete.",
-        "scored": false
-      }
-    ],
+    "type": "Vocabulary",
+    "title": "SAT vocabulary · Set 6",
+    "duration": "15–20 min",
+    "page": null,
+    "questions": [],
     "resource": [
       "Percent & data",
       "https://www.khanacademy.org/test-prep/v2-sat-math"
     ],
-    "skill": "Percent and data + Inference with evidence",
-    "passageWords": 112
+    "skill": "10 SAT vocabulary words and a graded review test",
+    "vocabularySet": 5
   },
   {
     "id": "7A",
@@ -1516,69 +1214,24 @@ window.WORKBOOK = [
     "id": "7C",
     "cycle": 7,
     "letter": "C",
-    "type": "Mixed",
-    "title": "Recall, connect & review",
-    "duration": "20–25 min",
-    "page": 24,
-    "passage": "A student wrote: “The debate club was very good and did a lot of stuff.” Her teacher recommended replacing vague language with specific evidence. The sentence expressed approval, but a reader unfamiliar with the club would not know which activities or achievements justified that approval. The teacher asked the student to look through meeting records and select accomplishments that could be checked. The student revised the sentence to: “The debate club won three regional competitions and hosted two public forums.” The revision did not ask readers to accept a general opinion without support. Instead, it gave them concrete results to consider when evaluating the club's work, making the statement more useful in an application.",
-    "questions": [
-      {
-        "prompt": "Math: Simplify √50.",
-        "solution": "Factor 50 as 25×2. Then √50 = √25 × √2 = 5√2.",
-        "scored": true,
-        "equations": [
-          {
-            "label": "Factor out a perfect square",
-            "mathml": "<mrow><msqrt><mrow><mn>50</mn></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>25</mn><mo>×</mo><mn>2</mn></mrow></msqrt></mrow>"
-          },
-          {
-            "label": "Separate the square roots",
-            "mathml": "<mrow><msqrt><mrow><mn>50</mn></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>25</mn></mrow></msqrt><mo>×</mo><msqrt><mrow><mn>2</mn></mrow></msqrt></mrow>"
-          },
-          {
-            "label": "Simplify the perfect square",
-            "mathml": "<mrow><msqrt><mrow><mn>50</mn></mrow></msqrt><mo>=</mo><mn>5</mn><msqrt><mrow><mn>2</mn></mrow></msqrt></mrow>"
-          }
-        ],
-        "choices": [
-          "25√2",
-          "5√2",
-          "10√5",
-          "5"
-        ],
-        "correct": 1
-      },
-      {
-        "prompt": "Reading: Why is the revision stronger?",
-        "solution": "The original says 'very good' and 'a lot of stuff.' The revision gives counts of wins and forums, making the claim specific.",
-        "scored": true,
-        "choices": [
-          "It replaces general praise with specific, checkable accomplishments.",
-          "It removes all information about what the club achieved.",
-          "It proves that every other school club is less successful.",
-          "It uses more praise without adding any supporting evidence."
-        ],
-        "correct": 0
-      },
-      {
-        "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
-        "solution": "Answers vary. Name a previous concept, explain the steps without notes, and give a correct example. Revisit that lesson if your explanation is incomplete.",
-        "scored": false
-      }
-    ],
+    "type": "Vocabulary",
+    "title": "SAT vocabulary · Set 7",
+    "duration": "15–20 min",
+    "page": null,
+    "questions": [],
     "resource": [
       "Radicals & expressions",
       "https://www.khanacademy.org/math/algebra/rational-exponents-and-radicals"
     ],
-    "skill": "Radicals and expressions + Precision and revision",
-    "passageWords": 114
+    "skill": "10 SAT vocabulary words and a graded review test",
+    "vocabularySet": 6
   },
   {
     "id": "8A",
     "cycle": 8,
     "letter": "A",
     "type": "Math",
-    "title": "Mixed cumulative recall",
+    "title": "Cumulative math recall",
     "duration": "25–30 min",
     "page": 25,
     "passage": "",
@@ -1670,7 +1323,7 @@ window.WORKBOOK = [
       "Algebra review",
       "https://www.khanacademy.org/test-prep/v2-sat-math"
     ],
-    "skill": "Mixed cumulative recall"
+    "skill": "Cumulative math recall"
   },
   {
     "id": "8B",
@@ -1730,65 +1383,16 @@ window.WORKBOOK = [
     "id": "8C",
     "cycle": 8,
     "letter": "C",
-    "type": "Mixed",
-    "title": "Recall, connect & review",
-    "duration": "20–25 min",
-    "page": 27,
-    "passage": "After a neighborhood opened a bike lane, some residents reported feeling safer while cycling. They described the separated space as a welcome change on a road they used for everyday trips. Others said traffic had become slower. They were concerned that the new arrangement made driving through the neighborhood less convenient. The comments showed that people using the same street could evaluate the change differently, but the comments alone did not reveal how traffic speeds had changed across different times of day. City officials collected traffic-speed measurements and surveyed both cyclists and drivers before deciding whether to modify the lane. Their review would consider both measured conditions and the experiences of different street users.",
-    "questions": [
-      {
-        "prompt": "Math: Solve 5x - 2 = 3x + 10.",
-        "solution": "Subtract 3x: 2x-2=10. Add 2: 2x=12. Divide by 2: x=6.",
-        "scored": true,
-        "equations": [
-          {
-            "label": "Start with the equation",
-            "mathml": "<mrow><mn>5</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>10</mn></mrow>"
-          },
-          {
-            "label": "Subtract 3x from both sides",
-            "mathml": "<mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>10</mn></mrow>"
-          },
-          {
-            "label": "Add 2 to both sides",
-            "mathml": "<mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>12</mn></mrow>"
-          },
-          {
-            "label": "Divide by 2",
-            "mathml": "<mrow><mi>x</mi><mo>=</mo><mn>6</mn></mrow>"
-          }
-        ],
-        "choices": [
-          "x = 2",
-          "x = 4",
-          "x = 5",
-          "x = 6"
-        ],
-        "correct": 3
-      },
-      {
-        "prompt": "Reading: What two perspectives are described?",
-        "solution": "One group says cycling feels safer; another says traffic is slower. The question asks for BOTH perspectives.",
-        "scored": true,
-        "choices": [
-          "Both groups say that traffic is faster and cycling is less safe.",
-          "Some favor removing all roads, while others favor closing every bike lane.",
-          "Some feel safer cycling, while others report slower traffic.",
-          "Cyclists and drivers both demand an immediate permanent change."
-        ],
-        "correct": 2
-      },
-      {
-        "prompt": "Memory check: Write one concept from a previous cycle you can explain without notes.",
-        "solution": "Answers vary. Name a previous concept, explain the steps without notes, and give a correct example. Revisit that lesson if your explanation is incomplete.",
-        "scored": false
-      }
-    ],
+    "type": "Vocabulary",
+    "title": "SAT vocabulary · Set 8",
+    "duration": "15–20 min",
+    "page": null,
+    "questions": [],
     "resource": [
       "Algebra review",
       "https://www.khanacademy.org/test-prep/v2-sat-math"
     ],
-    "skill": "Mixed cumulative recall + Cumulative reading review",
-    "passageWords": 114
+    "skill": "10 SAT vocabulary words and a graded review test",
+    "vocabularySet": 7
   }
 ];
